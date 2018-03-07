@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7" data-ng-app="Sc2bmApp">
+<![endif]-->
+<!--[if IE 7]>
+    <html class="no-js lt-ie9 lt-ie8" data-ng-app="Sc2bmApp">
+<![endif]-->
+<!--[if IE 8]>
+    <html class="no-js lt-ie9" data-ng-app="Sc2bmApp">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" data-ng-app="Sc2bmApp">
+<!--<![endif]-->
+<head>
+    <base href="/">
+    <title>SC2 Build Maker - Starcraft 2 Build Orders</title>
+    <meta name="keywords" content="Starcraft, Starcraft 2, Build, Build Order, Strategy, VOD, SC2, BuildMaker, SC2 Android App">
+    <meta name="description" content="Starcraft 2 community build aroud SC2 Build Maker tool for android">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="icon" href="/images/logo/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/logo/logo.png" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64-min.js"></script>
+
+    @Styles.Render(BundleConfig.Styles.CoreStylesKey)
+    @Scripts.Render(BundleConfig.Scripts.CoreScriptsKey)
+</head>
+<body class="community">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+        
+    <div id="main" class="fixed-top no-cover" data-ng-controller="shellController as vm" data-ng-init="vm.init(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">
+        <!-- top -->
+        <div id="top">
+            <div class="container">
+                <ul>
+                    <li><a href="/home" class="active"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#" data-ng-click="vm.navigateToTour()">App Tour</a></li>
+                </ul>
+                <div class="btn-group pull-right hidden-xs">
+                    <a href="/register" class="btn"><i class="ion-person-add"></i> Create Account</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- header -->
+        <header class="cover">
+            <div class="header-color">
+                <div class="header">
+                    <div class="container">
+                        <span class="bar hide"></span>
+                        <a href="/home" class="logo pull-left">SC2 Build Maker</a>
+
+                        <div class="advertisement advertisement-sm pull-left color-white padding-top-20">
+                            <label>Starcraft 2 Builds...</label>
+                            <label class="margin-left-20">Unique android app...</label>
+                            <label class="margin-left-20">Friendly community...</label>
+                        </div>
+
+                        <ul class="list-inline pull-right hidden-xs hidden-sm hidden-sm-lg">
+                            <li><a href="#" class="btn btn-social-icon btn-circle" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="btn btn-social-icon btn-circle" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="btn btn-social-icon btn-circle" data-toggle="tooltip" data-placement="bottom" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- navigation -->
+                <nav>
+                    <div class="container">
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+
+                            <li class="dropdown">
+                                <a href="#">Build Maker <i class="ion-arrow-down-b"></i></a>
+                                <!-- dropdown menu -->
+                                <ul class="dropdown-menu default">
+                                    <li><a href="#" data-ng-click="vm.navigateToTour()">Tour</a></li>
+                                    <li><a href="/appguide">User Manual</a></li>
+                                    <li><a href="/sc2bmapp/terranSpecifics">Terran Specifics</a></li>
+                                    <li><a href="/sc2bmapp/protossSpecifics">Protoss Specifics</a></li>
+                                    <li><a href="/sc2bmapp/zergSpecifics">Zerg Specifics</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="/library">Build Library</a></li>
+
+                            <li><a href="/blogs">Blogs</a></li>
+
+                            <li><a href="/videos">Videos</a></li>
+
+                            <li><a href="/kb">Knowledge Base</a></li>
+                        </ul>
+                        <!-- search -->
+                        <div id="search" class="pull-right hidden-sm">
+                            <form method="post" class="form-inline">
+                                <input type="text" class="form-control" placeholder="Search..." />
+                                <button type="submit" class="btn btn-primary no-shadow"><i class="ion-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <!-- /.navigation -->
+            </div><!-- /.header-color -->
+        </header>
+        <!-- /.header -->
+
+        <div class="container">
+            <div data-ng-view=""></div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <!-- footer bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <ul class="pull-left">
+                        <li>&copy; 2015 SC2BM. All rights reserved.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.footer bottom -->
+        </footer>
+        <!-- /.footer -->
+    </div>
+
+
+    @RenderBody()
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $("[data-toggle='tooltip']").tooltip(), $("[data-toggle='popover']").popover();
+
+            var n = $(window);
+
+            $(".bar").click(function () {
+                $("#main").toggleClass("open-nav", function() {
+                    $("#wrapper").click(function () {
+                        $("#main").removeClass("open-nav");
+                    });
+                });
+            });
+
+            $("#wrapper a").click(function () {
+                $("#main").removeClass("open-nav");
+                return false;
+            });
+
+            $(".dropdown > a").click(function () {
+                $("#main").removeClass("open-nav");
+                return false;
+            });
+
+            $("nav a").click(function () {
+                $("#main").removeClass("open-nav");
+            });
+
+            $("nav li.dropdown").hover(function () {
+                $(this).find(".dropdown-menu").stop(true, true).show, $(this).addClass("open");
+            }, function () {
+                $(this).find(".dropdown-menu").stop(true, true).hide, $(this).removeClass("open");
+            }), $("nav .dropdown-submenu").hover(function () {
+                $(this).addClass("open");
+            }, function () {
+                $(this).removeClass("open");
+            });
+        });
+    </script>
+</body>
+</html>

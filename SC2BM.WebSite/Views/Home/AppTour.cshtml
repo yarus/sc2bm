@@ -1,0 +1,574 @@
+﻿@{
+    Layout = "~/Views/Shared/_NoAngular.cshtml";
+}
+
+    <!-- wrapper-->
+<div class="landing">
+    <!-- ******HEADER****** -->
+    <header id="top" class="header navbar-fixed-top">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <img id="logo-image" class="logo-image" src="images/logo/logo.png" alt="Logo">
+                    <span class="logo-title">SC2 Build Maker</span>
+                </a>
+            </h1><!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Tour</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#how">How it works</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#story">Story</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
+                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                        <li><a class="nav-item" href="/home">Community <i class="fa fa-arrow-circle-o-right"></i></a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="overview col-md-8 col-sm-12 col-xs-12">
+                    <h2 class="title">Best android Build Order tool for Starcraft 2</h2>
+                    <ul class="summary">
+                        <li>Unique tool for creating and optimizing build orders</li>
+                        <li>Starcraft 2 WOL/HOTS/LOTV support</li>
+                        <li>The biggest Build Order library in the Web</li>
+                        <li>Best Starcraft 2 learning tool ever</li>
+                    </ul>
+                    <div class="download-area">
+                        <ul class="btn-group list-inline">
+                            <li class="android-btn-free"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sc2toolslab.sc2bmfree">Download Free version</a></li>
+                            <li class="android-btn-full"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sc2toolslab.sc2bmfull">Download Full version</a></li>
+                        </ul>
+                        <div class="note text-center">
+                            <p>Full version for only 2$</p>
+                            <span class="right-arrow"></span>
+                        </div><!--//note-->
+                    </div>
+                </div><!--//overview-->
+                <!--// Android starts -->
+                <div class="phone android col-md-4 col-sm-12 col-xs-12">
+                    <div class="android-holder phone-holder">
+                        <div class="android-holder-inner">
+                            <div class="slider flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="images/android/android-slide-1.png" alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="images/android/android-slide-2.png" alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="images/android/android-slide-3.png" alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="images/android/android-slide-4.png" alt="" />
+                                    </li>
+                                </ul><!--//slides-->
+                            </div><!--//flexslider-->
+                        </div><!--//phone-holder-inner-->
+                    </div><!--//iphone-holder-->
+                </div><!--//iphone-->
+                <!--// Android ends -->
+
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//promo-->
+    <!-- ******FEATURES****** -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center sr-only">Features</h2>
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-bars"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Build Library</h3>
+                        <p>
+                            We have the biggest build order library which you can check using amazing faction and matchup filters.
+                        </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-1">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cogs"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Build Editor</h3>
+                        <p>
+                            Our unique Build Editor tool provide high-quality Starcraft 2 economy
+                            emulation which allows you to create and optimize build orders!
+                        </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-2">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Build Player</h3>
+                        <p>
+                            Executing new build order has never been so easy! Build Player will tell you what to do next while you playing Starcraft!
+                        </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-3">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+
+            </div><!--//row-->
+
+        </div><!--//container-->
+    </section><!--//features-->
+    <!-- ******HOW****** -->
+    <section id="how" class="how section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center">
+                    <h2 class="title">How it works</h2>
+                    <p class="intro">
+                        Check our Promo video with all SC2 Build Maker Features showed in action!
+                    </p>
+                    <div class="qr-codes hidden-sm hidden-xs">
+                        <div class="note">
+                            <p>Scan the QR codes</p>
+                            <span class="left-arrow"></span>
+                            <span class="right-arrow"></span>
+                        </div><!--//note-->
+                        <div class="row">
+                            <div class="item col-md-6 col-sm-6">
+                                <img src="images/qrcodes/free.png" alt="" />
+                                <p>Free Version</p>
+                            </div><!--//item-->
+                            <div class="item col-md-6 col-sm-6">
+                                <img src="images/qrcodes/full.png" alt="" />
+                                <p>Full Version</p>
+                            </div><!--//item-->
+                        </div>
+                    </div><!--//qr-codes-->
+                </div><!--//content-->
+
+                <div id="video-container" class="video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                    <div class="fluid-width-video-wrapper" style="padding-top: 56.1404%;">
+                        <iframe src="https://www.youtube.com/embed/Y4cYK_L-Q1k" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                    </div>
+                </div><!--//video-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//how-->
+    <!-- ******STORY****** -->
+    <section id="story" class="story section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
+                    <h2 class="title">Story behind the app</h2>
+                    <p>
+                        I was playing Starcraft for a long time and really liked this game a lot! I loved to making notes about PRO gamer build orders, tips, tricks.
+                        And one day i realized that it would be great to have some tool which would allow me to work with build orders without having Starcraft 2 by hand.
+                        I am professional programmer so i decided to start working on this project. Starcraft Build Maker is a result of this work.
+                    </p>
+                    <p>
+                        I really hope that you would like my tool like i do!
+                    </p>
+                </div><!--//content-->
+                <div class="team col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
+                    <div class="row">
+                        <div class="member text-center">
+                            <img class="img-rounded" src="images/team/member-1.png" alt="" />
+                            <p class="name">Aleksey Kardash</p>
+                            <p class="title">Lead Developer</p>
+                        </div><!--//member-->
+                    </div>
+                </div><!--//team-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//story-->
+    <!-- ******FAQ****** -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">Frequently Asked Questions</h2>
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What are limitations of Free version</h3>
+                        <p class="answer">
+                            In Free version you can use all avaliable features of SC2 Build Maker. Legacy of the Void expansion is not available in Free version. You also won't be able to change your faction. Build Player would allow to playback only beggining of the build.
+                        </p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Can i use your app on my Tablet?</h3>
+                        <p class="answer">
+                            Sure! Our app can work in any Android compatible device in both Portrait and Landscape modes.
+                        </p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Is there any assumptions on economy simulation used in your app?</h3>
+                        <p class="answer">
+                            Yes. We asume that there is no point in creating build order for more then 10 minutes of the game (HOTS).
+                            After that moment it is to hard to follow any build order since each game will be unique.
+                            Because of that we are not taking into account the fact that resources on your bases might exhausted.
+                        </p>
+                    </div><!--//item-->
+                </div><!--//faq-col-->
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Can share my build order with community?</h3>
+                        <p class="answer">
+                            We would love to see you sharing your builds with community! You our Build Upload feature to upload build order to our site.
+                        </p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What i can get if i would register on sc2bm.com?</h3>
+                        <p class="answer">
+                            You will be able to download new build orders and discuss them with community.
+                        </p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What do you plan to include in future realeases?</h3>
+                        <p class="answer">
+                            Gamers would start to create a lot of build orders for Legacy of the Void expansion. We would love to share best of these builds with you in future releases!
+                        </p>
+                    </div><!--//item-->
+                </div><!--//faq-col-->
+            </div><!--//row-->
+            <div class="more text-center">
+                <h4 class="title">More questions?</h4>
+                <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch<i class="fa fa-arrow-circle-o-down"></i></a>
+            </div>
+        </div><!--//container-->
+    </section><!--//faq-->
+    <!-- ******TESTIMONIALS****** -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">What do people think?</h2>
+                <div class="item col-md-4 col-sm-4">
+                    <div class="quote-box">
+                        <i class="fa fa-quote-left"></i>
+                        <blockquote class="quote">
+                            Fantastic app! Really useful. Great job, great app!
+                        </blockquote><!--//quote-->
+                    </div><!--//quote-box-->
+                    <div class="people row">
+                        <div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1">&nbsp;</div>
+                        <p class="details text-center pull-left">
+                            <span class="name">Owen McConnell</span>
+                            <span class="title">Nexus 5, Android 5.1</span>
+                        </p>
+                    </div><!--//people-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-4">
+                    <div class="quote-box">
+                        <i class="fa fa-quote-left"></i>
+                        <blockquote class="quote">
+                            Very high quality! I fully support the direction this app is going. I love it!
+                        </blockquote><!--//quote-->
+                    </div><!--//quote-box-->
+                    <div class="people row">
+                        <div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1">&nbsp;</div>
+                        <p class="details text-center pull-left">
+                            <span class="name">Chris Simms</span>
+                            <span class="title">Galaxy S5, Android 5.0</span>
+                        </p>
+                    </div><!--//people-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-4">
+                    <div class="quote-box">
+                        <i class="fa fa-quote-left"></i>
+                        <blockquote class="quote">
+                            This app is so good! Build Player feature is my favorite one! With this feature i can focus on tactict and not on remembering build orders.
+                        </blockquote><!--//quote-->
+                    </div><!--//quote-box-->
+                    <div class="people row">
+                        <div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1">&nbsp;</div>
+                        <p class="details text-center pull-left">
+                            <span class="name">Petr Edelaev</span>
+                            <span class="title">Nexus 4, Android 4.1</span>
+                        </p>
+                    </div><!--//people-->
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//Testimonials-->
+    <!-- ******CONTACT****** -->
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="title">Contact US</h2>
+                <div class="intro col-md-6 col-sm-12 col-xs-12 col-md-offset-3">
+                    <p>
+                        We’d love to hear from you.
+                        If you would like to share your thougs about our app with us please click on the link below.
+                    </p>
+                    <ul class="list-unstyled contact-details">
+                        <li><i class="fa fa-envelope"></i><a href="mailto:main@sc2bm.com">Email sc2bm.com</a></li>
+                    </ul>
+                </div>
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//contact-->
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container">
+            <small class="copyright pull-left">Copyright &copy; 2015 sc2bm.com</small>
+        </div>
+    </footer><!--//footer-->
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="feature-modal-1" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Build Library</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-responsive img-rounded" src="images/features/BuildLibrary.png" alt="" />
+                            <figcaption class="caption">SC2 Build Maker - Build Library</figcaption>
+                        </figure>
+                        <div class="content col-md-6 col-sm-12 col-xs-12">
+                            <p>
+                                We have 150+ build orders upload for you which you can find using our Build Library feature.
+                            </p>
+                            <p>
+                                This feature allows you to find any build in our library using search or filtering. To use search you can click on search icon and start typing.
+                                Matching builds will be shown in the list.
+                            </p>
+                            <p>You can use the following filters to find build orders:</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-star"></i>Filter by your faction</li>
+                                <li><i class="fa fa-star"></i>Filter by opponent's faction</li>
+                                <li><i class="fa fa-star"></i>Filter by Favorite builds</li>
+                            </ul>
+                            <p>
+                                This allows you to easily find necessary build orders with all needed details.
+                            </p>
+                            <p>
+                                You can open build order to read description. You can run Build Editor Tool to work with build order.
+                                You also can run our Build Player with selected build ready for playback.
+                            </p>
+                            <blockquote class="quote">
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    It is supper easy to find build order! Even if my Starcraft 2 match already started i still can quickly open required build order and check details.
+                                </p>
+                                <p class="people"><span class="name">yaRus</span><br><span class="title">Master Legue Starcraft 2 gamer</span></p>
+                            </blockquote>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <div class="modal modal-feature" id="feature-modal-2" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-2" class="modal-title text-center">Build Editor</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-responsive img-rounded" src="images/features/BuildMaker.png" alt="" />
+                            <figcaption class="caption">SC2 Build Maker - Build Editor</figcaption>
+                        </figure>
+                        <div class="content col-md-6 col-sm-12 col-xs-12">
+                            <p>
+                                With our unique Build Editor tool you can modify any build order from our library or create new build order!
+                            </p>
+                            <p>
+                                Only thing you do while using Build Editor is selecting next step in your build order
+                                and the tool will calculate fastest moment in timeline when you will be able to do this specific action in real game.
+                            </p>
+                            <p>You can add the following types of actions:</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-star"></i>Build units</li>
+                                <li><i class="fa fa-star"></i>Build structures</li>
+                                <li><i class="fa fa-star"></i>Research upgrades</li>
+                                <li><i class="fa fa-star"></i>Do special actions like send scout SCV</li>
+                            </ul>
+                            <p>
+                                Status panel allows you to see what resources are available for you right now so you could plan your next action.
+                            </p>
+                            <blockquote class="quote">
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    You will be amazed how good Build Editor is.
+                                    Just compare saved build order with what Pro players are doing and you'll see how accurate this tool is.
+                                </p>
+                                <p class="people"><span class="name">FEANOR</span><br><span class="title">Master Legue Starcraft 2 gamer</span></p>
+                            </blockquote>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <div class="modal modal-feature" id="feature-modal-3" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-3" class="modal-title text-center">Build Player</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-responsive img-rounded" src="images/features/BuildPlayer.png" alt="" />
+                            <figcaption class="caption">SC2 Build Maker - Build Player</figcaption>
+                        </figure>
+                        <div class="content col-md-6 col-sm-12 col-xs-12">
+                            <p>
+                                Unique build player feature will help you to master build orders while you playing Starcraft 2!
+                            </p>
+                            <p>
+                                Have you ever dream about someone who could tell you what to do next to correctly execute build order while you playing Starcraft 2?
+                                This dream become true with our Build Player feature!
+                            </p>
+                            <p>
+                                Our Build Player will follow selected build order and tell you what to do next while you playing.
+                                With help of build advisor learning new builds never been so easy.
+                            </p>
+                            <blockquote class="quote">
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    It is so hard to remember next step while you learning new build order.
+                                    With Build Player you will be able to execute new build order even without looking at it before your game started!
+                                </p>
+                                <p class="people"><span class="name">SKILLer</span><br><span class="title">Master Legue Starcraft 2 gamer</span></p>
+                            </blockquote>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            /* ======= Scrollspy ======= */
+            $('body').scrollspy({ target: '#top', offset: 400 });
+
+            /* ======= ScrollTo ======= */
+            $('a.scrollto').on('click', function (e) {
+                //store hash
+                var target = this.hash;
+
+                e.preventDefault();
+
+                $('body').scrollTo(target, 800, { offset: -80, 'axis': 'y', easing: 'easeOutQuad' });
+                //Collapse mobile menu after clicking
+                if ($('.navbar-collapse').hasClass('in')) {
+                    $('.navbar-collapse').removeClass('in').addClass('collapse');
+                }
+            });
+
+            /* ======= Flexslider ======= */
+            $('.flexslider').flexslider({
+                animation: "fade",
+                touch: true,
+                directionNav: false
+            });
+
+            /* ======= jQuery Placeholder ======= */
+            $('input, textarea').placeholder();
+
+            /* ======= jQuery FitVids - Responsive Video ======= */
+            $("#video-container").fitVids();
+
+            /* ======= jQuery Responsive equal heights plugin ======= */
+            /* Ref: https://github.com/liabru/jquery-match-height */
+
+            $('#testimonials .quote-box').matchHeight();
+
+            if (isMobile.any === false) {
+
+                /* Animate elements in #Promo */
+                $('#promo .title').css('opacity', 0).one('inview', function (isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }
+                });
+                $('#promo .summary').css('opacity', 0).one('inview', function (isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp2'); }
+                });
+
+                $('#promo .ipad').css('opacity', 0).one('inview', function (isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInRight delayp3'); }
+                });
+
+                $('.phone-holder').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInRight delayp4'); }
+                });
+
+                $('.promo-landscape .phone-holder').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp4'); }
+                });
+
+                /* Animate elements in #Features */
+                $('#features .icon').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }
+                });
+
+                /* Animate elements in #How */
+                $('#how .video-wrapper').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInLeft delayp1'); }
+                });
+
+                $('#how .content').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInRight delayp2'); }
+                });
+
+                /* Animate elements in #faq */
+                $('#faq .title').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }
+                });
+
+                /* Animate elements in #story */
+                $('#story .content').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInLeft delayp1'); }
+                });
+
+                $('#story .member').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInRight delayp2'); }
+                });
+
+                /* Animate elements in #testimonials */
+                $('#testimonials .title').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }
+                });
+
+                $('#testimonials .people').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp3'); }
+                });
+
+                /* Animate elements in #contact */
+                $('#contact .title').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }
+                });
+
+                $('#contact .intro').css('opacity', 0).one('inview', function (event, isInView) {
+                    if (isInView) { $(this).addClass('animated fadeInUp delayp2'); }
+                });
+            }
+        });
+    </script>
+</div>

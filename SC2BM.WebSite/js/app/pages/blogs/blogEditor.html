@@ -1,0 +1,88 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="blogEditorController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="section bg-transparent margin-top-20 margin-bottom-20 no-border">
+                <div class="page-header no-margin-top">
+                    <h4 class="no-margin-top">Blog Editor </h4>
+                </div>
+
+                <form name="vm.mainForm" novalidate="novalidate">
+                    <div class="row padding-20">
+                        <div class="form-group has-feedback"
+                             data-ng-class="{
+                         'has-error' : vm.mainForm.title.$dirty && vm.mainForm.title.$invalid,
+                         'has-success' : vm.mainForm.title.$dirty && vm.mainForm.title.$valid}">
+                            <label class="control-label" for="title">Title</label>
+                            <input data-ng-model="vm.personalBlog.Title"
+                                   data-ng-maxlength="255"
+                                   class="form-control"
+                                   tabindex="1"
+                                   id="title" name="title" type="text" required="required" />
+                            <span class="glyphicon form-control-feedback"
+                                  data-ng-class="{
+                              'glyphicon-warning-sign' : vm.mainForm.title.$dirty && vm.mainForm.title.$invalid,
+                              'glyphicon-ok' : vm.mainForm.title.$dirty && vm.mainForm.title.$valid}"
+                                  aria-hidden="true"></span>
+                            <span class="help-block" data-ng-show="vm.mainForm.title.$dirty && vm.mainForm.title.$error.required">Title is required</span>
+                        </div>
+
+                        <div class="form-group has-feedback"
+                             data-ng-class="{
+                         'has-error' : vm.mainForm.description.$dirty && vm.mainForm.description.$invalid,
+                         'has-success' : vm.mainForm.description.$dirty && vm.mainForm.description.$valid}">
+                            <label class="control-label" for="description">Description</label>
+
+                            <!--                                <textarea data-ng-model="vm.personalBlog.Description"-->
+                            <!--                                          data-ng-change="vm.descriptionChanged(vm.personalBlog.Description)"-->
+                            <!--                                          data-ng-maxlength="1000"-->
+                            <!--                                          data-ng-model-options="{ updateOn: 'blur' }"-->
+                            <!--                                          class="form-control" rows="10" placeholder="Text"-->
+                            <!--                                          id="description" name="description" required="required"></textarea>-->
+
+                            <div text-angular="text-angular" name="description" id="description"
+                                 ng-model="vm.personalBlog.Description"
+                                 ng-change="vm.descriptionChanged(vm.personalBlog.Description)"
+                                 required="required" ta-disabled='disabled'
+                                 tabindex="2"
+                                 ta-toolbar=" vm.settings.description.toolbar">
+                            </div>
+
+                            <span class="glyphicon form-control-feedback"
+                                  data-ng-class="{
+                              'glyphicon-warning-sign' : vm.mainForm.description.$dirty && vm.mainForm.description.$invalid,
+                              'glyphicon-ok' : vm.mainForm.description.$dirty && vm.mainForm.description.$valid}"
+                                  aria-hidden="true"></span>
+                            <span class="help-block" data-ng-show="vm.mainForm.description.$dirty && vm.mainForm.description.$error.required">Description is required</span>
+                            <span class="help-block" data-ng-show="vm.mainForm.description.$dirty && vm.mainForm.description.$error.maxhtmllength">Description html length should not be grater then 1000</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">Logo</label>
+
+                            <input data-ng-model="vm.personalBlog.LogoPath"
+                                   data-ng-maxlength="255"
+                                   class="form-control"
+                                   tabindex="3"
+                                   id="logo" name="logo" type="text" required="required" />
+
+                            <p>Logo Preview</p>
+                            <div class="row box no-shadow bg-grey-100 border-grey-300 padding-top-15 padding-bottom-15">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                    <div class="thumb">
+                                        <img data-ng-src="{{vm.personalBlog.LogoPath}}" cla class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button type="button" tabindex="4" class="btn btn-success" data-ng-click="vm.addOrUpdateBlog()" data-ng-disabled="vm.mainForm.$invalid">save</button>
+                    </div>
+
+                </form>
+
+            </section>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,320 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="buildViewController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg padding-top-20">
+        <div class="col-lg-8 padding-left-30 no-padding-right padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+
+            <div class="title clearfix border-bottom-1 border-grey-200 padding-bottom-15 margin-bottom-20 no-margin-bottom-xs no-margin-bottom-sm no-margin-bottom-sm-lg no-margin-bottom-md">
+                <h1 class="headline pull-left">{{vm.buildOrder.Name}}</h1>
+            </div>
+
+            <section class="no-padding no-margin no-border">
+                <div class="details margin-bottom-20 no-margin-top-xs">
+                    <i class="ion-android-contact margin-right-5"></i> <a href="#">{{vm.buildOrder.OwnerUserName}}</a>
+                    <i class="ion-android-calendar margin-left-10"></i> {{vm.createdDate}}
+                    <a href="#comments" class="hidden-xs">
+                        <i class="ion-chatbubble margin-left-10"></i>{{vm.commentsModel.commentsTotal}}
+                    </a>
+                    <span class="pull-right">
+                        <i class="ion-pricetags margin-right-10"></i>
+                        <a data-ng-href="/kb/lotv/{{vm.buildOrder.Race}}">{{vm.addon}}, {{vm.buildOrder.Race | limitTo: 1}}v{{vm.buildOrder.VsRace | limitTo: 1}}</a>
+
+                        <button data-ng-show="vm.isOwner" title="Delete" class="close margin-left-10 margin-right-10" type="button" data-ng-click="vm.deleteBuildOrder(vm.buildOrder)">
+                            <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                        </button>
+                        <a class="close" data-ng-show="vm.isOwner" title="Edit Build" data-ng-href="/builds/{{vm.buildOrder.ID}}/edit">
+                            <i class="fa fa-pencil margin-left-10"></i>
+                            <span class="sr-only">Edit</span>
+                        </a>
+                    </span>
+                </div>
+                <!-- Thumbnail -->
+                <div class="row grid margin-top-10">
+                    <div class="col-md-5">
+                        <img data-ng-src="{{vm.matchup}}" class="img-responsive full-width no-margin" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="section section-white no-margin">
+                            <div class="box padding-20">
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="label label-lg padding-15 no-border-radius margin-bottom-20"
+                                             data-ng-class="{'label-success' : vm.rate >= 4,
+                                             'label-warning' : vm.rate >= 2 && vm.rate <= 3,
+                                             'label-danger' : vm.rate < 2}">
+                                            <span>Total Score</span> {{vm.rate}}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="section section-default padding-10 no-margin">
+                                            <h5 class="page-header no-margin no-padding no-border text-dark">Execution Difficulty</h5>
+                                            <p class="no-margin text-sm">These metrics are the way how build author think about the build.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Micro intensive <span class="pull-right">{{vm.buildOrder.MicroRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : vm.buildOrder.MicroRate <= 2,
+                                         'progress-bar-warning' : vm.buildOrder.MicroRate >=3 && vm.buildOrder.MicroRate < 5,
+                                         'progress-bar-danger' : vm.buildOrder.MicroRate > 4}"
+                                         role="progressbar"
+                                         aria-valuenow="{{vm.buildOrder.MicroRate}}"
+                                         aria-valuemin="0"
+                                         aria-valuemax="5"
+                                         data-ng-style="vm.microStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Macro intensive <span class="pull-right">{{vm.buildOrder.MacroRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : vm.buildOrder.MacroRate <= 2,
+                                         'progress-bar-warning' : vm.buildOrder.MacroRate >=3 && vm.buildOrder.MacroRate < 5,
+                                         'progress-bar-danger' : vm.buildOrder.MacroRate > 4}"
+                                         role="progressbar" aria-valuenow="{{vm.buildOrder.MacroRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="vm.macroStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Agressive Capabilities <span class="pull-right">{{vm.buildOrder.AggressionRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : vm.buildOrder.AggressionRate <= 2,
+                                         'progress-bar-warning' : vm.buildOrder.AggressionRate >=3 && vm.buildOrder.AggressionRate < 5,
+                                         'progress-bar-danger' : vm.buildOrder.AggressionRate > 4}"
+                                         role="progressbar" aria-valuenow="{{vm.buildOrder.AggressionRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="vm.aggressionStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Deffensive Capabilities <span class="pull-right">{{vm.buildOrder.DefenceRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : vm.buildOrder.DefenceRate <= 2,
+                                         'progress-bar-warning' : vm.buildOrder.DefenceRate >=3 && vm.buildOrder.DefenceRate < 5,
+                                         'progress-bar-danger' : vm.buildOrder.DefenceRate > 4}"
+                                         role="progressbar" aria-valuenow="{{vm.buildOrder.DefenceRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="vm.defenseStyle"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="font-size-14 line-height-20 margin-top-20" data-ng-bind-html="vm.buildOrder.Description">
+                </p>
+
+                <section class="no-padding margin-top-30 margin-bottom-30" data-ng-show="vm.buildItems != null && vm.buildItems.length > 0">
+
+                    <div class="section section-default no-margin">
+
+                        <div class="panel-group" id="accordion-sample" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" aria-expanded="false" aria-controls="expand" href="#expand" data-parent="#accordion-sample" data-toggle="collapse">
+                                            <i class="fa fa-navicon"></i> Build Order (click to expand)
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="expand" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0;">
+                                    <div class="checkbox no-padding margin-10">
+                                        <input type="checkbox" id="cbShowWorkers" data-ng-model="vm.showWorkers" data-ng-change="vm.showWorkersChanged()">
+                                        <label for="cbShowWorkers">Show Workers</label>
+                                    </div>
+
+                                    <div class="panel-body">
+                                        <div class="col-lg-8 col-md-8">
+                                            <table class="table table-striped no-margin">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="padding-left-15">Supply</th>
+                                                        <th>Icon</th>
+                                                        <th>Build Item</th>
+                                                        <th>Start Time</th>
+                                                        <th>Stats</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr data-ng-repeat="item in vm.buildItems">
+                                                        <td class="padding-left-15">{{item.Limit + "/" + item.MaxLimit}}</td>
+                                                        <td>
+                                                            <img alt="{{item.DisplayName}}" data-ng-src="/images/buildItems/{{item.LogoPath}}" style="height: 40px; width: 40px; display: block;">
+                                                        </td>
+                                                        <td>
+                                                            {{item.DisplayName}}
+                                                        </td>
+                                                        <td>{{item.StartTime}}</td>
+                                                        <td>
+                                                            <div data-ng-mouseenter="vm.showStats(item)">
+                                                                <button class="btn btn-info btn-outline btn-circle btn-xs" title="Statistics"
+                                                                        uib-tooltip-template="vm.dynamicPopover.templateUrl" tooltip-placement="top" tooltip-class="customClass">
+                                                                    <i class="fa fa-info"></i>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <comments entity="vm.buildOrder" type="Builds" user="vm.user" count="vm.commentsModel"></comments>
+            </section>
+        </div><!-- /.col-lg-9 -->
+        <div class="col-lg-4 padding-right-30 padding-left-20 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+
+            <a href="#" data-ng-href="/compare/{{vm.buildOrder.ID}}" class="btn btn-success btn-block btn-md btn-bold margin-bottom-15 color-white"><i class="fa fa-columns"></i> Compare</a>
+
+            <div data-ng-show="vm.user != null && vm.user.ID != null" class="section border-1 border-grey-200 bg-grey-100">
+                <div class="title no-border bg-grey-100 color-grey-700 no-margin padding-15">
+                    <i class="fa fa-star"></i> Your Rate
+                    <div class="pull-right font-size-12 color-grey-600 margin-top-5">
+                        <a href="#" data-ng-click="vm.deleteRate()">Reset</a>
+                    </div>
+                </div>
+
+                <div class="row padding-bottom-15 padding-left-15 padding-right-15 text-center">
+                    <span class="rating">
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 5}" data-ng-click="vm.addRate(5)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 4}" data-ng-click="vm.addRate(4)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 3}" data-ng-click="vm.addRate(3)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 2}" data-ng-click="vm.addRate(2)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 1}" data-ng-click="vm.addRate(1)"></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="section section-default">
+                <div class="title no-border color-white bg-grey-900 no-margin padding-top-10 padding-left-20 padding-bottom-10">
+                    <i class="ion-ios-film-outline margin-right-10"></i> Related VODS
+                </div>
+
+                <div class="tab-content no-padding">
+                    <ul class="tab-pane active clearfix box no-radius no-shadow bg-grey-800" data-ng-show="vm.vods.length > 0">
+
+                        <!-- row -->
+                        <li class="border-black" data-ng-repeat="vod in vm.vods">
+                            <div class="details">
+                                <div class="row">
+                                    <div data-ng-class="{'col-md-10 col-lg-10 col-sm-10 col-xs-10': vm.isOwner, 'col-md-12 col-lg-12 col-sm-12 col-xs-12' : !vm.isOwner}">
+                                        <a data-ng-href="{{vod.MainLink}}" target="_blank">
+                                            <h5 class="margin-top-5 margin-bottom-5 color-white font-size-12">{{vod.DisplayText}}</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2" data-ng-show="vm.isOwner">
+                                        <button title="Delete Vod Link" class="close" type="button" data-ng-click="vm.deleteLink(vod)">
+                                            <span aria-hidden="true" class="text-white">×</span><span class="sr-only">Delete</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline tab no-margin-bottom no-margin-left padding-bottom-15 bg-grey-900" data-ng-show="vm.user != null && vm.user.ID != null">
+                        <li class="active"><a data-ng-href="/links/Build/{{vm.buildOrder.ID}}/vod/add"><i class="fa fa-plus"></i> Link VOD</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4 class="margin-top-30 margin-bottom-15"><i class="ion-ios-game-controller-a"></i> Related Replays</h4>
+            <div class="list-group no-margin no-padding">
+                <div class="list-group-item no-margin no-padding" data-ng-repeat="replay in vm.replays">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <a class="list-group-item no-border" data-ng-href="{{replay.MainLink}}" target="_blank">{{replay.DisplayText}}</a>
+                        </div>
+                        <div class="col-md-2">
+                            <button title="Delete Replay Link" class="close margin-top-10 margin-right-10" type="button" data-ng-click="vm.deleteLink(replay)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <a class="list-group-item no-border-radius"
+                   data-ng-show="vm.user != null && vm.user.ID != null"
+                   data-ng-href="/links/Build/{{vm.buildOrder.ID}}/replay/add"><i class="fa fa-plus"></i>Link Replay</a>
+            </div>
+
+            <h4 class="margin-top-30 margin-bottom-15"><i class="ion-compose margin-right-10"></i> Related Links</h4>
+            <div class="list-group">
+                <div class="list-group-item no-margin no-padding" data-ng-repeat="href in vm.hrefs">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <a class="list-group-item no-border" data-ng-href="{{href.MainLink}}" target="_blank">{{href.DisplayText}}</a>
+                        </div>
+                        <div class="col-md-2">
+                            <button title="Delete Replay Link" class="close margin-top-10 margin-right-10" type="button" data-ng-click="vm.deleteLink(href)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <a class="list-group-item no-border-radius"
+                   data-ng-show="vm.user != null && vm.user.ID != null"
+                   data-ng-href="/links/Build/{{vm.buildOrder.ID}}/href/add"><i class="fa fa-plus"></i>Add Link</a>
+            </div>
+
+            <a target="_blank" data-ng-href="/BuildOrder/Download/{{vm.buildOrder.ID}}" class="btn btn-info btn-block btn-md btn-bold margin-bottom-15 color-white"><i class="fa fa-download"></i> Download</a>
+
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Specify styling for tooltip contents */
+    .customClass .tooltip-inner {
+        max-width: 400px !important;
+        border-radius: 4px;
+        width: 400px;
+        min-width: 400px;
+        color: white;
+        background-color: #3498db;
+        text-align: left;
+    }
+
+    .tooltipImage {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+    }
+    /* Hide arrow */
+</style>
+
+<script type="text/ng-template" id="templatePopover.html">
+    <div class="row padding-10">
+        <h4 class="text-center text-white border-bottom-1 border-white">Statistics on {{vm.statsModel.startTime}}</h4>
+        <div class="col-md-12 padding-top-10">
+            <div class="row">
+                <span>
+                    <img alt="Minerals" data-ng-src="/images/buildItems/bm_minerals.png" class="tooltipImage">{{vm.statsModel.minerals}}
+                </span>
+                <span>
+                    <img alt="Gas" data-ng-src="/images/buildItems/bm_gas.png" class="tooltipImage">{{vm.statsModel.gas}}
+                </span>
+                <span>
+                    <img alt="Workers" data-ng-src="/images/buildItems/{{vm.statsModel.workerLogoPath}}" class="tooltipImage">{{vm.statsModel.workers}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="unit in vm.statsModel.units">
+                    <img alt="{{unit.name}}" data-ng-src="/images/buildItems/{{unit.logoPath}}" class="tooltipImage">{{unit.count}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="building in vm.statsModel.buildings">
+                    <img alt="{{building.name}}" data-ng-src="/images/buildItems/{{building.logoPath}}" class="tooltipImage">{{building.count}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="upgrade in vm.statsModel.upgrades">
+                    <img alt="{{upgrade.name}}" data-ng-src="/images/buildItems/{{upgrade.logoPath}}" class="tooltipImage">{{upgrade.count}}
+                </span>
+            </div>
+        </div>
+    </div>
+</script>

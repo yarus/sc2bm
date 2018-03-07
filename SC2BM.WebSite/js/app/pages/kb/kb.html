@@ -1,0 +1,129 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="kbController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 margin-top-20 margin-bottom-20">
+            <section class="no-border no-padding bg-transparent">
+                <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-border no-margin">
+                        <h2 class="headline"><i class="ion-university margin-right-10"></i> Knowledge Base
+                        </h2>
+
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.faction == 'Terran'}"
+                                   data-ng-click="vm.setFaction('Terran')">Terran</a>
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.faction == 'Protoss'}"
+                                   data-ng-click="vm.setFaction('Protoss')">Protoss</a>
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.faction == 'Zerg'}"
+                                   data-ng-click="vm.setFaction('Zerg')">Zerg</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.version == 'LOTV'}"
+                                   data-ng-click="vm.setVersion('LOTV')">LOTV</a>
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.version == 'HOTS'}"
+                                   data-ng-click="vm.setVersion('HOTS')">HOTS</a>
+                                <a href="#" class="btn btn-default" data-ng-class="{'active' : vm.version == 'WOL'}"
+                                   data-ng-click="vm.setVersion('WOL')">WOL</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+            <div class="col-lg-12 margin-bottom-20 no-margin-xs no-margin-sm">
+                <ul class="nav nav-tabs margin-bottom-20" role="tablist">
+                    <li class="no-margin-xs" data-ng-class="{'active' : vm.itemType.toLowerCase() == 'units'}">
+                        <a href="#" data-ng-click="vm.setItemType('Units')" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                            <h3 class="font-size-20">Units</h3>
+                        </a>
+                    </li>
+                    <li data-ng-class="{'active' : vm.itemType.toLowerCase() == 'buildings'}">
+                        <a href="#" data-ng-click="vm.setItemType('Buildings')" role="tab" id="dismissible-tab" data-toggle="tab">
+                            <h3 class="font-size-20">Buildings</h3>
+                        </a>
+                    </li>
+                    <li data-ng-class="{'active' : vm.itemType.toLowerCase() == 'upgrades'}">
+                        <a href="#" data-ng-click="vm.setItemType('Upgrades')" role="tab" id="links-tab" data-toggle="tab">
+                            <h3 class="font-size-20">Upgrades</h3>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="row margin-bottom-30">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 no-margin no-padding" data-ng-repeat="item in vm.visibleItems">
+                        <div class="thumbnail margin-10 no-margin-sm no-margin-xs">
+                            <h4 class="padding-10" style="height:50px">{{item.DisplayName}}</h4>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-margin-xs no-padding-xs">
+                                    <div class="padding-left-10 no-margin no-padding-xs">
+                                        <img alt="{{item.DisplayName}}" title="{{item.DisplayName}}" class="no-padding no-margin"
+                                             data-ng-src="/images/buildItems/{{item.LogoPath}}"
+                                             style="height: 70px !important; width: 70px !important; display: block;">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 no-padding no-margin">
+                                    <div class="row no-padding no-margin">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-padding no-margin">
+                                            <img alt="Minerals" title="Minerals" class="no-padding no-margin"
+                                                 data-ng-src="/images/buildItems/bm_minerals.png"
+                                                 style="height: 30px !important; width: 30px !important; display: block;">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padding no-margin">
+                                            <span>{{item.CostMinerals}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="row no-padding no-margin">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-padding no-margin">
+                                            <img alt="Gas" title="Gas"
+                                                 data-ng-src="/images/buildItems/bm_gas.png"
+                                                 style="height: 30px !important; width: 30px !important; display: block;">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padding no-margin">
+                                            {{item.CostGas}}
+                                        </div>
+                                    </div>
+                                    <div class="row no-padding no-margin" data-ng-show="vm.itemType == 'Units'">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-padding no-margin">
+                                            <img alt="Supply" title="Supply" class="no-padding no-margin"
+                                                 data-ng-src="/images/buildItems/bm_supply_{{vm.faction.toLowerCase()}}.png"
+                                                 style="height: 30px !important; width: 30px !important; display: block;">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padding no-margin">
+                                            {{item.CostSupply}}
+                                        </div>
+                                    </div>
+                                    <div class="row no-padding no-margin">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 no-padding no-margin">
+                                            <img alt="Build Time" title="Build Time" class="no-padding no-margin"
+                                                 data-ng-src="/images/buildItems/bm_timer.png"
+                                                 style="height: 30px !important; width: 30px !important; display: block;">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 no-padding no-margin">
+                                            {{item.BuildTime}}s
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h5 class="padding-10">Requirements</h5>
+                                    <div class="row" data-ng-show="item.Requirements != null && item.Requirements.length > 0">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" data-ng-repeat="req in item.Requirements">
+                                            <img alt="{{req.DisplayName}}" title="{{req.DisplayName}}" data-ng-src="/images/buildItems/{{req.LogoPath}}" style="height: 50px !important; width: 50px !important; display: block;">
+                                        </div>
+                                    </div>
+                                    <div class="row" style="height: 50px !important; width: 50px !important" data-ng-show="item.Requirements == null || item.Requirements.length == 0">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,52 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="newsViewController as vm">
+
+    <div class="padding-left-15 padding-right-15 padding-top-20">
+        <div class="title clearfix border-bottom-1 border-grey-200 padding-bottom-15 margin-bottom-20 no-margin-bottom-xs no-margin-bottom-sm no-margin-bottom-sm-lg no-margin-bottom-md">
+            <h1 class="headline pull-left">{{vm.newsItem.Title}}</h1>
+        </div>
+    </div>
+
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="no-padding-top padding-bottom-30 no-border">
+                <div class="details margin-bottom-20 no-margin-top-xs">
+                    <i class="ion-android-contact margin-right-5"></i> <a href="#">{{vm.newsItem.OwnerUserName}}</a>
+                    <i class="ion-android-calendar margin-left-10"></i> {{vm.newsItem.AddedDate | date: 'medium'}}
+                    <a href="#comments" class="hidden-xs"><i class="ion-chatbubble margin-left-10"></i>{{vm.commentsModel.commentsTotal}}</a>
+                </div>
+
+                <section class="section section-white no-border ng-scope">
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 no-border-bottom padding-bottom-15">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="thumb">
+                                <img class="img-responsive full-width" alt="" data-ng-src="{{vm.newsItem.LogoPath}}" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-left-5 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                            <button data-ng-show="vm.isOwner" title="Delete News" class="close margin-10" type="button" data-ng-click="vm.deleteNewsItem(vm.newsItem)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+
+                            <a class="close margin-10" title="Edit News" data-ng-show="vm.isOwner" data-ng-href="/news/{{vm.newsItem.ID}}/edit">
+                                <i class="fa fa-pencil margin-left-10"></i>
+                                <span class="sr-only">Edit</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 padding-bottom-15 no-border-top">
+                        <div class="padding-left-15 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                            <p class="font-size-14 line-height-20 margin-top-15" data-ng-bind-html="vm.text">
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="no-padding-top padding-bottom-30 no-border">
+                <comments entity="vm.newsItem" type="News" user="vm.user" count="vm.commentsModel"></comments>
+            </section>
+        </div>
+    </div>
+</div>

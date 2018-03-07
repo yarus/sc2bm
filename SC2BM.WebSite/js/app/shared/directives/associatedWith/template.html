@@ -1,0 +1,18 @@
+﻿<div class="row">
+    Associated with
+    <span data-ng-if="memberKey > 0" data-ng-bind="userName"></span>
+    <span data-ng-if="isEntityOfType('company')">
+        <company-link data-ng-bind="entity.Name" data-company-key="entity.CompanyKey"></company-link>
+    </span>
+    <span data-ng-if="isEntityOfType('branch')">
+        <branch-link data-ng-bind="entity.BranchName + ' (' + entity.City + ', ' + entity.StateCode + ')'" data-branch-key="entity.BranchKey"></branch-link> of
+        <company-link data-ng-bind="entity.CompanyName" data-company-key="entity.CompanyKey"></company-link>
+    </span>
+    <span data-ng-if="isEntityOfType('contact')">
+        <contact-link data-ng-bind="entity.FirstName + ' ' + entity.LastName" data-contact-key="entity.ContactKey"></contact-link> at
+        <company-link data-ng-bind="entity.CompanyName" data-company-key="entity.CompanyKey"></company-link>
+        <span data-ng-show="entity.BranchName != null">
+            ,<branch-link data-ng-bind="entity.BranchName + ' (' + entity.City + ', ' + entity.StateCode + ')'" data-branch-key="entity.BranchKey"></branch-link>
+        </span>
+    </span>
+</div>

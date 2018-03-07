@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5948C63F-322C-4363-9CF5-4DAA049738FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC2BM.ServiceModel</RootNamespace>
+    <AssemblyName>SC2BM.ServiceModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SC2.PublicData">
+      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.PublicData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessServices\IBlogPostService.cs" />
+    <Compile Include="BusinessServices\IBlogService.cs" />
+    <Compile Include="BusinessServices\IBuildProcessorService.cs" />
+    <Compile Include="BusinessServices\IAuthorizationService.cs" />
+    <Compile Include="BusinessServices\ICommentService.cs" />
+    <Compile Include="BusinessServices\ILinkService.cs" />
+    <Compile Include="BusinessServices\INewsService.cs" />
+    <Compile Include="BusinessServices\IRateService.cs" />
+    <Compile Include="BusinessServices\IUserService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IBlogPostRepository.cs" />
+    <Compile Include="Repositories\IBlogsRepository.cs" />
+    <Compile Include="Repositories\IBuildOrderRepository.cs" />
+    <Compile Include="Repositories\ICommentRepository.cs" />
+    <Compile Include="Repositories\ILinkRepository.cs" />
+    <Compile Include="Repositories\ILogRepository.cs" />
+    <Compile Include="Repositories\INewsRepository.cs" />
+    <Compile Include="Repositories\IRateRepository.cs" />
+    <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Requests\PagedRequest.cs" />
+    <Compile Include="Requests\SearchBlogPostFilter.cs" />
+    <Compile Include="Requests\SearchBlogsFilter.cs" />
+    <Compile Include="Requests\SearchBuildOrdersFilter.cs" />
+    <Compile Include="Requests\SearchCommentsFilter.cs" />
+    <Compile Include="Requests\SearchLinksFilter.cs" />
+    <Compile Include="Requests\SearchNewsFilter.cs" />
+    <Compile Include="Requests\SearchRatesFilter.cs" />
+    <Compile Include="Requests\SearchUsersFilter.cs" />
+    <Compile Include="Responses\GeneralResponse.cs" />
+    <Compile Include="Responses\IServiceResponse.cs" />
+    <Compile Include="Responses\ServiceListResponse.cs" />
+    <Compile Include="Responses\ServicePagedResponse.cs" />
+    <Compile Include="Responses\ServiceResponse.cs" />
+    <Compile Include="RoutineServices\ILogService.cs" />
+    <Compile Include="RoutineServices\ISmtpService.cs" />
+    <Compile Include="BusinessServices\IBuildOrderService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SC2BM.Core\SC2BM.Core.csproj">
+      <Project>{D9F46801-C34C-4A51-908F-60BEF00CCFA5}</Project>
+      <Name>SC2BM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.DomainModel\SC2BM.DomainModel.csproj">
+      <Project>{620761BF-0629-4C7C-8FB7-191C532D95A5}</Project>
+      <Name>SC2BM.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

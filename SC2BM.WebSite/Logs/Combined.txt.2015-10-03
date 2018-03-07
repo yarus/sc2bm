@@ -1,0 +1,276 @@
+2015-10-03 19:05:38,893 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:05:38,902 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:05:38,924 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0111245
+2015-10-03 19:08:44,399 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:08:44,409 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:08:44,653 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0847456
+2015-10-03 19:13:13,680 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:13:13,691 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:13:13,708 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0101865
+2015-10-03 19:16:43,506 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:16:43,514 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:16:43,549 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0139368
+2015-10-03 19:17:35,973 [20] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword is called
+2015-10-03 19:17:35,979 [20] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_GetByUserNameAndPassword @UserName = 't', @Password = '1'; 
+2015-10-03 19:17:36,092 [20] ERROR Server - Error converting data type nvarchar to int.
+2015-10-03 19:18:42,711 [20] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:18:42,732 [20] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:18:42,772 [20] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-03 19:18:42,784 [20] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Error converting data type nvarchar to int.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-03 19:18:46,590 [20] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_30b38ac6e7d6456aacd070ab55f7c54c.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:19:02,613 [29] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword is called
+2015-10-03 19:19:02,623 [29] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_GetByUserNameAndPassword @UserName = 't', @Password = '1'; 
+2015-10-03 19:19:02,713 [29] ERROR Server - Error converting data type nvarchar to int.
+2015-10-03 19:20:06,158 [29] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:20:06,180 [29] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:20:06,202 [29] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-03 19:20:06,214 [29] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Error converting data type nvarchar to int.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReader(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 454
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteReaderEx(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 463
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteRead[TResult,TResultMapper](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 719
+   at SC2BM.DataAccess.Repositories.UserRepository.GetByUserNameAndPassword(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 15
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 21
+   at DynamicModule.ns.Wrapped_IUserService_7481d2a746464670afdbd0b9f1716978.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-03 19:20:09,045 [29] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_30b38ac6e7d6456aacd070ab55f7c54c.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:710f88ab-befb-4d08-b2ce-daca26e38b9d
+2015-10-03 19:23:09,615 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:23:09,632 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:23:09,653 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0134514
+2015-10-03 19:23:46,822 [6] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword is called
+2015-10-03 19:23:46,833 [6] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_GetByUserNameAndPassword @UserName = 'a', @Password = 'd'; 
+2015-10-03 19:23:46,855 [6] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword finished successfully. Execution time: 00:00:00.0109171
+2015-10-03 19:23:55,577 [6] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-03 19:23:55,589 [6] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'b', @FirstName = 'a', @BirthDate = 10/9/2015 12:00:00 AM, @Email = 'c', @Password = 'd', @UserName = 'a'; 
+2015-10-03 19:24:04,012 [6] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ID', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_310b6732300d4cf9aff4a402d407b19d.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:8c13725e-9b8c-4f06-8c0d-f66f79276d75
+2015-10-03 19:24:04,034 [6] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ID', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_310b6732300d4cf9aff4a402d407b19d.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:8c13725e-9b8c-4f06-8c0d-f66f79276d75
+2015-10-03 19:24:04,144 [6] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-03 19:24:04,160 [6] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Cannot insert the value NULL into column 'ID', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_310b6732300d4cf9aff4a402d407b19d.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-03 19:24:04,175 [6] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_6250c01e365a4e0b964480e8d6c78e1b.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:8c13725e-9b8c-4f06-8c0d-f66f79276d75
+2015-10-03 19:27:41,553 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:27:41,570 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:27:41,592 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0137016
+2015-10-03 19:27:46,653 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-03 19:27:46,670 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-03 19:27:46,711 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0191193
+2015-10-03 19:28:20,490 [12] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword is called
+2015-10-03 19:28:20,502 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_GetByUserNameAndPassword @UserName = 'ca', @Password = 'a'; 
+2015-10-03 19:28:20,539 [12] INFO  Server - Stored procedure dbo.Users_GetByUserNameAndPassword finished successfully. Execution time: 00:00:00.0163343
+2015-10-03 19:28:23,782 [12] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-03 19:28:23,794 [12] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'b', @FirstName = 'a', @BirthDate = 10/1/2015 12:00:00 AM, @Email = 'a', @Password = 'a', @UserName = 'ca'; 
+2015-10-03 19:28:23,822 [12] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0134255

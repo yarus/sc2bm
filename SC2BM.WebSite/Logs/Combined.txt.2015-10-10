@@ -1,0 +1,448 @@
+2015-10-10 18:28:03,648 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:28:03,657 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:28:03,676 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0100321
+2015-10-10 18:29:23,554 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:29:23,558 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:29:23,579 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083359
+2015-10-10 18:29:54,224 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:29:54,230 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:29:54,251 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086986
+2015-10-10 18:32:36,886 [31] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:32:36,891 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:32:36,910 [31] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0081615
+2015-10-10 18:34:59,992 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:34:59,997 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:35:00,019 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0090768
+2015-10-10 18:35:11,379 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:35:11,385 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:35:11,410 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0103501
+2015-10-10 18:35:18,206 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:35:18,214 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:35:18,236 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0098473
+2015-10-10 18:36:23,855 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:36:23,864 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:36:23,887 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108188
+2015-10-10 18:40:22,684 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:22,692 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:22,716 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0105714
+2015-10-10 18:40:27,241 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:27,250 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:27,275 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0112378
+2015-10-10 18:40:47,740 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:47,749 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:47,788 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0160475
+2015-10-10 18:40:50,377 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:50,386 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:50,405 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094182
+2015-10-10 18:40:52,824 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:52,833 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:52,853 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0095564
+2015-10-10 18:40:55,043 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:55,052 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:55,071 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092683
+2015-10-10 18:40:57,414 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:57,422 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:57,443 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096783
+2015-10-10 18:40:58,889 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:40:58,898 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:40:58,918 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093651
+2015-10-10 18:41:00,548 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:00,559 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:00,560 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:00,601 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:00,596 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0159546
+2015-10-10 18:41:00,632 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0238980
+2015-10-10 18:41:07,054 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:07,071 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:07,072 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:07,100 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:07,093 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0128899
+2015-10-10 18:41:07,129 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0189283
+2015-10-10 18:41:08,487 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:08,513 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:08,513 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:08,557 [42] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0234409
+2015-10-10 18:41:08,561 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:08,596 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0277150
+2015-10-10 18:41:59,622 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:41:59,631 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:41:59,666 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0143484
+2015-10-10 18:42:08,841 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:08,849 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:08,869 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093326
+2015-10-10 18:42:10,195 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:10,204 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:10,224 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0095504
+2015-10-10 18:42:11,578 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:11,590 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:11,621 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0143114
+2015-10-10 18:42:13,075 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:13,083 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:13,103 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093718
+2015-10-10 18:42:14,277 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:14,285 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:14,308 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104556
+2015-10-10 18:42:16,340 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:42:16,349 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:42:16,368 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094257
+2015-10-10 18:43:02,254 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:02,264 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:02,287 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109943
+2015-10-10 18:43:08,824 [39] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:08,833 [39] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:08,853 [39] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0097118
+2015-10-10 18:43:11,183 [34] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:11,192 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:11,213 [34] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0099875
+2015-10-10 18:43:12,603 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:12,612 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:12,631 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092451
+2015-10-10 18:43:42,058 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:42,069 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:42,093 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116500
+2015-10-10 18:43:52,588 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:43:52,596 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:43:52,616 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0091853
+2015-10-10 18:44:39,126 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:44:39,135 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:44:39,161 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113724
+2015-10-10 18:46:40,952 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:46:40,961 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:46:40,985 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0107348
+2015-10-10 18:47:22,601 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:47:22,610 [30] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:47:22,634 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110377
+2015-10-10 18:47:50,088 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:47:50,099 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:47:50,123 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116427
+2015-10-10 18:47:53,391 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:47:53,400 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:47:53,423 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104624
+2015-10-10 18:47:58,568 [39] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:47:58,577 [39] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:47:58,601 [39] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108460
+2015-10-10 18:48:51,600 [38] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-10 18:48:51,609 [38] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-10 18:48:51,630 [38] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0099172
+2015-10-10 18:48:54,425 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:48:54,436 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:48:54,459 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111709
+2015-10-10 18:49:02,797 [28] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:49:02,805 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:49:02,826 [28] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0097241
+2015-10-10 18:49:03,683 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:49:03,692 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:49:03,713 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0099664
+2015-10-10 18:49:04,715 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:49:04,724 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:49:04,743 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093529
+2015-10-10 18:49:06,325 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:49:06,334 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:49:06,357 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0107552
+2015-10-10 18:50:04,133 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:04,142 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:04,173 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0133057
+2015-10-10 18:50:27,763 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:27,772 [30] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:27,794 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104602
+2015-10-10 18:50:36,149 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:36,157 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 2, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:36,187 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0126648
+2015-10-10 18:50:37,538 [31] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:37,547 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 3, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:37,570 [31] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0105609
+2015-10-10 18:50:38,661 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:38,670 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 4, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:38,693 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0106106
+2015-10-10 18:50:40,494 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:40,504 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:40,526 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104577
+2015-10-10 18:50:45,476 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:45,486 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:45,513 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0123709
+2015-10-10 18:50:51,958 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:51,968 [30] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:51,993 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0115306
+2015-10-10 18:50:58,596 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:50:58,605 [30] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:50:58,626 [30] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0101782
+2015-10-10 18:50:58,655 [30] INFO  Server - Stored procedure dbo.BuildOrders_Insert is called
+2015-10-10 18:50:58,670 [30] DEBUG Server - BuildOrderRepository::ExecuteScalar started
+EXEC dbo.BuildOrders_Insert @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @BuildItems = , @OwnerUserID = 8, @AddedDate = 10/10/2015 3:50:58 PM; 
+2015-10-10 18:51:03,048 [30] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_cdeccb267ce84b298b25ba50039b4be5.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:11a28fe5-f002-4cce-8840-cd2e2e174b72
+2015-10-10 18:51:03,065 [30] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_cdeccb267ce84b298b25ba50039b4be5.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:11a28fe5-f002-4cce-8840-cd2e2e174b72
+2015-10-10 18:51:03,373 [30] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-10 18:51:03,382 [30] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = 8, @URI = , @ErrorMsg = 'Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_cdeccb267ce84b298b25ba50039b4be5.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-10 18:51:05,878 [30] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_8816c0432e424348993663a543de52ca.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:11a28fe5-f002-4cce-8840-cd2e2e174b72
+2015-10-10 18:56:07,677 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:56:07,694 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:56:07,729 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0176653
+2015-10-10 18:57:39,836 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:57:39,849 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:57:39,879 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0139529
+2015-10-10 18:57:57,489 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:57:57,500 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:57:57,528 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0129636
+2015-10-10 18:58:19,764 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:58:19,776 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:58:19,802 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0124244
+2015-10-10 18:58:43,227 [23] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:58:43,236 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:58:43,262 [23] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116375
+2015-10-10 18:59:13,787 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:59:13,796 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:59:13,820 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108454
+2015-10-10 18:59:35,474 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 18:59:35,482 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 18:59:35,512 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0125671
+2015-10-10 19:00:30,987 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:00:30,996 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:00:31,021 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113597
+2015-10-10 19:01:10,974 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:01:10,984 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:01:11,009 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113859
+2015-10-10 19:02:48,214 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:02:48,223 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:02:48,256 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0137298
+2015-10-10 19:03:44,274 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:03:44,286 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:03:44,310 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0119182
+2015-10-10 19:03:52,485 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:03:52,495 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:03:52,518 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0107655
+2015-10-10 19:05:55,254 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:05:55,267 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:05:55,306 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0172364
+2015-10-10 19:06:29,917 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:06:29,925 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:06:29,951 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0114870
+2015-10-10 19:06:46,952 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:06:46,962 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:06:46,987 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0115102
+2015-10-10 19:07:57,326 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:07:57,335 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:07:57,359 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111776
+2015-10-10 19:08:21,823 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:08:21,832 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:08:21,857 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111275
+2015-10-10 19:08:25,009 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-10 19:08:25,018 [5] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-10-10 19:08:25,039 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0102066
+2015-10-10 19:08:25,129 [5] INFO  Server - Stored procedure dbo.BuildOrders_Insert is called
+2015-10-10 19:08:25,137 [5] DEBUG Server - BuildOrderRepository::ExecuteScalar started
+EXEC dbo.BuildOrders_Insert @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @BuildItems = , @OwnerUserID = 8, @AddedDate = 10/10/2015 4:08:25 PM; 
+2015-10-10 19:08:27,536 [5] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_4ddae124ec05412982fd964968b01c72.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:ca8ddca4-0d5e-4d95-84eb-4b98e9bf64eb
+2015-10-10 19:08:27,552 [5] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_4ddae124ec05412982fd964968b01c72.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:ca8ddca4-0d5e-4d95-84eb-4b98e9bf64eb
+2015-10-10 19:08:27,585 [5] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-10 19:08:27,595 [5] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = 8, @URI = , @ErrorMsg = 'Cannot insert the value NULL into column 'Name', table 'SC2BM.dbo.BuildOrders'; column does not allow nulls. INSERT fails.
+The statement has been terminated.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.BuildOrderRepository.Insert(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\BuildOrderRepository.cs:line 38
+   at SC2BM.BusinessFacade.Services.BuildOrderService.AddBuildOrder(BuildOrder buildOrder) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\BuildOrderService.cs:line 22
+   at DynamicModule.ns.Wrapped_IBuildOrderService_4ddae124ec05412982fd964968b01c72.<AddBuildOrder_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-10 19:08:28,949 [5] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_e84d7fb3976b4799a05509a472f9ad7a.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:ca8ddca4-0d5e-4d95-84eb-4b98e9bf64eb

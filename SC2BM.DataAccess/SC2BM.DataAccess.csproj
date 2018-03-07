@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D1D5CE1-ECC3-4DD1-BC76-5D7C70420111}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC2BM.DataAccess</RootNamespace>
+    <AssemblyName>SC2BM.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\BaseRepository.cs" />
+    <Compile Include="Core\CheckUniquenessParameter.cs" />
+    <Compile Include="Core\DataTypes\Base\BaseSingleValueTableType.cs" />
+    <Compile Include="Core\DataTypes\Base\BaseUserDefinedTableType.cs" />
+    <Compile Include="Core\DataTypes\Base\IUserDefinedType.cs" />
+    <Compile Include="Core\DataTypes\DecimalList.cs" />
+    <Compile Include="Core\DataTypes\IntegerList.cs" />
+    <Compile Include="Core\DataTypes\StringList.cs" />
+    <Compile Include="Core\GenericResultVisitor.cs" />
+    <Compile Include="Core\ParamsHelper.cs" />
+    <Compile Include="Mappers\BlogMapper.cs" />
+    <Compile Include="Mappers\BlogPostMapper.cs" />
+    <Compile Include="Mappers\CommentMapper.cs" />
+    <Compile Include="Mappers\EntityRateMapper.cs" />
+    <Compile Include="Mappers\LinkMapper.cs" />
+    <Compile Include="Mappers\NewsItemMapper.cs" />
+    <Compile Include="Mappers\RateMapper.cs" />
+    <Compile Include="Mappers\UserMapper.cs" />
+    <Compile Include="Repositories\BlogPostRepository.cs" />
+    <Compile Include="Repositories\BlogsRepository.cs" />
+    <Compile Include="Repositories\BuildOrderRepository.cs" />
+    <Compile Include="Core\BaseMapper.cs" />
+    <Compile Include="Core\DataReaderAdapter.cs" />
+    <Compile Include="Core\IMapper.cs" />
+    <Compile Include="Core\IRefMapper.cs" />
+    <Compile Include="Core\IValueMapper.cs" />
+    <Compile Include="Mappers\BuildOrderMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CommentRepository.cs" />
+    <Compile Include="Repositories\LinkRepository.cs" />
+    <Compile Include="Repositories\LogRepository.cs" />
+    <Compile Include="Repositories\NewsRepository.cs" />
+    <Compile Include="Repositories\RateRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SC2BM.Contracts\SC2BM.ServiceModel.csproj">
+      <Project>{5948C63F-322C-4363-9CF5-4DAA049738FA}</Project>
+      <Name>SC2BM.ServiceModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.DomainModel\SC2BM.DomainModel.csproj">
+      <Project>{620761BF-0629-4C7C-8FB7-191C532D95A5}</Project>
+      <Name>SC2BM.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.Logging\SC2BM.Logging.csproj">
+      <Project>{1A0873AA-5837-4120-BE5A-279D972139CE}</Project>
+      <Name>SC2BM.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

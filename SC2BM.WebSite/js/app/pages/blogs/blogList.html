@@ -1,0 +1,129 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="blogListController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg">
+
+        <div class="col-lg-12 margin-bottom-30 margin-top-20">
+            <section class="no-border no-padding bg-transparent">
+                <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-border no-margin">
+                        <h2 class="headline">
+                            <i class="ion-university margin-right-10"></i> Blogs
+                        </h2>
+
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <a data-ng-href="/blogs/{{vm.user.UserName}}" class="btn btn-default" data-ng-show="vm.enableOpenBlog">Open your blog</a>
+                                <a data-ng-href="/blogs/{{vm.user.UserName}}/register" class="btn btn-default" data-ng-show="vm.enableRegisterBlog">Register new Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="no-padding-top">
+                <p class="font-size-14 line-height-20 margin-top-15 padding-left-20 padding-right-20">
+                    Blogs is the perfect place to talk with community! <br />
+                    If you would like to share your thougts with community regulary and you think that might be interesting - create your own blog on sc2bm.com!
+                </p>
+            </section>
+
+            <section class="bg-grey-100 border-top-1 border-bottom-1 border-grey-200 relative no-padding" data-ng-show="vm.blogs.length > 0">
+                <div class="section-title no-margin-top no-border padding-top-25 padding-left-25 padding-right-25">
+                    <h3 class="display-inline-block pull-left bg-grey-900 color-white no-border">Top Rated Blogs</h3>
+                </div>
+
+                <div class="row padding-left-10 padding-right-10 margin-bottom-25">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" data-ng-repeat="topBlog in vm.blogs">
+                        <div class="thumbnail height-270">
+                            <h4 class="padding-10-20"><a data-ng-href="/blogs/{{topBlog.OwnerUserName}}">{{topBlog.Title}}</a></h4>
+
+                            <div class="thumb">
+                                <a data-ng-href="/blogs/{{topBlog.OwnerUserName}}">
+                                    <img data-ng-src="{{topBlog.LogoPath}}" class="img-responsive full-width height-180" alt="">
+                                </a>
+                            </div>
+
+                            <div class="padding-10-20">
+                                <span class="rating">
+                                    <span class="star" data-ng-class="{rated: topBlog.rate >= 5}"></span>
+                                    <span class="star" data-ng-class="{rated: topBlog.rate >= 4}"></span>
+                                    <span class="star" data-ng-class="{rated: topBlog.rate >= 3}"></span>
+                                    <span class="star" data-ng-class="{rated: topBlog.rate >= 2}"></span>
+                                    <span class="star" data-ng-class="{rated: topBlog.rate >= 1}"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="padding-left-20 padding-right-20 no-padding no-margin">
+            <div class="col-lg-8">
+                <section class="no-padding-top padding-bottom-30 no-border">
+                    <div class="padding-bottom-15">
+                        <h4 class="page-header font-size-22">Latest Posts</h4>
+
+                        <section class="section section-white no-border no-padding no-margin" data-ng-show="vm.blogPosts.length > 0" data-ng-repeat="blogPost in vm.blogPosts">
+                            <div class="row box no-shadow bg-grey-100 border-grey-300 padding-top-15 padding-bottom-15 margin-bottom-10">
+                                <div class="col-lg-4 col-sm-4 col-xs-12">
+                                    <div class="thumb" style="min-height: 50px">
+                                        <img data-ng-src="{{blogPost.LogoPath}}" class="img-responsive full-width" alt="" data-ng-show="blogPost.logoVisible">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-sm-8 col-xs-12 padding-left-5 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                                    <h3 class="page-header no-margin-top">
+                                        <a data-ng-href="/blogs/{{blogPost.OwnerUserName}}/{{blogPost.ID}}">{{blogPost.Title}}</a>
+                                    </h3>
+                                    <p data-ng-bind-html="blogPost.Text"></p>
+                                    <div class="details margin-top-15">
+                                        <i class="ion-android-contact margin-right-5"></i>
+                                        <a href="#">{{blogPost.OwnerUserName}}</a>
+                                        <i class="ion-android-calendar margin-left-10"></i> {{blogPost.AddedDate | date: 'medium'}}
+                                        <a href="#"><i class="ion-chatbubble margin-left-10"></i>{{blogPost.commentsTotal}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <ul class="pager no-margin-bottom">
+                            <li>
+                                <a href="#" data-ng-click="vm.loadMorePosts()" data-ng-show="vm.blogPostsRequest.totalItems > vm.blogPosts.length" id="load-more">
+                                    Show More <i class="ion-more margin-left-5"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4 hidden-xs hidden-sm hidden-sm-lg">
+
+                <!-- section -->
+                <div class="section border-1 border-grey-200">
+                    <div class="title no-border bg-white color-grey-700 no-margin padding-top-15 padding-left-15 padding-bottom-10">
+                        <i class="ion-chatbox-working"></i> Latest Comments
+                    </div>
+                    <ul class="box no-radius no-shadow bg-grey-100">
+                        <!-- row -->
+                        <li class="row bg-white" data-ng-repeat="comment in vm.latestComments">
+                            <div class="col-md-2 no-padding-right padding-left-5">
+                                <img src="/images/avatar.jpg" class="img-responsive" alt="" />
+                            </div>
+                            <div class="details col-md-10">
+                                <h5><a href="#">{{comment.OwnerUserName}}</a></h5>
+                                <p class="margin-top-5 font-size-11 color-grey-600" data-ng-bind-html="comment.Text"></p>
+                                <div class="font-size-11 color-grey-600">
+                                    <i class="ion-android-calendar margin-right-5"></i> {{comment.AddedDate | date: 'medium'}} |
+                                    <a data-ng-href="{{comment.EntityLink}}">{{comment.EntityType}}</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- /.section -->
+            </div>
+        </div>
+
+    </div>
+</div>

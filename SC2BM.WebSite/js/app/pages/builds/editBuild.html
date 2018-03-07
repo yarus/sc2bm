@@ -1,0 +1,195 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="editBuildController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="section bg-transparent margin-top-20 margin-bottom-20 no-border">
+                <div class="page-header no-margin-top">
+                    <h4 class="no-margin-top">{{vm.isUpload ? 'Upload Build Order Form' : 'Edit Build Order Form'}}</h4>
+                </div>
+
+                <div class="no-border-radius padding-10" data-ng-show="vm.isUpload">
+                    <button type="button" class="btn btn-info btn-icon-right"
+                            data-ngf-select="vm.uploadFiles($files, $invalidFiles)"
+                            data-accept=".txt" data-ngf-max-height="1000" data-ngf-max-size="1MB">
+                        <i class="fa fa-cloud-download"></i> Upload Build Order
+                    </button>
+
+                    <div data-ng-show="vm.uploadMessages.length > 0"
+                         class="alert no-border-radius margin-top-10 margin-bottom-5 alert-dismissible"
+                         data-ng-class="{
+                             'alert-success' : !vm.hasErrors,
+                             'alert-warning' : vm.hasErrors}"
+                         role="alert">
+                        <div data-ng-repeat="message in vm.uploadMessages">
+                            <span data-ng-bind="message"></span>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+
+                <p data-ng-show="vm.buildOrder != null"> Please checks fields below and click "save" to save build order.</p>
+
+                <form name="vm.editForm" novalidate="novalidate" data-ng-show="vm.buildOrder != null">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-10 col-xs-12">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.name.$dirty && vm.editForm.name.$invalid,
+                         'has-success' : vm.editForm.name.$dirty && vm.editForm.name.$valid}">
+                                <label class="control-label" for="name">Name</label>
+                                <input data-ng-model="vm.buildOrder.Name"
+                                       class="form-control"
+                                       id="name" name="name" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.name.$dirty && vm.editForm.name.$invalid,
+                              'glyphicon-ok' : vm.editForm.name.$dirty && vm.editForm.name.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.name.$dirty && vm.editForm.name.$error.required">Name is required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2 col-sm-3 col-xs-6">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.version.$dirty && vm.editForm.version.$invalid,
+                         'has-success' : vm.editForm.version.$dirty && vm.editForm.version.$valid}">
+                                <label class="control-label" for="version">Version</label>
+                                <input data-ng-model="vm.buildOrder.SC2VersionID"
+                                       class="form-control" data-ng-disabled="true"
+                                       id="version" name="version" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.version.$dirty && vm.editForm.version.$invalid,
+                              'glyphicon-ok' : vm.editForm.version.$dirty && vm.editForm.version.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.version.$dirty && vm.editForm.version.$error.required">Version is required</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-3 col-xs-6">
+                            <div class="form-group">
+                                <label class="control-label" for="matchup">Matchup</label>
+                                <select name="matchup" id="matchup" class="form-control"
+                                        data-ng-options="option for option in vm.matchups"
+                                        data-ng-model="vm.matchup"></select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$invalid,
+                         'has-success' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$valid}">
+                                <label class="control-label" for="addedDate">Created Date</label>
+                                <input data-ng-model="vm.createdDate"
+                                       class="form-control" data-ng-disabled="true"
+                                       id="addedDate" name="addedDate" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$invalid,
+                              'glyphicon-ok' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$error.required">Version is required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="micro">Micro</label>
+                                    <select name="micro" id="micro" class="form-control"
+                                            data-ng-options="option for option in vm.marks"
+                                            data-ng-model="vm.buildOrder.MicroRate"></select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="matchup">Macro</label>
+                                    <select name="macro" id="macro" class="form-control"
+                                            data-ng-options="option for option in vm.marks"
+                                            data-ng-model="vm.buildOrder.MacroRate"></select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="matchup">Aggression</label>
+                                    <select name="aggression" id="aggression" class="form-control"
+                                            data-ng-options="option for option in vm.marks"
+                                            data-ng-model="vm.buildOrder.AggressionRate"></select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="matchup">Defense</label>
+                                    <select name="defence" id="defence" class="form-control"
+                                            data-ng-options="option for option in vm.marks"
+                                            data-ng-model="vm.buildOrder.DefenceRate"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.description.$dirty && vm.editForm.description.$invalid,
+                         'has-success' : vm.editForm.description.$dirty && vm.editForm.description.$valid}">
+                                <label class="control-label" for="text">Description</label>
+
+                                <div text-angular="text-angular" name="text"
+                                     ng-model="vm.buildOrder.Description"
+                                     ta-toolbar="vm.toolbar"
+                                     ng-required="required"
+                                     ng-change="vm.textChanged(vm.newsItem.Text)"
+                                     ta-disabled='disabled'></div>
+
+<!--                                <textarea data-ng-model="vm.buildOrder.Description"-->
+<!--                                          class="form-control" rows="19" placeholder="Text"-->
+<!--                                          id="text" name="text" required="required"></textarea>-->
+
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.description.$dirty && vm.editForm.description.$invalid,
+                              'glyphicon-ok' : vm.editForm.description.$dirty && vm.editForm.description.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.description.$dirty && vm.editForm.description.$error.required">Text is required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row padding-15">
+                        <div class="form-group has-feedback"
+                             data-ng-class="{
+                         'has-error' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$invalid,
+                         'has-success' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$valid}">
+                            <label class="control-label" for="text">Build Items</label>
+                            <textarea data-ng-model="vm.buildItems"
+                                      class="form-control" rows="10" placeholder="Text"
+                                      id="buildItems" name="buildItems" required="required"></textarea>
+                            <span class="glyphicon form-control-feedback"
+                                  data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$invalid,
+                              'glyphicon-ok' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$valid}"
+                                  aria-hidden="true"></span>
+                            <span class="help-block" data-ng-show="vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$error.required">Build Items are required</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button type="button" tabindex="8" class="btn btn-success" data-ng-click="vm.saveBuildOrder(vm.buildOrder)" data-ng-disabled="vm.editForm.$invalid">save</button>
+                    </div>
+
+                </form>
+
+            </section>
+        </div>
+    </div>
+</div>

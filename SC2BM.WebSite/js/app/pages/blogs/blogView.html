@@ -1,0 +1,140 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="blogViewController as vm">
+
+    <div class="padding-left-15 padding-right-15 padding-top-20">
+        <div class="title clearfix border-bottom-1 border-grey-200 padding-bottom-15 margin-bottom-20 no-margin-bottom-xs no-margin-bottom-sm no-margin-bottom-sm-lg no-margin-bottom-md">
+            <h1 class="headline pull-left">{{vm.blog.Title}}</h1>
+            <div class="pull-right">
+                <div class="details margin-top-10">
+                    <i class="ion-android-contact margin-right-5"></i>
+                    <a href="#">{{vm.blog.OwnerUserName}}</a>
+                    <i class="ion-android-calendar margin-left-10"></i>
+                    {{vm.blog.AddedDate | date: 'medium'}}
+                    <i class="ion-star margin-left-10" title="Blog Rate"></i>{{vm.blog.Rate}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-8 padding-left-30 no-padding-right padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+
+            <h4 class="page-header margin-top-10 font-size-22">Description</h4>
+
+            <div class="margin-bottom-10 no-border-left-sm-lg no-border-right-sm-lg">
+                <div class="no-margin padding-20 border-1 border-grey-300">
+                    <p class="font-size-14 line-height-20 margin-top-15" data-ng-bind-html="vm.blog.Description" />
+                </div>
+            </div>
+
+            <h4 class="page-header margin-top-10 font-size-22">Latest Posts</h4>
+
+            <div class="margin-bottom-10 no-border-left-sm-lg no-border-right-sm-lg">
+                <div class="margin-bottom-15">
+                    <section class="section section-white no-border" data-ng-repeat="blogPost in vm.blogPosts">
+                        <div class="row box no-shadow bg-grey-100 border-grey-300 padding-top-15 padding-bottom-15">
+                            <div class="col-lg-4 col-sm-4 col-xs-12">
+                                <img data-ng-src="{{blogPost.LogoPath}}" class="img-responsive full-width" alt="" data-ng-show="blogPost.logoVisible">
+                            </div>
+                            <div class="col-lg-8 col-sm-8 col-xs-12 padding-left-5 padding-xs-15 padding-sm-15">
+                                <h3 class="page-header no-margin-top">
+                                    <a data-ng-href="/blogs/{{vm.blog.OwnerUserName}}/{{blogPost.ID}}">{{blogPost.Title}}</a>
+                                </h3>
+                                <p data-ng-bind-html="blogPost.Text"></p>
+                                <div class="details margin-top-15">
+                                    <i class="ion-android-contact margin-right-5"></i>
+                                    <a href="#">{{blogPost.OwnerUserName}}</a>
+                                    <i class="ion-android-calendar margin-left-10"></i>
+                                    {{blogPost.AddedDate | date: 'medium'}}
+                                    <a href="#"><i class="ion-chatbubble margin-left-10"></i>{{blogPost.commentsTotal}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <p data-ng-show="vm.blogPosts.length == 0">No blog posts added yet</p>
+                </div>
+
+                <ul class="pager" data-ng-show="vm.blogPostsTotalCount > vm.blogPosts.length">
+                    <li><a href="#" data-ng-click="vm.showMorePosts()">Show More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-4 padding-right-30 padding-left-20 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <div class="section section-default no-padding no-margin">
+                <div class="padding-5">
+                    <div class="btn-group">
+                        <a data-ng-href="/blogs/{{vm.user.UserName}}/register" class="btn btn-default" data-ng-show="vm.enableEditBlog">Edit Blog</a>
+                        <a data-ng-href="/blogs/{{vm.user.UserName}}/addpost" class="btn btn-default" data-ng-show="vm.enableNewPost">Write new Post</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-default no-padding no-margin">
+                <div class="thumbnail padding-5">
+                    <img data-ng-src="{{vm.blog.LogoPath}}" alt="" class="img-responsive">
+                </div>
+            </div>
+            <!-- section -->
+            <div class="section section-default margin-top-20">
+                <div class="title no-border color-white bg-grey-900 no-margin padding-top-10 padding-left-20 padding-bottom-10">
+                    <i class="ion-ios-game-controller-a"></i> Top Rated Posts
+                </div>
+
+                <div class="tab-content no-padding">
+                    <ul id="all" class="tab-pane active clearfix box no-radius no-shadow bg-grey-800">
+
+                        <!-- row -->
+                        <li class="border-black" data-ng-repeat="topPost in vm.topRatedPosts">
+                            <a data-ng-href="/blogs/{{vm.blog.OwnerUserName}}/{{topPost.ID}}">
+                                <div class="row">
+                                    <div class="details col-md-12">
+                                        <div class="pull-left">
+                                            <h5 class="margin-top-5 margin-bottom-5 color-white font-size-16">{{topPost.Title}}</h5>
+                                            <p class="margin-top-5 font-size-11 color-white" data-ng-bind-html="topPost.Text"></p>
+                                        </div>
+                                        <span class="label label-success pull-right">{{topPost.rate}}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /.section -->
+            <!-- section -->
+            <div class="section border-1 border-grey-200">
+                <div class="title no-border bg-white color-grey-700 no-margin padding-top-15 padding-left-15 padding-bottom-10">
+                    <i class="ion-chatbox-working"></i> Latest Comments
+                </div>
+                <ul class="box no-radius no-shadow bg-grey-100">
+                    <!-- row -->
+                    <li class="row bg-white" data-ng-repeat="comment in vm.latestComments">
+                        <div class="col-md-2 no-padding-right padding-left-5">
+                            <img src="/images/avatar.jpg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="details col-md-10">
+                            <h5><a href="#">{{comment.OwnerUserName}}</a></h5>
+                            <p class="margin-top-5 font-size-11 color-grey-600" data-ng-bind-html="comment.Text"></p>
+                            <div class="font-size-11 color-grey-600">
+                                <i class="ion-android-calendar margin-right-5"></i> {{comment.AddedDate | date: 'medium'}} |
+                                <a data-ng-href="{{comment.EntityLink}}">{{comment.EntityType}}</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- /.section -->
+            <!-- section -->
+            <div class="section border-1 border-grey-200" data-ng-show="vm.latestLinks.length > 0">
+                <div class="title no-border bg-white color-grey-700 no-margin padding-top-15 padding-left-15 padding-bottom-10">
+                    <i class="ion-pricetag margin-right-10"></i> Latest Links
+                </div>
+                <div class="list-group">
+                    <a data-ng-href="{{link.MainLink}}" href="#" target="_blank" class="list-group-item" data-ng-repeat="link in vm.latestLinks">{{link.Type.toUpperCase()}} | {{link.DisplayText}}</a>
+                </div>
+            </div><!-- /.section -->
+        </div>
+    </div>
+
+</div>

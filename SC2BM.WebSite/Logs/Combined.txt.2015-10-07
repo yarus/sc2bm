@@ -1,0 +1,432 @@
+2015-10-07 12:16:11,471 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:16:11,483 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:16:11,502 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0112618
+2015-10-07 12:16:20,342 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:16:20,345 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:16:20,363 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0072069
+2015-10-07 12:16:23,281 [9] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:16:23,286 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:16:23,303 [9] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0071884
+2015-10-07 12:16:26,230 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:16:26,236 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:16:26,262 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0104156
+2015-10-07 12:25:52,362 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:52,369 [78] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:52,400 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124161
+2015-10-07 12:25:54,741 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:54,752 [73] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,781 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131662
+2015-10-07 12:25:54,796 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:54,805 [78] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,832 [80] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:54,832 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0118230
+2015-10-07 12:25:54,841 [80] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,864 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:54,875 [80] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142541
+2015-10-07 12:25:54,886 [73] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,910 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:54,948 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0274090
+2015-10-07 12:25:54,958 [78] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,958 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:55,008 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:54,993 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0268907
+2015-10-07 12:25:55,006 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:55,063 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:55,102 [73] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:55,030 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0238284
+2015-10-07 12:25:55,101 [80] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:55,085 [79] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:55,136 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0241901
+2015-10-07 12:25:58,414 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:58,435 [80] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:58,473 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:01.1477523 WARNING! SP execution time limit exceeded: max = 1s, current = 1.1478s
+2015-10-07 12:25:58,495 [78] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:58,530 [80] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:01.1352818 WARNING! SP execution time limit exceeded: max = 1s, current = 1.1353s
+2015-10-07 12:25:58,583 [78] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0561203
+2015-10-07 12:25:59,310 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:25:59,322 [79] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:25:59,346 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122004
+2015-10-07 12:26:32,544 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:26:32,556 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:26:32,583 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127255
+2015-10-07 12:27:00,969 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:27:00,981 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:27:01,016 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0156803
+2015-10-07 12:27:27,416 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:27:27,429 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:27:27,462 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0151609
+2015-10-07 12:27:45,253 [69] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:27:45,266 [69] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:27:45,291 [69] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0126036
+2015-10-07 12:27:55,014 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:27:55,027 [79] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:27:55,055 [79] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0130784
+2015-10-07 12:28:19,611 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:28:19,624 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:28:19,652 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135910
+2015-10-07 12:28:35,375 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:28:35,387 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:28:35,420 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0150706
+2015-10-07 12:28:55,849 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:28:55,862 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:28:55,888 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128843
+2015-10-07 12:29:51,025 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:29:51,038 [55] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:29:51,074 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0159514
+2015-10-07 12:30:11,174 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:30:11,188 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:30:11,211 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123312
+2015-10-07 12:30:44,252 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:30:44,265 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:30:44,291 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129877
+2015-10-07 12:31:22,800 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:31:22,814 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:31:22,841 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0137159
+2015-10-07 12:32:35,740 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:32:35,756 [63] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:32:35,781 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135615
+2015-10-07 12:33:35,382 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:33:35,398 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:33:35,421 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131185
+2015-10-07 12:33:54,086 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:33:54,105 [54] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:33:54,137 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0168228
+2015-10-07 12:35:17,765 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:35:17,778 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:35:17,803 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124819
+2015-10-07 12:36:26,068 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:36:26,084 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:36:26,128 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0196725
+2015-10-07 12:37:00,556 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:37:00,571 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:37:00,608 [60] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0171610
+2015-10-07 12:37:16,303 [61] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:37:16,319 [61] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:37:16,362 [61] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0194651
+2015-10-07 12:37:30,655 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:37:30,673 [73] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:37:30,696 [73] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0134324
+2015-10-07 12:46:07,177 [75] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:46:07,191 [75] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:46:07,215 [75] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125977
+2015-10-07 12:47:01,558 [53] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 12:47:01,572 [53] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 12:47:01,597 [53] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127945
+2015-10-07 13:01:00,003 [57] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:01:00,016 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:01:00,042 [57] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127694
+2015-10-07 13:01:42,332 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:01:42,345 [49] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:01:42,369 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122167
+2015-10-07 13:02:20,919 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:02:20,937 [49] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:02:20,961 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138429
+2015-10-07 13:02:45,626 [57] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 13:02:45,640 [57] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 13:02:45,665 [57] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0127556
+2015-10-07 13:02:49,899 [42] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 13:02:49,912 [42] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 13:02:49,936 [42] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0122784
+2015-10-07 13:03:02,271 [43] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 13:03:02,284 [43] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 13:03:02,307 [43] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0118636
+2015-10-07 13:05:09,050 [38] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:05:09,062 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:05:09,091 [38] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0136035
+2015-10-07 13:05:22,779 [39] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 13:05:22,792 [39] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'alexey.kardash@ontarget-group.com', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 13:05:22,820 [39] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0133416
+2015-10-07 13:05:42,842 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:05:42,856 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:05:42,885 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142908
+2015-10-07 13:06:12,517 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:06:12,529 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:06:12,552 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0118841
+2015-10-07 13:14:47,085 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:14:47,103 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:14:47,130 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0150870
+2015-10-07 13:15:25,721 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:15:25,736 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:15:25,763 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138771
+2015-10-07 13:23:51,531 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:23:51,546 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:23:51,581 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0164695
+2015-10-07 13:28:07,156 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:28:07,172 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:28:07,199 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140386
+2015-10-07 13:29:16,599 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:29:16,614 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:29:16,659 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0198111
+2015-10-07 13:30:34,369 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:30:34,382 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:30:34,408 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129213
+2015-10-07 13:31:05,164 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:31:05,182 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:31:05,210 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0154931
+2015-10-07 13:31:51,539 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:31:51,558 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:31:51,585 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0152639
+2015-10-07 13:32:53,469 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:32:53,482 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:32:53,510 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132759
+2015-10-07 13:33:42,107 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:33:42,122 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:33:42,170 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0208799
+2015-10-07 13:35:59,725 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:35:59,739 [36] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:35:59,765 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132404
+2015-10-07 13:36:53,984 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:36:54,004 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:36:54,041 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0188292
+2015-10-07 13:37:54,349 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:37:54,364 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:37:54,390 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0134484
+2015-10-07 13:38:12,801 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:38:12,817 [40] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:38:12,851 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0164896
+2015-10-07 13:41:34,600 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:41:34,618 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:41:34,649 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0161179
+2015-10-07 13:42:04,859 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:42:04,873 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:42:04,897 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125859
+2015-10-07 13:42:05,415 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:42:05,429 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:42:05,452 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0120809
+2015-10-07 13:42:05,816 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:42:05,829 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:42:05,852 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0117978
+2015-10-07 13:42:06,590 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:42:06,603 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:42:06,628 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125944
+2015-10-07 13:43:38,060 [41] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:43:38,080 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:43:38,109 [41] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0163555
+2015-10-07 13:44:10,328 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:44:10,343 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:44:10,368 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0130976
+2015-10-07 13:44:28,987 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:44:29,004 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:44:29,031 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0143015
+2015-10-07 13:45:19,749 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:45:19,766 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:45:19,797 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160077
+2015-10-07 13:45:36,891 [45] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:45:36,907 [45] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:45:36,940 [45] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160350
+2015-10-07 13:50:27,351 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:50:27,364 [63] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:50:27,387 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0119389
+2015-10-07 13:53:19,528 [50] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:53:19,540 [50] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:53:19,579 [50] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0168563
+2015-10-07 13:53:42,245 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:53:42,257 [55] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:53:42,281 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122131
+2015-10-07 13:54:04,366 [39] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:54:04,379 [39] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:54:04,403 [39] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124245
+2015-10-07 13:54:29,435 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:54:29,448 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:54:29,472 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0121119
+2015-10-07 13:58:05,663 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 13:58:05,676 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 13:58:05,702 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128958
+2015-10-07 14:02:07,708 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:02:07,722 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:02:07,747 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128112
+2015-10-07 14:02:44,949 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:02:44,963 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:02:44,988 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128295
+2015-10-07 14:03:07,547 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:03:07,559 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:03:07,585 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125527
+2015-10-07 14:03:33,701 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:03:33,714 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:03:33,748 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0157851
+2015-10-07 14:03:56,588 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:03:56,601 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:03:56,627 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0130238
+2015-10-07 14:55:58,683 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-07 14:55:58,702 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-07 14:55:58,726 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148221
+2015-10-07 15:24:33,714 [30] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 15:24:33,733 [30] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 15:24:33,758 [30] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0152067
+2015-10-07 16:22:22,023 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 16:22:22,050 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 16:22:22,077 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0189214
+2015-10-07 17:04:36,862 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 17:04:36,881 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 17:04:36,906 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0152408
+2015-10-07 17:47:44,602 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 17:47:44,620 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yarus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 17:47:44,647 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0158170
+2015-10-07 17:48:56,075 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 17:48:56,086 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'akardash', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 17:48:56,104 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0097452
+2015-10-07 17:48:58,464 [14] ERROR Common - System.ApplicationException: User with username akardash was not found.
+   at SC2BM.BusinessFacade.Services.UserService.GetUserByUserName(String userName) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 55
+   at DynamicModule.ns.Wrapped_IUserService_50907136de584451aac825da07d1593c.<GetUserByUserName_DelegateImplementation>__6(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-07 17:49:25,472 [19] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 17:49:25,482 [19] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'akardash', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 17:49:25,500 [19] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0091614
+2015-10-07 17:49:27,303 [19] ERROR Common - System.ApplicationException: User with username akardash was not found.
+   at SC2BM.BusinessFacade.Services.UserService.GetUserByUserName(String userName) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 55
+   at DynamicModule.ns.Wrapped_IUserService_50907136de584451aac825da07d1593c.<GetUserByUserName_DelegateImplementation>__6(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-07 17:50:33,075 [19] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 17:50:33,084 [19] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 17:50:33,106 [19] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0102138
+2015-10-07 18:06:02,115 [28] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 18:06:02,125 [28] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'akardash', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 18:06:02,137 [28] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0069586
+2015-10-07 18:06:02,146 [28] ERROR Common - System.ApplicationException: User with username akardash was not found.
+   at SC2BM.BusinessFacade.Services.UserService.GetUserByUserName(String userName) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 55
+   at DynamicModule.ns.Wrapped_IUserService_50907136de584451aac825da07d1593c.<GetUserByUserName_DelegateImplementation>__6(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-07 18:07:46,515 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 18:07:46,529 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yarus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 18:07:46,553 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0131964
+2015-10-07 18:10:21,837 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 18:10:21,845 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 18:10:21,864 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0089650
+2015-10-07 18:12:24,254 [6] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-07 18:12:24,270 [6] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yarus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-07 18:12:24,286 [6] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0113946
+2015-10-07 18:20:35,142 [8] ERROR Common - Newtonsoft.Json.JsonSerializationException: Could not create an instance of type SC2BM.Core.Security.ICustomPrincipal. Type is an interface or abstract class and cannot be instantiated. Path 'ID', line 1, position 6.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at SC2BM.WebSite.MvcApplication.Application_PostAuthenticateRequest(Object sender, EventArgs e) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.WebSite\Global.asax.cs:line 55
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-07 18:20:35,269 [8] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-07 18:20:35,278 [8] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/', @ErrorMsg = 'Could not create an instance of type SC2BM.Core.Security.ICustomPrincipal. Type is an interface or abstract class and cannot be instantiated. Path 'ID', line 1, position 6.', @StackTrace = '   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at SC2BM.WebSite.MvcApplication.Application_PostAuthenticateRequest(Object sender, EventArgs e) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.WebSite\Global.asax.cs:line 55
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-07 18:20:35,288 [8] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_a6a772e87c9d419e8598d018b6c951a3.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:0d2684a8-3f87-4bf5-b5be-6303c397601a

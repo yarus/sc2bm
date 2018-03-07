@@ -1,0 +1,18 @@
+﻿<span class="multiSelect">
+	<button type="button" class="button multiSelectButton" data-ng-click="toggle()">
+		<span ng-bind-html="varButtonLabel">
+		</span>
+		<span class="caret"></span>
+	</button>
+	<div class="treeview" data-ng-class="{expanded: expanded}">
+		<div class="scroll">
+			<ul>
+				<multi-select-node data-ng-repeat="item in inputModel" item="item"></multi-select-node>
+			</ul>
+		</div>
+		<div class="align-left controls">
+			<a href="javascript:void(0)" data-ng-click="selectAll(true)">Select All</a>
+			<a href="javascript:void(0)" data-ng-click="selectAll(false)">Reset</a>
+		</div>
+	</div>
+</span>

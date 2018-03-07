@@ -1,0 +1,919 @@
+2015-10-05 11:40:36,611 [12] ERROR Common - System.InvalidCastException: Specified cast is not valid.
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_53654d75df3d4af9babe534aaef9a820.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-05 11:40:36,631 [12] ERROR Common - System.InvalidCastException: Specified cast is not valid.
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_53654d75df3d4af9babe534aaef9a820.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-05 11:40:37,012 [12] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 11:40:37,017 [12] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Specified cast is not valid.', @StackTrace = '   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 29
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 27
+   at DynamicModule.ns.Wrapped_IUserService_53654d75df3d4af9babe534aaef9a820.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 11:40:37,026 [12] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_924fadaf4877476986717d0755fe37c3.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:a8574115-ecd8-4820-a322-a95a380b1a66
+2015-10-05 15:25:14,330 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:25:14,349 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:25:14,371 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142662
+2015-10-05 15:25:23,342 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:25:23,353 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:25:23,382 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0131057
+2015-10-05 15:25:45,134 [16] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:25:45,146 [16] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:25:45,168 [16] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0110263
+2015-10-05 15:33:02,849 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:33:02,868 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:33:02,897 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0165782
+2015-10-05 15:33:26,038 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:33:26,050 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:33:26,075 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0120838
+2015-10-05 15:35:29,399 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:35:29,416 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:35:29,439 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142238
+2015-10-05 15:35:50,701 [6] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:35:50,709 [6] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:35:50,729 [6] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0095317
+2015-10-05 15:37:07,559 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:37:07,576 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:37:07,598 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0136485
+2015-10-05 15:38:56,687 [21] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:38:56,697 [21] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:38:56,718 [21] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0104855
+2015-10-05 15:40:31,199 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:40:31,216 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:40:31,240 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144799
+2015-10-05 15:40:46,083 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:40:46,096 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:40:46,121 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0127168
+2015-10-05 15:41:21,214 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:41:21,229 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:41:21,250 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0119515
+2015-10-05 15:42:53,953 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 15:42:53,971 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 15:42:53,995 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0146707
+2015-10-05 15:43:17,338 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:43:17,349 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:43:17,371 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0110020
+2015-10-05 15:43:37,207 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:43:37,217 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:43:37,251 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0145150
+2015-10-05 15:45:08,308 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:45:08,319 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:45:08,341 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0107601
+2015-10-05 15:45:09,805 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 15:45:09,815 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 15:45:09,837 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0105885
+2015-10-05 15:45:14,045 [23] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-05 15:45:14,056 [23] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Kardash', @FirstName = 'Aleksey', @BirthDate = 12/19/1985 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'yaRus'; 
+2015-10-05 15:45:21,805 [23] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'RegisteredDate', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 49
+   at DynamicModule.ns.Wrapped_IUserService_515ebe42adfc4a15820f12459acb6887.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:5b1fba7b-397a-4d4c-bcab-c4e7d818b82f
+2015-10-05 15:45:21,826 [23] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'RegisteredDate', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 49
+   at DynamicModule.ns.Wrapped_IUserService_515ebe42adfc4a15820f12459acb6887.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:5b1fba7b-397a-4d4c-bcab-c4e7d818b82f
+2015-10-05 15:45:21,854 [23] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 15:45:21,866 [23] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Cannot insert the value NULL into column 'RegisteredDate', table 'SC2BM.dbo.Users'; column does not allow nulls. INSERT fails.
+The statement has been terminated.', @StackTrace = '   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 342
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 49
+   at DynamicModule.ns.Wrapped_IUserService_515ebe42adfc4a15820f12459acb6887.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 15:45:21,878 [23] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_d9d4ea00906c437e9d3264155d9ad107.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:5b1fba7b-397a-4d4c-bcab-c4e7d818b82f
+2015-10-05 17:56:21,208 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 17:56:21,225 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 17:56:21,249 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0143932
+2015-10-05 18:15:30,634 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:15:30,652 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:15:30,674 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140151
+2015-10-05 18:17:59,493 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:17:59,509 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:17:59,527 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0113702
+2015-10-05 18:19:11,203 [21] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:19:11,216 [21] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:19:11,234 [21] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0103193
+2015-10-05 18:19:25,410 [29] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:19:25,423 [29] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ab', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:19:25,436 [29] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0085014
+2015-10-05 18:28:06,515 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:28:06,531 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:28:06,544 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0095227
+2015-10-05 18:31:35,453 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:31:35,467 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:31:35,480 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0090983
+2015-10-05 18:33:13,251 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:33:13,265 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:33:13,277 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0088588
+2015-10-05 18:34:13,200 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:34:13,252 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:34:13,278 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0259734
+2015-10-05 18:34:24,618 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:34:24,632 [36] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:34:24,652 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0112089
+2015-10-05 18:35:58,299 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:35:58,313 [33] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:35:58,329 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0098629
+2015-10-05 18:37:57,610 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:37:57,629 [33] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:37:57,644 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0110784
+2015-10-05 18:38:51,058 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:38:51,077 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:38:51,094 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0118094
+2015-10-05 18:40:07,830 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:40:07,856 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:40:07,904 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0244597
+2015-10-05 18:40:29,893 [36] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:40:29,904 [36] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:40:29,918 [36] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0081777
+2015-10-05 18:40:48,195 [33] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:40:48,207 [33] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b.c', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:40:48,221 [33] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0085696
+2015-10-05 18:41:14,254 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:41:14,272 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:41:14,289 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0115943
+2015-10-05 18:41:29,653 [33] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:41:29,665 [33] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:41:29,678 [33] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0081642
+2015-10-05 18:41:47,035 [29] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:41:47,046 [29] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b.com', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:41:47,060 [29] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0082434
+2015-10-05 18:41:55,003 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:41:55,014 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b.1', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:41:55,026 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0076289
+2015-10-05 18:42:20,149 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:42:20,166 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:42:20,182 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0108619
+2015-10-05 18:42:28,912 [24] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:42:28,924 [24] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:42:28,936 [24] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0079345
+2015-10-05 18:42:52,767 [28] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:42:52,777 [28] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:42:52,788 [28] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0070545
+2015-10-05 18:43:11,014 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:43:11,032 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:43:11,045 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0100473
+2015-10-05 18:43:11,059 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:43:11,072 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = True, @TotalCount = NULL; 
+2015-10-05 18:43:11,084 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0084272
+2015-10-05 18:43:11,100 [23] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-05 18:43:11,110 [23] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Kardash', @FirstName = 'Aleksey', @BirthDate = 12/19/1985 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285An', @UserName = 'yaRus', @ActivationSalt = '8b234f4e-3ae6-4b9f-a448-0b2d5299b16e', @IsActive = False, @RegisteredDate = 10/5/2015 6:43:11 PM; 
+2015-10-05 18:43:11,124 [23] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0080868
+2015-10-05 18:43:11,136 [23] ERROR Common - System.InvalidCastException: Specified cast is not valid.
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 56
+   at DynamicModule.ns.Wrapped_IUserService_ce32b0802c25422ba07b1dc32158104a.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-05 18:43:11,151 [23] ERROR Common - System.InvalidCastException: Specified cast is not valid.
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 56
+   at DynamicModule.ns.Wrapped_IUserService_ce32b0802c25422ba07b1dc32158104a.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-05 18:43:11,244 [23] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:43:11,253 [23] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = , @ErrorMsg = 'Specified cast is not valid.', @StackTrace = '   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarProcedure[T](String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 357
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteScalarRead[T](String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 704
+   at SC2BM.DataAccess.Repositories.UserRepository.Insert(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\UserRepository.cs:line 39
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 56
+   at DynamicModule.ns.Wrapped_IUserService_ce32b0802c25422ba07b1dc32158104a.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:43:11,263 [23] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_30c6756532754597b62a8eb0508613e1.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:de76880a-1123-49a7-80b1-87d7a7e7211d
+2015-10-05 18:51:16,730 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:51:16,748 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:51:16,771 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142143
+2015-10-05 18:52:25,425 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:52:25,441 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 18:52:25,475 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0166222
+2015-10-05 18:54:33,130 [34] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:54:33,168 [34] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:54:33,188 [34] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:54:54,185 [34] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_6bd5353d892d49a5bda9712d9a734161.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:06802058-d7c9-42cb-9271-87031a1439f4
+2015-10-05 18:55:08,242 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:55:08,263 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:55:08,278 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122668
+2015-10-05 18:55:10,520 [37] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:55:10,546 [37] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:55:10,559 [37] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:55:10,577 [37] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_a58ed33146df48f4ba458be26bf16325.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:85d4ff4e-da21-4501-887f-c2ffbbf08941
+2015-10-05 18:55:18,216 [34] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:55:18,231 [34] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:55:18,245 [34] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:55:18,264 [34] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_a58ed33146df48f4ba458be26bf16325.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:85d4ff4e-da21-4501-887f-c2ffbbf08941
+2015-10-05 18:55:31,213 [41] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:55:31,229 [41] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:55:31,245 [41] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:55:31,263 [41] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_a58ed33146df48f4ba458be26bf16325.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:85d4ff4e-da21-4501-887f-c2ffbbf08941
+2015-10-05 18:55:46,461 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:55:46,479 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:55:46,503 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148433
+2015-10-05 18:56:11,832 [6] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:56:12,065 [6] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:56:12,078 [6] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:56:14,728 [6] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_c0f139b512574524855230d75102e0b1.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:bf5e8839-c942-46ec-aec3-3043de89009c
+2015-10-05 18:57:27,604 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:57:27,618 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:57:27,645 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0136626
+2015-10-05 18:57:40,911 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 18:57:40,923 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 18:57:40,947 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0117139
+2015-10-05 18:58:46,348 [28] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:58:46,389 [28] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:58:46,401 [28] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:58:50,236 [28] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_c0f139b512574524855230d75102e0b1.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:bf5e8839-c942-46ec-aec3-3043de89009c
+2015-10-05 18:59:33,663 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 18:59:33,681 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 18:59:33,712 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0169863
+2015-10-05 18:59:53,006 [10] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'Register' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 18:59:53,063 [10] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 18:59:53,087 [10] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/Register', @ErrorMsg = 'A public action method 'Register' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 18:59:54,713 [10] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_58e78a609e58440da2c89c0e11246312.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:061c9d74-827f-427e-9921-a5b7dd1ed1cf
+2015-10-05 19:00:09,424 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 19:00:09,438 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 19:00:09,482 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0192579
+2015-10-05 19:00:25,532 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 19:00:25,544 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 19:00:25,567 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0118319
+2015-10-05 19:00:40,769 [16] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 19:00:40,780 [16] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a@b.com', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 19:00:40,803 [16] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0112316
+2015-10-05 19:00:49,290 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 19:00:49,301 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus2', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 19:00:49,331 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0137343
+2015-10-05 19:01:24,797 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-05 19:01:24,808 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus2', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 100, @IsStrict = 1, @TotalCount = NULL; 
+2015-10-05 19:01:24,829 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0106324
+2015-10-05 19:01:41,570 [21] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 19:01:41,590 [21] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 19:01:41,604 [21] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 19:01:45,573 [21] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_58e78a609e58440da2c89c0e11246312.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:061c9d74-827f-427e-9921-a5b7dd1ed1cf
+2015-10-05 19:01:49,780 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-05 19:01:49,792 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-05 19:01:49,817 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122026
+2015-10-05 19:02:29,440 [24] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-05 19:02:29,457 [24] INFO  Server - Stored procedure log.usp_Error_Log_Insert is called
+2015-10-05 19:02:29,468 [24] DEBUG Server - LogRepository::ExecuteCommand started
+EXEC log.usp_Error_Log_Insert @SessionKey = , @MemberKey = , @URI = '/api/User/ConfirmRegistration', @ErrorMsg = 'A public action method 'ConfirmRegistration' was not found on controller 'SC2BM.WebSite.Controllers.UserController'.', @StackTrace = '   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)', @ServerName = 'K036', @NtIdentity = 'ONTARGET\akardash', @EmailSent = False, @ErrorLogKey = NULL; 
+2015-10-05 19:02:31,701 [24] ERROR Common - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'log.usp_Error_Log_Insert'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteCommand(String procedureName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 255
+   at SC2BM.DataAccess.Core.BaseRepository.ExecuteStoredProcedure(String storeProcName, List`1 parameters, Boolean isLogInfoEnabled) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Core\BaseRepository.cs:line 672
+   at SC2BM.DataAccess.Repositories.LogRepository.InsertLogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.DataAccess\Repositories\LogRepository.cs:line 34
+   at SC2BM.BusinessFacade.Routine.LogService.LogError(Nullable`1 memberKey, Nullable`1 sessionKey, String uri, String errorMsg, String stackTrace, String serverName, String ntIdentity, Boolean emailSent) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\LogService.cs:line 29
+   at DynamicModule.ns.Wrapped_ILogService_58e78a609e58440da2c89c0e11246312.<LogError_DelegateImplementation>__1(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+ClientConnectionId:061c9d74-827f-427e-9921-a5b7dd1ed1cf

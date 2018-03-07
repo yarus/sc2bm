@@ -1,0 +1,42 @@
+﻿<div id="comments">
+    <section class="no-padding-top no-border">
+        <h4 class="page-header no-margin-top">Comments ({{vm.outputModel.commentsTotal}})</h4>
+        <div class="media" ng-repeat="comment in vm.comments">
+            <a class="media-left" href="#">
+                <img src="/images/avatar.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="media-body">
+                <a href="#" class="media-heading">{{comment.OwnerUserName}}</a>
+                <a title="reply" href="#" ng-show="vm.user != null && vm.user.UserName != null" ng-click="vm.reply(comment)" class="btn btn-default no-border color-grey-600 pull-right btn-sm margin-left-10"><span>reply</span> <i class="fa fa-reply"></i></a>
+                <a title="edit" href="#" ng-show="vm.user != null && vm.user.UserName != null && (vm.user.UserName == comment.OwnerUserName || vm.isAdmin)" ng-click="vm.startEditComment(comment)" class="btn btn-default no-border color-grey-600 pull-right btn-sm margin-left-10"><span>edit</span> <i class="fa fa-pencil"></i></a>
+                <a title="delete" href="#" ng-show="vm.user != null && vm.user.UserName != null && (vm.user.UserName == comment.OwnerUserName || vm.isAdmin)" ng-click="vm.deleteComment(comment)" class="btn btn-default no-border color-grey-600 pull-right btn-sm margin-left-10"><span>delete</span> <i class="fa fa-trash"></i></a>
+                <span class="date">{{comment.AddedDate | date: 'medium'}}</span>
+                <p ng-bind-html="comment.Text"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-border margin-bottom-10" ng-show="vm.user != null && vm.user.ID != null">
+        <h4 class="page-header no-margin-top">Leave a comment</h4>
+        <form name="vm.commentForm" novalidate="novalidate">
+            <div class="form-group has-feedback margin-top-10"
+                 ng-class="{
+                         'has-error' : vm.commentForm.comment.$dirty && vm.commentForm.comment.$invalid,
+                         'has-success' : vm.commentForm.comment.$dirty && vm.commentForm.comment.$valid}">
+
+                <div text-angular="text-angular" name="comment" ng-model="vm.comment" ta-toolbar="vm.toolbar" ng-required="required" ta-disabled='disabled'></div>
+
+                <span class="glyphicon form-control-feedback"
+                      ng-class="{
+                              'glyphicon-warning-sign' : vm.commentForm.comment.$dirty && vm.commentForm.comment.$invalid,
+                              'glyphicon-ok' : vm.commentForm.comment.$dirty && vm.commentForm.comment.$valid}"
+                      aria-hidden="true"></span>
+                <span class="help-block" ng-show="vm.commentForm.comment.$dirty && vm.commentForm.comment.$error.required">Text is required</span>
+            </div>
+
+            <button ng-show="vm.editComment == null" ng-click="vm.postComment(vm.comment)" type="button" class="btn btn-success btn-outline pull-left margin-top-5">Post Comment</button>
+            <button ng-show="vm.editComment != null" ng-click="vm.saveEdit(vm.editComment, vm.comment)" type="button" class="btn btn-success btn-outline pull-left margin-top-5">Edit</button>
+            <button ng-show="vm.editComment != null" ng-click="vm.cancelEdit()" type="button" class="btn btn-success btn-outline pull-left margin-top-5 margin-left-20">Cancel</button>
+        </form>
+    </section>
+</div>

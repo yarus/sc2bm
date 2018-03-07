@@ -1,0 +1,184 @@
+2015-10-17 18:13:37,393 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:13:37,402 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:13:37,438 [15] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:13:37,441 [15] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:13:37,521 [15] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0271538
+2015-10-17 18:13:37,549 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0524733
+2015-10-17 18:13:43,959 [14] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'LogIn' was not found on controller 'SC2BM.WebSite.Controllers.AuthorizationController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-17 18:13:57,552 [12] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'LogIn' was not found on controller 'SC2BM.WebSite.Controllers.AuthorizationController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-17 18:14:00,247 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:14:00,258 [10] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:14:00,264 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:14:00,292 [10] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:14:00,346 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0328037
+2015-10-17 18:14:00,373 [10] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0382639
+2015-10-17 18:14:27,117 [14] ERROR Common - System.Web.HttpException (0x80004005): A public action method 'LogIn' was not found on controller 'SC2BM.WebSite.Controllers.AuthorizationController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-10-17 18:18:55,925 [8] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:18:55,956 [8] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:18:55,966 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:18:55,983 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:18:55,993 [8] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0234057
+2015-10-17 18:18:56,023 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0188159
+2015-10-17 18:22:06,305 [10] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:22:06,337 [10] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:22:06,348 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:22:06,374 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:22:06,375 [10] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0235835
+2015-10-17 18:22:06,410 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0206552
+2015-10-17 18:22:15,445 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-17 18:22:15,457 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-17 18:22:15,561 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0384336
+2015-10-17 18:22:22,676 [13] ERROR Common - System.ApplicationException: User with username yaRus was not found.
+   at SC2BM.BusinessFacade.Services.UserService.GetUserByUserName(String userName) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 52
+   at DynamicModule.ns.Wrapped_IUserService_76e3c4a87a2a4c038bbecb2a7579df1b.<GetUserByUserName_DelegateImplementation>__4(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-17 18:27:16,248 [9] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:27:16,248 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:27:16,266 [9] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:27:16,277 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:27:16,297 [9] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0204738
+2015-10-17 18:27:16,319 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0239585
+2015-10-17 18:27:28,677 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-17 18:27:28,685 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-17 18:27:28,708 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0103907
+2015-10-17 18:27:31,328 [7] ERROR Common - System.ApplicationException: Password was not correct.
+   at SC2BM.BusinessFacade.Services.AuthorizationService.Login(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\AuthorizationService.cs:line 71
+   at DynamicModule.ns.Wrapped_IAuthorizationService_a56bffc1223d4a8bb486f8e8b45ad911.<Login_DelegateImplementation>__2(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-17 18:27:40,248 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 18:27:40,258 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:27:40,258 [7] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 18:27:40,284 [7] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 18:27:40,282 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113367
+2015-10-17 18:27:40,305 [7] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0155261
+2015-10-17 18:27:46,716 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-17 18:27:46,724 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-17 18:27:46,744 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0093499
+2015-10-17 18:27:52,423 [13] ERROR Common - System.ApplicationException: User with username a was not found.
+   at SC2BM.BusinessFacade.Services.UserService.GetUserByUserName(String userName) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 52
+   at DynamicModule.ns.Wrapped_IUserService_c865463abb2b49d8a396b75601e9ad90.<GetUserByUserName_DelegateImplementation>__4(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-17 18:27:53,972 [13] ERROR Common - System.ApplicationException: System were unable to find data for user a.
+   at SC2BM.BusinessFacade.Services.AuthorizationService.Login(String userName, String password) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\AuthorizationService.cs:line 59
+   at DynamicModule.ns.Wrapped_IAuthorizationService_a56bffc1223d4a8bb486f8e8b45ad911.<Login_DelegateImplementation>__2(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-17 22:28:41,764 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 22:28:41,764 [8] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 22:28:41,784 [8] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:28:41,778 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:28:41,803 [8] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0170200
+2015-10-17 22:28:41,823 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0199875
+2015-10-17 22:28:51,615 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-17 22:28:51,623 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-17 22:28:51,641 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0087769
+2015-10-17 22:28:54,414 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 22:28:54,424 [5] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:28:54,424 [12] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 22:28:54,448 [12] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:28:54,446 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108017
+2015-10-17 22:28:54,467 [12] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0142464
+2015-10-17 22:29:11,419 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 22:29:11,427 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:29:11,447 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096137
+2015-10-17 22:29:26,599 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 22:29:26,608 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:29:26,609 [11] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 22:29:26,636 [11] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:29:26,633 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0114016
+2015-10-17 22:29:26,663 [11] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0180246
+2015-10-17 22:29:36,280 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-17 22:29:36,289 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:29:36,290 [11] INFO  Server - Stored procedure dbo.News_Search is called
+2015-10-17 22:29:36,316 [11] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-17 22:29:36,313 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109695
+2015-10-17 22:29:36,335 [11] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0151263

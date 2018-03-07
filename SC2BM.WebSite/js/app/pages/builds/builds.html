@@ -1,0 +1,268 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="buildsController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+
+        <div class="col-lg-12 margin-bottom-30 no-margin-xs no-margin-sm">
+            <section class="no-padding bg-transparent">
+                <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-margin padding-bottom-20">
+                        <h2 class="headline">
+                            <i class="fa fa-tasks"></i> Build Library
+                        </h2>
+
+                        <div class="pull-right">
+                            <div class="btn-group no-padding no-margin">
+                                <select name="version" id="version" class="form-control no-margin"
+                                        data-ng-options="option for option in vm.versions"
+                                        data-ng-change="vm.versionChanged()"
+                                        data-ng-model="vm.version"></select>
+                            </div>
+
+                            <div class="btn-group margin-left-30 no-margin-xs no-padding-xs">
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.factionChanged('Terran')"
+                                   data-ng-class="{'active' : vm.faction == 'Terran'}">
+                                    <img src="/images/factions/ic_terran_gradiented.png" alt="Terran" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.factionChanged('Zerg')"
+                                   data-ng-class="{'active' : vm.faction == 'Zerg'}">
+                                    <img src="/images/factions/ic_zerg_gradiented.png" alt="Zerg" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.factionChanged('Protoss')"
+                                   data-ng-class="{'active' : vm.faction == 'Protoss'}">
+                                    <img src="/images/factions/ic_protoss_gradiented.png" alt="Protoss" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                            </div>
+
+                            <span class="bold font-size-16"> VS </span>
+
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.vsFactionChanged('Terran')"
+                                   data-ng-class="{'active' : vm.vsFaction == 'Terran'}">
+                                    <img src="/images/factions/ic_terran_gradiented.png" alt="Terran" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.vsFactionChanged('Zerg')"
+                                   data-ng-class="{'active' : vm.vsFaction == 'Zerg'}">
+                                    <img src="/images/factions/ic_zerg_gradiented.png" alt="Zerg" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                                <a href="#" class="btn btn-default no-padding no-margin"
+                                   data-ng-click="vm.vsFactionChanged('Protoss')"
+                                   data-ng-class="{'active' : vm.vsFaction == 'Protoss'}">
+                                    <img src="/images/factions/ic_protoss_gradiented.png" alt="Protoss" class="margin-left-15 margin-right-15 height-35" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-grey-100 border-top-1 border-bottom-1 border-grey-200 margin-bottom-10 relative no-padding">
+                <div class="section-title no-margin-top no-border padding-top-25 padding-left-25 padding-right-25">
+                    <h3 class="display-inline-block pull-left bg-grey-900 color-white no-border">Top Rated Builds</h3>
+                </div>
+
+                <div class="row padding-left-10 padding-right-10 margin-bottom-25">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" data-ng-repeat="topBuild in vm.topRatedBuilds">
+                        <div class="thumbnail height-285 margin-bottom-10">
+                            <h4 class="padding-left-10 padding-right-10 padding-top-10"><a data-ng-href="/builds/{{topBuild.ID}}">{{topBuild.matchup}} {{topBuild.Name | limitTo:26}}{{topBuild.Name.length > 26 ? '...' : ''}}</a></h4>
+
+                            <div class="section section-default padding-left-10 padding-right-10 no-margin">
+                                <p class="text-bold">Micro <span class="pull-right">{{topBuild.MicroRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs no-margin no-padding">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : topBuild.MicroRate <= 2,
+                                         'progress-bar-warning' : topBuild.MicroRate >=3 && topBuild.MicroRate < 5,
+                                         'progress-bar-danger' : topBuild.MicroRate > 4}"
+                                         role="progressbar"
+                                         aria-valuenow="{{topBuild.MicroRate}}"
+                                         aria-valuemin="0"
+                                         aria-valuemax="5"
+                                         data-ng-style="topBuild.microStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Macro <span class="pull-right">{{topBuild.MacroRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs no-margin no-padding">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : topBuild.MacroRate <= 2,
+                                         'progress-bar-warning' : topBuild.MacroRate >=3 && topBuild.MacroRate < 5,
+                                         'progress-bar-danger' : topBuild.MacroRate > 4}"
+                                         role="progressbar" aria-valuenow="{{topBuild.MacroRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="topBuild.macroStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Agression <span class="pull-right">{{topBuild.AggressionRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs no-margin no-padding">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : topBuild.AggressionRate <= 2,
+                                         'progress-bar-warning' : topBuild.AggressionRate >=3 && topBuild.AggressionRate < 5,
+                                         'progress-bar-danger' : topBuild.AggressionRate > 4}"
+                                         role="progressbar" aria-valuenow="{{topBuild.AggressionRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="topBuild.aggressionStyle"></div>
+                                </div>
+
+                                <p class="text-bold margin-bottom-5">Deffense <span class="pull-right">{{topBuild.DefenceRate}}/5</span></p>
+                                <div class="progress progress-animation progress-xs no-margin no-padding">
+                                    <div class="progress-bar"
+                                         data-ng-class="{'progress-bar-success' : topBuild.DefenceRate <= 2,
+                                         'progress-bar-warning' : topBuild.DefenceRate >=3 && topBuild.DefenceRate < 5,
+                                         'progress-bar-danger' : topBuild.DefenceRate > 4}"
+                                         role="progressbar" aria-valuenow="{{topBuild.DefenceRate}}" aria-valuemin="0" aria-valuemax="5" data-ng-style="topBuild.defenseStyle"></div>
+                                </div>
+                            </div>
+
+                            <div class="details padding-left-10 padding-right-10 padding-top-10">
+                                <i class="ion-android-contact margin-right-5"></i>
+                                <a href="#">{{topBuild.OwnerUserName}}</a>
+                                <i class="ion-android-calendar margin-left-5"></i> {{topBuild.AddedDate | date: 'mediumDate'}}
+                            </div>
+
+                            <div class="padding-left-40 padding-right-10 no-margin">
+                                <span class="rating">
+                                    <span class="star" data-ng-class="{rated: topBuild.rate >= 5}"></span>
+                                    <span class="star" data-ng-class="{rated: topBuild.rate >= 4}"></span>
+                                    <span class="star" data-ng-class="{rated: topBuild.rate >= 3}"></span>
+                                    <span class="star" data-ng-class="{rated: topBuild.rate >= 2}"></span>
+                                    <span class="star" data-ng-class="{rated: topBuild.rate >= 1}"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="padding-left-20 padding-right-20 no-padding-xs no-margin-xs">
+            <div class="col-lg-8">
+                <section class="no-padding-top padding-bottom-30 no-border">
+                    <div class="padding-bottom-15">
+                        <div class="padding-left-20 no-padding-xs no-padding-sm">
+                            <div class="title no-border no-margin">
+                                <h2 class="headline">Latest Builds</h2>
+                                <div class="pull-right col-lg-5 no-margin no-padding">
+                                    <input type="text" class="form-control margin-bottom-5" id="buildName" placeholder="Search for builds..."
+                                           data-ng-model="vm.searchName"
+                                           data-ng-change="vm.nameChanged()"
+                                           data-ng-model-options="{ debounce: 1000 }">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box box-white padding-20 no-padding-xs no-margin-xs">
+                            <table class="table table-striped no-margin">
+                                <tbody>
+                                    <tr data-ng-repeat="buildOrder in vm.latestBuilds">
+                                        <td class="hidden-xs">{{vm.latestBuilds.indexOf(buildOrder) + 1}}</td>
+                                        <td>
+                                            <img data-ng-src="{{buildOrder.factionLogo}}" alt="Terran" class="height-45" />
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a data-ng-href="/builds/{{buildOrder.ID}}">{{buildOrder.Name}}</a>
+                                                <div class="details">
+                                                    <i class="ion-android-contact margin-right-5"></i>
+                                                    <a href="#">{{buildOrder.OwnerUserName}}</a>
+                                                    <i class="ion-android-calendar margin-left-10"></i> {{buildOrder.AddedDate | date: 'mediumDate'}}
+                                                    <a href="#"><i class="ion-chatbubble margin-left-10"></i>{{buildOrder.commentsTotal}}</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="hidden-xs">
+                                            {{buildOrder.matchup}}
+                                        </td>
+                                        <td class="hidden-xs">
+                                            <span class="thumb2" data-ng-class="buildOrder.rateClass">{{buildOrder.rate}}</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-success btn-outline btn-circle btn-xs" data-ng-class="{'hover' : (vm.leftCompare == buildOrder || vm.rightCompare == buildOrder)}" data-toggle="tooltip" data-ng-click="vm.addToCompare(buildOrder)" title="Compare" data-original-title="Compare"><i class="fa fa-columns"></i></button>
+                                            <button data-ng-show="buildOrder.isOwner" class="btn btn-info btn-outline btn-circle btn-xs" data-ng-click="vm.pathTo('/builds/' + buildOrder.ID + '/edit')" title="Edit"><i class="ion-edit"></i></button>
+                                            <button data-ng-show="buildOrder.isOwner" class="btn btn-danger btn-outline btn-circle btn-xs" title="Delete"><i class="ion-trash-b"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <ul class="pager no-margin-bottom">
+                            <li>
+                                <a href="#" data-ng-click="vm.loadMoreBuilds()" data-ng-show="vm.latestBuildsTotal > vm.latestBuilds.length" id="load-more">
+                                    Show More <i class="ion-more margin-left-5"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4 hidden-xs hidden-sm hidden-sm-lg">
+                <a href="/builds/upload" class="btn btn-success btn-block btn-md btn-bold margin-bottom-15 color-white" data-ng-show="vm.enableUpload">Upload Build Order</a>
+
+                <div class="section section-default" data-ng-show="vm.latestVods.length > 0">
+                    <div class="title no-border color-white bg-grey-900 no-margin padding-top-10 padding-left-20 padding-bottom-10">
+                        <i class="ion-ios-film-outline margin-right-10"></i> Latest VODS
+                    </div>
+
+                    <div class="tab-content no-padding">
+                        <ul class="tab-pane active clearfix box no-radius no-shadow bg-grey-800">
+
+                            <!-- row -->
+                            <li class="border-black" data-ng-repeat="vod in vm.latestVods">
+                                <div class="details">
+                                    <div class="row">
+                                        <div data-ng-class="{'col-md-10 col-lg-10 col-sm-10 col-xs-10': vm.isOwner, 'col-md-12 col-lg-12 col-sm-12 col-xs-12' : !vm.isOwner}">
+                                            <a data-ng-href="{{vod.MainLink}}" target="_blank">
+                                                <h5 class="margin-top-5 margin-bottom-5 color-white font-size-12">{{vod.DisplayText}}</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-2" data-ng-show="vm.isOwner">
+                                            <button title="Delete Vod Link" class="close" type="button" data-ng-click="vm.deleteLink(vod)">
+                                                <span aria-hidden="true" class="text-white">×</span><span class="sr-only">Delete</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h4 class="margin-top-30 margin-bottom-15" data-ng-show="vm.latestReplays.length > 0"><i class="ion-ios-game-controller-a"></i> Latest Replays</h4>
+                <div class="list-group no-margin no-padding" data-ng-show="vm.latestReplays.length > 0">
+                    <div class="list-group-item no-margin no-padding" data-ng-repeat="replay in vm.latestReplays">
+                        <a class="list-group-item no-border" data-ng-href="{{replay.MainLink}}" target="_blank">{{replay.DisplayText}}</a>
+                    </div>
+                </div>
+
+                <h4 class="margin-top-30 margin-bottom-15" data-ng-show="vm.latestLinks.length > 0"><i class="ion-compose margin-right-10"></i> Latest Links</h4>
+                <div class="list-group no-margin no-padding" data-ng-show="vm.latestLinks.length > 0">
+                    <div class="list-group-item no-margin no-padding" data-ng-repeat="href in vm.latestLinks">
+                        <a class="list-group-item no-border" data-ng-href="{{href.MainLink}}" target="_blank">{{href.DisplayText}}</a>
+                    </div>
+                </div>
+
+                <!-- section -->
+                <div class="section border-1 border-grey-200 margin-top-20" data-ng-show="vm.latestComments.length > 0">
+                    <div class="title no-border bg-white color-grey-700 no-margin padding-top-15 padding-left-15 padding-bottom-10">
+                        <i class="ion-chatbox-working"></i> Latest Comments
+                    </div>
+                    <ul class="box no-radius no-shadow bg-grey-100">
+                        <!-- row -->
+                        <li class="row bg-white" data-ng-repeat="comment in vm.latestComments">
+                            <div class="col-md-2 no-padding-right padding-left-5">
+                                <img src="/images/avatar.jpg" class="img-responsive" alt="" />
+                            </div>
+                            <div class="details col-md-10">
+                                <h5><a href="#">{{comment.OwnerUserName}}</a></h5>
+                                <p class="margin-top-5 font-size-11 color-grey-600" data-ng-bind-html="comment.Text"></p>
+                                <div class="font-size-11 color-grey-600">
+                                    <i class="ion-android-calendar margin-right-5"></i> {{comment.AddedDate | date: 'medium'}} |
+                                    <a data-ng-href="{{comment.EntityLink}}">{{comment.EntityType}}</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- /.section -->
+            </div>
+        </div>
+    </div>
+</div>

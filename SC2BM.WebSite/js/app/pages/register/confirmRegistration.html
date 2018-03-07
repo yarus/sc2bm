@@ -1,0 +1,38 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="confirmRegistrationController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="section bg-transparent margin-top-20 margin-bottom-20 no-border">
+                <div class="page-header no-margin-top">
+                    <h4 class="no-margin-top">Registration Confirmation Form</h4>
+                    <p>Already have an account? <a href="/home">Click here</a> to sign in.
+                    </p>
+                </div>
+
+                <p> To confirm your registration on SC2BM site please provide your confirmation code in input below or use direct link from your confirmation email.</p>
+
+                <form name="vm.confirmationForm" novalidate="novalidate" data-ng-show="vm.confirmationSaltParam == '' || vm.confirmationSaltParam == null">
+                    <div class="form-group has-feedback"
+                         data-ng-class="{
+                         'has-error' : vm.confirmationForm.confirmationSalt.$dirty && vm.confirmationForm.confirmationSalt.$invalid,
+                         'has-success' : vm.confirmationForm.confirmationSalt.$dirty && vm.confirmationForm.confirmationSalt.$valid}">
+                        <label class="control-label" for="confirmationSalt">Confirmation code</label>
+                        <input data-ng-model="vm.confirmationSalt"
+                               class="form-control"
+                               id="confirmationSalt" name="confirmationSalt" type="text" required="required"/>
+                        <span class="glyphicon form-control-feedback"
+                              data-ng-class="{
+                              'glyphicon-warning-sign' : vm.confirmationForm.confirmationSalt.$dirty && vm.confirmationForm.confirmationSalt.$invalid,
+                              'glyphicon-ok' : vm.confirmationForm.confirmationSalt.$dirty && vm.confirmationForm.confirmationSalt.$valid}"
+                              aria-hidden="true"></span>
+                        <span class="help-block" data-ng-show="vm.confirmationForm.confirmationSalt.$dirty && vm.confirmationForm.confirmationSalt.$error.required">Confirmation code is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-success" type="button" data-ng-click="vm.confirmRegistration()" data-ng-disabled="vm.confirmationForm.$invalid" style="padding: 10px; margin-top: 10px">confirm</button>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+    </div>
+</div>

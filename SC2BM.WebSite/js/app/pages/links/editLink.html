@@ -1,0 +1,109 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="editLinkController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="section bg-transparent margin-top-20 margin-bottom-20 no-border">
+                <div class="page-header no-margin-top">
+                    <h4 class="no-margin-top">{{vm.isEdit ? 'Edit Link Form' : 'Add Link Form'}}</h4>
+                </div>
+
+                <p data-ng-show="(!vm.isEdit || (vm.isEdit && vm.link != null))"> Please checks fields below and click "save" to add link.</p>
+
+                <form name="vm.editForm" novalidate="novalidate" data-ng-show="(!vm.isEdit || (vm.isEdit && vm.link != null))">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="entityType">Link for</label>
+                                        <input data-ng-model="vm.link.EntityType"
+                                               class="form-control" data-ng-disabled="true"
+                                               id="entityType" name="entityType" type="text" required="required"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="entityID">ID</label>
+                                        <input data-ng-model="vm.link.EntityID"
+                                               class="form-control" data-ng-disabled="true"
+                                               id="entityID" name="entityID" type="text" required="required"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$invalid,
+                         'has-success' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$valid}">
+                                <label class="control-label" for="addedDate">Created Date</label>
+                                <input data-ng-model="vm.createdDate"
+                                       class="form-control" data-ng-disabled="true"
+                                       id="addedDate" name="addedDate" type="text" required="required"/>
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$invalid,
+                              'glyphicon-ok' : vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.addedDate.$dirty && vm.editForm.addedDate.$error.required">Version is required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label" for="type">Type</label>
+                                <select name="type" id="type" class="form-control" data-ng-disabled="true"
+                                        data-ng-options="option for option in vm.types"
+                                        data-ng-model="vm.link.Type"></select>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.displayText.$dirty && vm.editForm.displayText.$invalid,
+                         'has-success' : vm.editForm.displayText.$dirty && vm.editForm.displayText.$valid}">
+                                <label class="control-label" for="displayText">Display Text</label>
+                                <input data-ng-model="vm.link.DisplayText"
+                                       class="form-control"
+                                       id="displayText" name="displayText" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.displayText.$dirty && vm.editForm.displayText.$invalid,
+                              'glyphicon-ok' : vm.editForm.displayText.$dirty && vm.editForm.displayText.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.displayText.$dirty && vm.editForm.displayText.$error.required">Text is required</span>
+                            </div>
+
+                        </div>
+                        <div class="col-md-7">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.editForm.mainLink.$dirty && vm.editForm.mainLink.$invalid,
+                         'has-success' : vm.editForm.mainLink.$dirty && vm.editForm.mainLink.$valid}">
+                                <label class="control-label" for="mainLink">Main Link</label>
+                                <textarea data-ng-model="vm.link.MainLink"
+                                          class="form-control" rows="6"
+                                          id="mainLink" name="mainLink" required="required"></textarea>
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.editForm.mainLink.$dirty && vm.editForm.mainLink.$invalid,
+                              'glyphicon-ok' : vm.editForm.mainLink.$dirty && vm.editForm.mainLink.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.editForm.mainLink.$dirty && vm.editForm.mainLink.$error.required">Main Link is required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label" for="secondaryLink">Secondary Link</label>
+                                <textarea data-ng-model="vm.link.SecondaryLink"
+                                          class="form-control" rows="6"
+                                          id="secondaryLink" name="secondaryLink"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button type="button" tabindex="8" class="btn btn-success" data-ng-click="vm.saveLink(vm.link)" data-ng-disabled="vm.editForm.$invalid">save</button>
+                    </div>
+
+                </form>
+
+            </section>
+        </div>
+    </div>
+</div>

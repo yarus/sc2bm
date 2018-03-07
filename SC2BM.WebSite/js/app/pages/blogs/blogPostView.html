@@ -1,0 +1,163 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="blogPostViewController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg padding-top-20">
+        <div class="col-lg-8 padding-left-30 no-padding-right padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+
+            <section class="no-border no-padding bg-transparent">
+                <div class="padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-border no-margin">
+                        <h2 class="headline">
+                            {{vm.blogPost.Title}}
+                        </h2>
+
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <a data-ng-href="/blogs/{{vm.blogPost.OwnerUserName}}" class="btn btn-default">Back to Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="no-padding-top padding-bottom-30 no-border">
+                <div class="details margin-bottom-20 no-margin-top-xs">
+                    <i class="ion-android-contact margin-right-5"></i> <a href="#">{{vm.blogPost.OwnerUserName}}</a>
+                    <i class="ion-android-calendar margin-left-10"></i> {{vm.createdDate}}
+                    <a href="#comments" class="hidden-xs"><i class="ion-chatbubble margin-left-10"></i>{{vm.commentsModel.commentsTotal}}</a>
+                </div>
+
+                <section class="section section-white no-border ng-scope">
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 no-border-bottom padding-bottom-15">
+                        <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                            <div class="thumb" style="min-height: 50px">
+                                <span class="label label-lg padding-15 no-border-radius margin-bottom-20 font-size-12"
+                                     data-ng-class="{'label-success' : vm.rate >= 4,
+                                             'label-warning' : vm.rate >= 2 && vm.rate <= 3,
+                                             'label-danger' : vm.rate < 2}">
+                                    {{vm.rate}}
+                                </span>
+
+                                <img class="img-responsive full-width" alt="" data-ng-show="vm.logoVisible"
+                                     data-ng-src="{{vm.blogPost.LogoPath}}" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding-left-5 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                            <button data-ng-show="vm.isOwner" title="Delete Post" class="close margin-10" type="button" data-ng-click="vm.deleteBlogPost(vm.blogPost)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+
+                            <a class="close margin-10" title="Edit Post" data-ng-show="vm.isOwner" data-ng-href="/blogs/{{vm.ownerUserName}}/{{vm.blogPost.ID}}/edit">
+                                <i class="fa fa-pencil margin-left-10"></i>
+                                <span class="sr-only">Edit</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 padding-bottom-15 no-border-top">
+                        <div class="padding-left-15 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                            <p class="font-size-14 line-height-20 margin-top-15" data-ng-bind-html="vm.blogPost.Text"></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <comments entity="vm.blogPost" type="BlogPost" user="vm.user" count="vm.commentsModel"></comments>
+
+        </div><!-- /.col-lg-9 -->
+        <div class="col-lg-4 padding-right-30 padding-left-20 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+
+            <div data-ng-show="vm.user != null && vm.user.ID != null" class="section border-1 border-grey-200 bg-grey-100">
+                <div class="title no-border bg-grey-100 color-grey-700 no-margin padding-15">
+                    <i class="fa fa-star"></i> Your Rate
+                    <div class="pull-right font-size-12 color-grey-600 margin-top-5">
+                        <a href="#" data-ng-click="vm.deleteRate()">Reset</a>
+                    </div>
+                </div>
+
+                <div class="row padding-bottom-15 padding-left-15 padding-right-15 text-center">
+                    <span class="rating">
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 5}" data-ng-click="vm.addRate(5)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 4}" data-ng-click="vm.addRate(4)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 3}" data-ng-click="vm.addRate(3)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 2}" data-ng-click="vm.addRate(2)"></span>
+                        <span class="star" data-ng-class="{rated: vm.personalRate.Value >= 1}" data-ng-click="vm.addRate(1)"></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="section section-default">
+                <div class="title no-border color-white bg-grey-900 no-margin padding-top-10 padding-left-20 padding-bottom-10">
+                    <i class="ion-ios-film-outline margin-right-10"></i> Related VODS
+                </div>
+
+                <div class="tab-content no-padding">
+                    <ul class="tab-pane active clearfix box no-radius no-shadow bg-grey-800" data-ng-show="vm.vods.length > 0">
+
+                        <!-- row -->
+                        <li class="border-black" data-ng-repeat="vod in vm.vods">
+                            <div class="details">
+                                <div class="row">
+                                    <div data-ng-class="{'col-md-10 col-lg-10 col-sm-10 col-xs-10': vm.isOwner, 'col-md-12 col-lg-12 col-sm-12 col-xs-12' : !vm.isOwner}">
+                                        <a data-ng-href="{{vod.MainLink}}" target="_blank">
+                                            <h5 class="margin-top-5 margin-bottom-5 color-white font-size-12">{{vod.DisplayText}}</h5>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2" data-ng-show="vm.isOwner">
+                                        <button title="Delete Vod Link" class="close" type="button" data-ng-click="vm.deleteLink(vod)">
+                                            <span aria-hidden="true" class="text-white">×</span><span class="sr-only">Delete</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-inline tab no-margin-bottom no-margin-left padding-bottom-15 bg-grey-900" data-ng-show="vm.user != null && vm.user.ID != null">
+                        <li class="active"><a data-ng-href="/links/Build/{{vm.buildOrder.ID}}/vod/add"><i class="fa fa-plus"></i> Link VOD</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4 class="margin-top-30 margin-bottom-15"><i class="ion-ios-game-controller-a"></i> Related Replays</h4>
+            <div class="list-group no-margin no-padding">
+                <div class="list-group-item no-margin no-padding" data-ng-repeat="replay in vm.replays">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <a class="list-group-item no-border" data-ng-href="{{replay.MainLink}}" target="_blank">{{replay.DisplayText}}</a>
+                        </div>
+                        <div class="col-md-2">
+                            <button title="Delete Replay Link" class="close margin-top-10 margin-right-10" type="button" data-ng-click="vm.deleteLink(replay)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <a class="list-group-item no-border-radius"
+                   data-ng-show="vm.user != null && vm.user.ID != null"
+                   data-ng-href="/links/Build/{{vm.buildOrder.ID}}/replay/add"><i class="fa fa-plus"></i>Link Replay</a>
+            </div>
+
+            <h4 class="margin-top-30 margin-bottom-15"><i class="ion-compose margin-right-10"></i> Related Links</h4>
+            <div class="list-group">
+                <div class="list-group-item no-margin no-padding" data-ng-repeat="href in vm.hrefs">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <a class="list-group-item no-border" data-ng-href="{{href.MainLink}}" target="_blank">{{href.DisplayText}}</a>
+                        </div>
+                        <div class="col-md-2">
+                            <button title="Delete Replay Link" class="close margin-top-10 margin-right-10" type="button" data-ng-click="vm.deleteLink(href)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <a class="list-group-item no-border-radius"
+                   data-ng-show="vm.user != null && vm.user.ID != null"
+                   data-ng-href="/links/Build/{{vm.buildOrder.ID}}/href/add"><i class="fa fa-plus"></i>Add Link</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>

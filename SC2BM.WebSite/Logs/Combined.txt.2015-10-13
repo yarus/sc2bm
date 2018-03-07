@@ -1,0 +1,1362 @@
+2015-10-13 11:30:00,245 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 11:30:00,253 [43] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 11:30:00,262 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0056434
+2015-10-13 11:35:15,447 [37] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 11:35:15,451 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 10, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 11:35:15,461 [37] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0045727
+2015-10-13 12:18:03,724 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:18:03,739 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:18:03,750 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094763
+2015-10-13 12:18:42,767 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:18:42,773 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:18:42,790 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0076333
+2015-10-13 12:19:00,422 [47] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:19:00,430 [47] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:19:00,449 [47] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0090992
+2015-10-13 12:19:35,758 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:19:35,766 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:19:35,786 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094394
+2015-10-13 12:19:57,886 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:19:57,897 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:19:57,915 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0095849
+2015-10-13 12:20:05,170 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:20:05,180 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:20:05,194 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079425
+2015-10-13 12:20:10,723 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:20:10,734 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:20:10,752 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096839
+2015-10-13 12:23:22,236 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:23:22,247 [132] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:23:22,264 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092372
+2015-10-13 12:24:26,194 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:24:26,205 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:24:26,230 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0120278
+2015-10-13 12:25:58,075 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:25:58,084 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:25:58,098 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077941
+2015-10-13 12:28:55,327 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:28:55,345 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:28:55,365 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0130470
+2015-10-13 12:29:00,521 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:29:00,531 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:29:00,543 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0072930
+2015-10-13 12:29:01,423 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:29:01,432 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:29:01,444 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0071156
+2015-10-13 12:29:03,303 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:29:03,313 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:29:03,325 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0073917
+2015-10-13 12:29:04,178 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:29:04,187 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:29:04,201 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0076997
+2015-10-13 12:34:38,176 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:34:38,187 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:34:38,203 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0089832
+2015-10-13 12:34:49,209 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:34:49,218 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:34:49,234 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083369
+2015-10-13 12:35:20,045 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:35:20,057 [132] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:35:20,073 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094922
+2015-10-13 12:36:32,865 [53] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:36:32,874 [53] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:36:32,893 [53] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092695
+2015-10-13 12:37:16,666 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:37:16,682 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:37:16,700 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0115165
+2015-10-13 12:38:04,938 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:04,949 [132] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:04,964 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0085565
+2015-10-13 12:38:26,122 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:26,131 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:26,143 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0068951
+2015-10-13 12:38:26,762 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:26,771 [87] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:26,783 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0069947
+2015-10-13 12:38:28,425 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:28,436 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:28,450 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0080692
+2015-10-13 12:38:29,650 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:29,659 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:29,674 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079807
+2015-10-13 12:38:30,690 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:30,699 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:30,710 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0066025
+2015-10-13 12:38:39,756 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:38:39,765 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:38:39,780 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079537
+2015-10-13 12:39:00,054 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:39:00,063 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:39:00,078 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0080949
+2015-10-13 12:39:34,028 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:39:34,036 [132] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:39:34,053 [132] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082335
+2015-10-13 12:39:54,587 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:39:54,598 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:39:54,616 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094837
+2015-10-13 12:40:06,320 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:40:06,329 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:40:06,341 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0068937
+2015-10-13 12:40:06,770 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:40:06,779 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:40:06,791 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070023
+2015-10-13 12:40:07,159 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:40:07,168 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:40:07,179 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0065622
+2015-10-13 12:40:16,268 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:40:16,277 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:40:16,299 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104885
+2015-10-13 12:41:29,356 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:41:29,365 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:41:29,381 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084206
+2015-10-13 12:41:31,473 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:41:31,486 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:41:31,505 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104136
+2015-10-13 12:43:11,204 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:11,213 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:11,229 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083571
+2015-10-13 12:43:12,555 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:12,564 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:12,579 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0081280
+2015-10-13 12:43:18,245 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:18,259 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:18,278 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108239
+2015-10-13 12:43:26,241 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:26,250 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:26,265 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0080975
+2015-10-13 12:43:29,247 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:29,256 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 18, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:29,271 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077806
+2015-10-13 12:43:32,560 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:43:32,569 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 24, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:43:32,584 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079610
+2015-10-13 12:44:09,477 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:09,486 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:09,507 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096654
+2015-10-13 12:44:17,884 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:17,893 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:17,908 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079615
+2015-10-13 12:44:19,031 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:19,034 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:19,042 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:19,052 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:19,068 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0122358
+2015-10-13 12:44:19,080 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0150557
+2015-10-13 12:44:23,289 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:23,301 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:23,317 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0090974
+2015-10-13 12:44:29,328 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:29,337 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:29,352 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077600
+2015-10-13 12:44:31,945 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:31,954 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 18, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:31,969 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078858
+2015-10-13 12:44:37,586 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:37,595 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 24, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:37,611 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082280
+2015-10-13 12:44:54,483 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:44:54,495 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 30, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:44:54,511 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092409
+2015-10-13 12:45:01,957 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:01,966 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:01,981 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079548
+2015-10-13 12:45:06,857 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:06,866 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:06,879 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0072465
+2015-10-13 12:45:11,034 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:11,042 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:11,054 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0068649
+2015-10-13 12:45:11,473 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:11,482 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:11,495 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070805
+2015-10-13 12:45:12,322 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:12,330 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:12,346 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0081559
+2015-10-13 12:45:59,248 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:45:59,262 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:45:59,280 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104062
+2015-10-13 12:46:08,417 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:46:08,427 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:46:08,445 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093177
+2015-10-13 12:46:15,661 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:46:15,675 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:46:15,694 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109434
+2015-10-13 12:46:56,197 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:46:56,213 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:46:56,232 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0114509
+2015-10-13 12:47:12,863 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:12,873 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:12,888 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0081953
+2015-10-13 12:47:14,718 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:14,726 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 18, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:14,741 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077038
+2015-10-13 12:47:17,591 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:17,601 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 24, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:17,616 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0080800
+2015-10-13 12:47:19,967 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:19,975 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 30, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:19,994 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0089553
+2015-10-13 12:47:21,728 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:21,737 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 36, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:21,752 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078012
+2015-10-13 12:47:23,136 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:23,145 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:23,159 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077876
+2015-10-13 12:47:34,789 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:34,798 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:34,810 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070421
+2015-10-13 12:47:35,565 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:35,574 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:35,584 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0065816
+2015-10-13 12:47:37,142 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:37,152 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:37,167 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083174
+2015-10-13 12:47:37,901 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:37,910 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:37,921 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0067738
+2015-10-13 12:47:39,533 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:39,542 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:39,556 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0074744
+2015-10-13 12:47:40,670 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:47:40,679 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 42, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:47:40,690 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0066716
+2015-10-13 12:48:30,798 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:48:30,806 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:48:30,821 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077239
+2015-10-13 12:49:37,469 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:49:37,479 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:49:37,495 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086811
+2015-10-13 12:51:01,982 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:51:01,993 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:51:02,009 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0088452
+2015-10-13 12:51:24,967 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:51:24,978 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:51:24,995 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092671
+2015-10-13 12:51:28,502 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:51:28,511 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:51:28,511 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:51:28,532 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:51:28,529 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0090011
+2015-10-13 12:51:28,554 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0144858
+2015-10-13 12:51:31,306 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:51:31,315 [87] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:51:31,330 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079314
+2015-10-13 12:52:35,954 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:52:35,964 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:52:35,982 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0090351
+2015-10-13 12:52:37,164 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:52:37,164 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:52:37,174 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:52:37,186 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:52:37,202 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0125290
+2015-10-13 12:52:37,214 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0164147
+2015-10-13 12:52:38,547 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:52:38,556 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:52:38,574 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0089185
+2015-10-13 12:52:40,548 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:52:40,557 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:52:40,574 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0087088
+2015-10-13 12:53:23,377 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:53:23,386 [87] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:53:23,403 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086501
+2015-10-13 12:53:26,998 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:53:27,008 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:53:27,030 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0103991
+2015-10-13 12:53:52,675 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:53:52,688 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:53:52,710 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0114840
+2015-10-13 12:53:55,565 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:53:55,574 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:53:55,587 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0072406
+2015-10-13 12:54:26,845 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:54:26,854 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:54:26,870 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083679
+2015-10-13 12:54:30,770 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:54:30,771 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:54:30,780 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:54:30,788 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:54:30,804 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0112344
+2015-10-13 12:54:30,813 [115] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0138773
+2015-10-13 12:56:33,914 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:56:33,923 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:56:33,937 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0075356
+2015-10-13 12:56:35,099 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:56:35,107 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:56:35,121 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0073767
+2015-10-13 12:56:36,100 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:56:36,108 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:56:36,122 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0074679
+2015-10-13 12:57:59,567 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:57:59,576 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:57:59,593 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084783
+2015-10-13 12:58:52,936 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:58:52,951 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:58:52,970 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110378
+2015-10-13 12:58:57,709 [56] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:58:57,721 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:58:57,741 [56] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0106713
+2015-10-13 12:59:10,877 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 12:59:10,891 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 12:59:10,911 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111610
+2015-10-13 13:00:52,244 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:00:52,254 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:00:52,270 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0088460
+2015-10-13 13:01:13,445 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:01:13,458 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:01:13,477 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108152
+2015-10-13 13:01:15,451 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:01:15,460 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:01:15,476 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082767
+2015-10-13 13:01:37,067 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:01:37,082 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:01:37,101 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111757
+2015-10-13 13:02:26,333 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:02:26,341 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:02:26,356 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078624
+2015-10-13 13:02:30,044 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:02:30,053 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:02:30,067 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077798
+2015-10-13 13:02:31,469 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:02:31,478 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:02:31,493 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077253
+2015-10-13 13:03:11,639 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:11,652 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:11,669 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0099222
+2015-10-13 13:03:45,141 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:45,155 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:45,180 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0130350
+2015-10-13 13:03:48,143 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:48,152 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:48,166 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078218
+2015-10-13 13:03:49,550 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:49,559 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:49,570 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0066454
+2015-10-13 13:03:50,269 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:50,278 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:50,290 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0069220
+2015-10-13 13:03:50,791 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:50,799 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:50,811 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0068047
+2015-10-13 13:03:51,750 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:51,759 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:51,774 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0077757
+2015-10-13 13:03:52,990 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:52,999 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:53,014 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079950
+2015-10-13 13:03:55,176 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:55,185 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:55,197 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0069849
+2015-10-13 13:03:55,718 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:55,727 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:55,739 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070082
+2015-10-13 13:03:56,439 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:56,448 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:56,459 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0067588
+2015-10-13 13:03:56,999 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:57,008 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:57,022 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078901
+2015-10-13 13:03:58,039 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:58,048 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:58,062 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0076777
+2015-10-13 13:03:59,614 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:59,623 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:59,618 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:03:59,643 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:03:59,639 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084316
+2015-10-13 13:03:59,662 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0145561
+2015-10-13 13:04:01,024 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:04:01,033 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:04:01,049 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084071
+2015-10-13 13:04:30,776 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:04:30,792 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:04:30,817 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0136702
+2015-10-13 13:04:33,021 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:04:33,031 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:04:33,047 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084799
+2015-10-13 13:04:40,516 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:04:40,525 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 18, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:04:40,540 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078950
+2015-10-13 13:05:20,762 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:05:20,777 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:05:20,797 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0117592
+2015-10-13 13:05:33,699 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:05:33,711 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:05:33,733 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111829
+2015-10-13 13:05:34,597 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:05:34,606 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:05:34,621 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078901
+2015-10-13 13:05:36,645 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:05:36,654 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 18, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:05:36,669 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078914
+2015-10-13 13:07:54,846 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:07:54,855 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:07:54,872 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0088040
+2015-10-13 13:08:00,025 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:00,034 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:00,050 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084053
+2015-10-13 13:08:01,908 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:01,923 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:01,939 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0100577
+2015-10-13 13:08:02,776 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:02,786 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:02,802 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0083651
+2015-10-13 13:08:21,897 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:21,906 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:21,928 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0103753
+2015-10-13 13:08:23,474 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:23,484 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:23,500 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084736
+2015-10-13 13:08:24,438 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:24,448 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:24,464 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0085068
+2015-10-13 13:08:26,330 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:26,340 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:26,356 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084870
+2015-10-13 13:08:27,210 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:27,222 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:27,238 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093038
+2015-10-13 13:08:30,236 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:08:30,246 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:08:30,262 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0087601
+2015-10-13 13:11:25,748 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:25,765 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:25,791 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0142992
+2015-10-13 13:11:28,169 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:28,178 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:28,193 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079355
+2015-10-13 13:11:30,321 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:30,330 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:30,346 [25] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086039
+2015-10-13 13:11:31,072 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:31,081 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:31,096 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079193
+2015-10-13 13:11:37,277 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:37,286 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:37,302 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082314
+2015-10-13 13:11:40,043 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:11:40,057 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:11:40,076 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109793
+2015-10-13 13:13:43,097 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:13:43,107 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:13:43,124 [65] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0091365
+2015-10-13 13:14:19,092 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:19,101 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:19,113 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0069262
+2015-10-13 13:14:19,717 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:19,726 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:19,738 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070174
+2015-10-13 13:14:20,181 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:20,190 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:20,201 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0067546
+2015-10-13 13:14:21,203 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:21,212 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:21,227 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079140
+2015-10-13 13:14:22,406 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:22,415 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:22,429 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078159
+2015-10-13 13:14:23,315 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:14:23,324 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 12, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:14:23,339 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078460
+2015-10-13 13:17:26,748 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:17:26,757 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:17:26,775 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0091852
+2015-10-13 13:20:54,149 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:20:54,161 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:20:54,181 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0106371
+2015-10-13 13:21:58,997 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:21:59,012 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:21:59,034 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0122207
+2015-10-13 13:22:33,602 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:22:33,614 [81] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:22:33,636 [81] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0112810
+2015-10-13 13:24:35,157 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:24:35,167 [92] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:24:35,183 [92] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084252
+2015-10-13 13:24:40,127 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:24:40,136 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:24:40,157 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0099290
+2015-10-13 13:25:19,521 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:25:19,531 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:25:19,551 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0100002
+2015-10-13 13:25:53,410 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:25:53,420 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:25:53,445 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116349
+2015-10-13 13:29:07,997 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:29:08,007 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:29:08,022 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082675
+2015-10-13 13:30:52,383 [116] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:30:52,394 [116] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:30:52,411 [116] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092795
+2015-10-13 13:31:27,939 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:31:27,949 [103] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:31:27,975 [103] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0121046
+2015-10-13 13:33:26,632 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:33:26,642 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:33:26,659 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086882
+2015-10-13 13:34:05,249 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:34:05,266 [87] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:34:05,286 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0123090
+2015-10-13 13:35:23,973 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:35:23,983 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:35:24,002 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0097510
+2015-10-13 13:35:28,835 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:35:28,844 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:35:28,864 [70] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096043
+2015-10-13 13:35:44,777 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:35:44,792 [87] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:35:44,817 [87] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0130933
+2015-10-13 13:35:56,774 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:35:56,788 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:35:56,807 [44] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108214
+2015-10-13 13:35:58,943 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:35:58,952 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:35:58,975 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0106975
+2015-10-13 13:36:02,130 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:36:02,141 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:36:02,166 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0119948
+2015-10-13 13:36:33,725 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:36:33,735 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:36:33,760 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0117700
+2015-10-13 13:37:13,670 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:37:13,683 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:37:13,705 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0117417
+2015-10-13 13:38:22,144 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:38:22,159 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:38:22,175 [62] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104482
+2015-10-13 13:38:59,886 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:38:59,902 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:38:59,925 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0129560
+2015-10-13 13:40:49,313 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:40:49,323 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:40:49,339 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0085688
+2015-10-13 13:41:05,352 [116] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:41:05,363 [116] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:41:05,389 [116] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0122024
+2015-10-13 13:43:59,165 [56] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 13:43:59,174 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 13:43:59,192 [56] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0087987
+2015-10-13 14:33:47,215 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:33:47,224 [126] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:33:47,238 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078277
+2015-10-13 14:33:54,105 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:33:54,115 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:33:54,136 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104734
+2015-10-13 14:33:59,862 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:33:59,871 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:33:59,886 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0079366
+2015-10-13 14:34:00,669 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:34:00,678 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:34:00,690 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0070843
+2015-10-13 14:34:01,144 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:34:01,153 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:34:01,167 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0074672
+2015-10-13 14:34:01,633 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:34:01,644 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:34:01,655 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0072813
+2015-10-13 14:34:02,167 [120] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:34:02,175 [120] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:34:02,195 [120] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094935
+2015-10-13 14:37:22,494 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:37:22,505 [43] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:37:22,522 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0091717
+2015-10-13 14:38:56,741 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 14:38:56,752 [127] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 14:38:56,775 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113199
+2015-10-13 15:10:00,428 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:10:00,438 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:10:00,453 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084195
+2015-10-13 15:10:42,207 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:10:42,222 [127] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:10:42,245 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0124081
+2015-10-13 15:11:13,555 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:11:13,570 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:11:13,595 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0133045
+2015-10-13 15:12:02,061 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:12:02,078 [43] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:12:02,094 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109851
+2015-10-13 15:12:32,352 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:12:32,367 [126] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:12:32,394 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0137351
+2015-10-13 15:12:59,189 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:12:59,198 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:12:59,214 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084449
+2015-10-13 15:13:13,170 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:13:13,185 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:13:13,208 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0125659
+2015-10-13 15:13:45,770 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:13:45,787 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:13:45,811 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0133805
+2015-10-13 15:14:00,414 [37] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:14:00,424 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:14:00,444 [37] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0100582
+2015-10-13 15:14:29,203 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:14:29,218 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:14:29,240 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0122527
+2015-10-13 15:14:39,878 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:14:39,892 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:14:39,917 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0130292
+2015-10-13 15:15:09,898 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:15:09,911 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:15:09,935 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0120081
+2015-10-13 15:15:47,109 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:15:47,120 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:15:47,143 [118] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110112
+2015-10-13 15:16:33,895 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:16:33,908 [126] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:16:33,931 [126] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0120320
+2015-10-13 15:17:33,292 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:17:33,302 [43] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:17:33,318 [43] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084153
+2015-10-13 15:18:00,035 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:18:00,048 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:18:00,068 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108971
+2015-10-13 15:18:05,387 [118] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 15:18:05,398 [118] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 15:18:05,415 [118] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0094249
+2015-10-13 15:18:11,097 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:18:11,107 [127] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:18:11,123 [127] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0085429
+2015-10-13 15:18:22,332 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:18:22,342 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:18:22,357 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082926
+2015-10-13 15:18:54,264 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:18:54,282 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:18:54,304 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0131452
+2015-10-13 15:18:59,172 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:18:59,181 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:18:59,195 [41] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078755
+2015-10-13 15:19:16,110 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:19:16,120 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:19:16,136 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084434
+2015-10-13 15:20:15,193 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:20:15,206 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:20:15,228 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116624
+2015-10-13 15:20:38,500 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:20:38,509 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:20:38,524 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078810
+2015-10-13 15:24:15,151 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:24:15,165 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:24:15,185 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113397
+2015-10-13 15:25:12,497 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:25:12,507 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:25:12,531 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109959
+2015-10-13 15:25:27,793 [120] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:25:27,807 [120] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:25:27,827 [120] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0112856
+2015-10-13 15:26:17,578 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:26:17,587 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:26:17,611 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108024
+2015-10-13 15:26:55,171 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:26:55,182 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:26:55,203 [35] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0104860
+2015-10-13 15:27:20,062 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:27:20,078 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:27:20,100 [57] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0124400
+2015-10-13 15:28:09,489 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:28:09,505 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:28:09,528 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0129370
+2015-10-13 15:28:36,528 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:28:36,542 [38] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:28:36,563 [38] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116319
+2015-10-13 15:29:18,053 [120] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 15:29:18,062 [120] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 15:29:18,075 [120] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0074363
+2015-10-13 15:29:25,783 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 15:29:25,793 [60] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 15:29:25,808 [60] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0084165
+2015-10-13 17:24:44,652 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:24:44,667 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:24:44,693 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0144791
+2015-10-13 17:26:20,193 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:26:20,203 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:26:20,227 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111015
+2015-10-13 17:26:25,708 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:26:25,718 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:26:25,738 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0097896
+2015-10-13 17:26:31,004 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:26:31,013 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:26:31,037 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110720
+2015-10-13 17:26:39,530 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:26:39,540 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:26:39,567 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0122788
+2015-10-13 17:26:46,584 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:26:46,594 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:26:46,633 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0163079
+2015-10-13 17:28:02,362 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:28:02,371 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:28:02,396 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113341
+2015-10-13 17:29:57,774 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:29:57,784 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:29:57,808 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110845
+2015-10-13 17:30:49,205 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:30:49,217 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:30:49,253 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0160200
+2015-10-13 17:31:24,957 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:31:24,967 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:31:24,991 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113625
+2015-10-13 17:31:45,717 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:31:45,727 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:31:45,751 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0112879
+2015-10-13 17:33:36,330 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:33:36,340 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:33:36,376 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0150979
+2015-10-13 17:34:29,244 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:34:29,256 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:34:29,283 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0128651
+2015-10-13 17:34:39,467 [20] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:34:39,478 [20] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:34:39,501 [20] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0111190
+2015-10-13 17:34:56,379 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:34:56,391 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:34:56,417 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0123906
+2015-10-13 17:35:38,116 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:38,129 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:38,160 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0144965
+2015-10-13 17:35:49,652 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:49,661 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:49,685 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0109818
+2015-10-13 17:35:51,464 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:51,473 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:51,497 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108137
+2015-10-13 17:35:52,024 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:52,034 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Terran', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:52,062 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0123140
+2015-10-13 17:35:52,488 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:52,497 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Protoss', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:52,520 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0105582
+2015-10-13 17:35:52,904 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:52,913 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = 'Zerg', @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:52,934 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0098348
+2015-10-13 17:35:53,401 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:35:53,410 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:35:53,436 [17] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116873
+2015-10-13 17:41:38,742 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:41:38,759 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:41:38,783 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0143172
+2015-10-13 17:41:44,676 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:41:44,686 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:41:44,710 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110051
+2015-10-13 17:41:49,808 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:41:49,817 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:41:49,843 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0117928
+2015-10-13 17:41:51,085 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:41:51,094 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:41:51,130 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0149787
+2015-10-13 17:43:34,737 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:43:34,747 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:43:34,773 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0119944
+2015-10-13 17:43:43,760 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:43:43,770 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:43:43,798 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0124519
+2015-10-13 17:48:35,776 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:48:35,794 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:48:35,809 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0116021
+2015-10-13 17:48:46,068 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:48:46,077 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:48:46,094 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086647
+2015-10-13 17:51:02,715 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:51:02,730 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:51:02,751 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0118165
+2015-10-13 17:51:43,776 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:51:43,788 [5] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:51:43,805 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094053
+2015-10-13 17:52:12,980 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:52:12,991 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:52:13,008 [21] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094932
+2015-10-13 17:53:57,100 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:53:57,111 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:53:57,129 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0094608
+2015-10-13 17:53:59,416 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:53:59,425 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:53:59,440 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0080141
+2015-10-13 17:54:30,468 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:54:30,480 [26] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:54:30,498 [26] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0098762
+2015-10-13 17:54:40,324 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:54:40,334 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:54:40,352 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0092809
+2015-10-13 17:54:50,476 [24] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:54:50,491 [24] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:54:50,515 [24] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0128347
+2015-10-13 17:55:00,068 [28] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:55:00,082 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:55:00,107 [28] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0129473
+2015-10-13 17:55:47,271 [23] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:55:47,283 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:55:47,300 [23] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0096277
+2015-10-13 17:55:51,794 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:55:51,803 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:55:51,818 [22] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0078823
+2015-10-13 17:56:06,268 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:56:06,277 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:56:06,294 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086655
+2015-10-13 17:56:31,327 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:56:31,335 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:56:31,351 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0082108
+2015-10-13 17:57:06,248 [24] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:57:06,259 [24] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:57:06,278 [24] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0099166
+2015-10-13 17:57:22,432 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:57:22,449 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:57:22,466 [27] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0113020
+2015-10-13 17:58:02,190 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:58:02,204 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:58:02,222 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108112
+2015-10-13 17:58:18,049 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:58:18,058 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:58:18,069 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0068320
+2015-10-13 17:58:21,451 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:58:21,460 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test2', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:58:21,470 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0063069
+2015-10-13 17:58:33,721 [19] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 17:58:33,730 [19] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 17:58:33,741 [19] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0065935
+2015-10-13 17:58:45,293 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:58:45,303 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:58:45,319 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0086231
+2015-10-13 17:59:50,608 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 17:59:50,618 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 17:59:50,640 [16] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0103478
+2015-10-13 18:00:05,998 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:00:06,008 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:00:06,020 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0072078
+2015-10-13 18:00:13,195 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:00:13,208 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:00:13,235 [19] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0134946
+2015-10-13 18:00:21,103 [23] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:00:21,112 [23] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test2', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:00:21,123 [23] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0066362
+2015-10-13 18:00:59,031 [24] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:00:59,040 [24] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:00:59,051 [24] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0067589
+2015-10-13 18:01:10,746 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:01:10,756 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:01:10,767 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0070824
+2015-10-13 18:01:27,881 [28] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:01:27,891 [28] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:01:27,902 [28] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0069020
+2015-10-13 18:01:27,912 [28] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:01:27,921 [28] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:01:27,933 [28] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0067349
+2015-10-13 18:01:27,943 [28] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:01:27,953 [28] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Strange', @FirstName = 'Aleks', @BirthDate = 12/19/1985 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '7255cb4c-5fc2-4bae-acaf-6867062971f3', @IsActive = False, @RegisteredDate = 10/13/2015 6:01:27 PM; 
+2015-10-13 18:01:27,965 [28] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0070783
+2015-10-13 18:01:42,846 [24] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:01:42,855 [24] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:01:42,866 [24] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0067055
+2015-10-13 18:01:42,876 [24] ERROR Common - System.ApplicationException: User with username 'test' already exists.
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 61
+   at DynamicModule.ns.Wrapped_IUserService_025d69f38ddb4ca192a6611645c79aff.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-13 18:01:42,896 [24] ERROR Common - System.ApplicationException: User with username 'test' already exists.
+   at SC2BM.BusinessFacade.Services.UserService.RegisterUser(User user) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Services\UserService.cs:line 61
+   at DynamicModule.ns.Wrapped_IUserService_025d69f38ddb4ca192a6611645c79aff.<RegisterUser_DelegateImplementation>__0(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+2015-10-13 18:01:50,340 [28] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.DelegatedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.BufferedReadStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Mail.SmtpReplyReaderFactory.ReadLines(SmtpReplyReader caller, Boolean oneLine)
+   at System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)
+   at System.Net.Mail.EHelloCommand.Send(SmtpConnection conn, String domain)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:02:52,253 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:02:52,264 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:02:52,284 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0111382
+2015-10-13 18:07:09,968 [38] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:07:09,974 [38] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:07:09,991 [38] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0074008
+2015-10-13 18:07:20,108 [45] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:07:20,114 [45] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:07:20,137 [45] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0094873
+2015-10-13 18:07:20,157 [45] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:07:20,165 [45] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:07:20,188 [45] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0101732
+2015-10-13 18:07:20,209 [45] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:07:20,217 [45] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Ustas', @FirstName = 'Aleks', @BirthDate = 10/1/2015 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '22f4172c-94f7-4f3e-9ab0-2d7e95dc59c0', @IsActive = False, @RegisteredDate = 10/13/2015 6:07:20 PM; 
+2015-10-13 18:07:20,238 [45] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0097540
+2015-10-13 18:07:41,985 [45] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.DelegatedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.BufferedReadStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Mail.SmtpReplyReaderFactory.ReadLines(SmtpReplyReader caller, Boolean oneLine)
+   at System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)
+   at System.Net.Mail.EHelloCommand.Send(SmtpConnection conn, String domain)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:11:42,844 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:11:42,857 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:11:42,880 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0128894
+2015-10-13 18:12:06,513 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:12:06,519 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:12:06,546 [8] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0108455
+2015-10-13 18:12:31,890 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:12:31,896 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:12:31,918 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0093321
+2015-10-13 18:13:57,373 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:13:57,380 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:13:57,411 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0124620
+2015-10-13 18:14:11,283 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:14:11,290 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:14:11,309 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0084538
+2015-10-13 18:14:15,811 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:14:15,819 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:14:15,838 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0090569
+2015-10-13 18:14:36,464 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:14:36,473 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:14:36,492 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0095150
+2015-10-13 18:14:36,512 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:14:36,522 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:14:36,543 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0102846
+2015-10-13 18:14:36,565 [13] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:14:36,574 [13] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Ustas', @FirstName = 'Aleks', @BirthDate = 10/1/2015 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '7e7934cf-8fef-408a-a1f6-1a8c52243bab', @IsActive = False, @RegisteredDate = 10/13/2015 6:14:36 PM; 
+2015-10-13 18:14:36,593 [13] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0092507
+2015-10-13 18:16:16,699 [13] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:20:48,748 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:20:48,757 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:20:48,782 [6] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0110722
+2015-10-13 18:21:10,313 [27] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:21:10,321 [27] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:21:10,342 [27] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0097371
+2015-10-13 18:21:25,497 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:21:25,505 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:21:25,526 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0097650
+2015-10-13 18:21:43,748 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:21:43,756 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:21:43,777 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0095690
+2015-10-13 18:21:43,794 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:21:43,802 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:21:43,826 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0103901
+2015-10-13 18:21:43,843 [11] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:21:43,851 [11] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Kardash', @FirstName = 'Aleksey', @BirthDate = 10/25/1985 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '0c92ef47-00b1-48ed-9fde-301c1c3996f1', @IsActive = False, @RegisteredDate = 10/13/2015 6:21:43 PM; 
+2015-10-13 18:21:43,871 [11] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0092559
+2015-10-13 18:23:23,960 [11] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:27:42,392 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:27:42,401 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:27:42,433 [20] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0135975
+2015-10-13 18:27:45,849 [39] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:27:45,858 [39] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:27:45,880 [39] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0101417
+2015-10-13 18:27:52,346 [39] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:27:52,355 [39] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:27:52,379 [39] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0109662
+2015-10-13 18:28:02,962 [39] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:28:02,971 [39] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:28:02,990 [39] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0091250
+2015-10-13 18:28:03,008 [39] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:28:03,017 [39] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:28:03,035 [39] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0089861
+2015-10-13 18:28:03,061 [39] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:28:03,071 [39] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'test1', @FirstName = 'test1', @BirthDate = 10/13/2015 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '8e22e3ae-62d7-474f-8bc9-61b115e40bc2', @IsActive = False, @RegisteredDate = 10/13/2015 6:28:03 PM; 
+2015-10-13 18:28:03,096 [39] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0113691
+2015-10-13 18:28:54,400 [34] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:28:54,409 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:28:54,448 [34] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0160857
+2015-10-13 18:28:57,570 [36] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:28:57,579 [36] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:28:57,603 [36] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0108334
+2015-10-13 18:28:58,701 [33] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:28:58,711 [33] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'alexey.kardash@ontarget-group.com', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:28:58,734 [33] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0110871
+2015-10-13 18:29:06,983 [35] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:29:06,993 [35] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'ank_work_box@mail.ru', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:29:07,015 [35] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0107921
+2015-10-13 18:29:16,117 [20] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:29:16,126 [20] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:29:16,148 [20] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0103234
+2015-10-13 18:29:16,168 [20] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:29:16,177 [20] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'ank_work_box@mail.ru', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:29:16,203 [20] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0115891
+2015-10-13 18:29:16,229 [20] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:29:16,239 [20] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Ustas', @FirstName = 'Aleks', @BirthDate = 10/1/2015 12:00:00 AM, @Email = 'ank_work_box@mail.ru', @Password = '191285', @UserName = 'test', @ActivationSalt = '3d6d46ab-9768-411e-94e2-f13befc6dace', @IsActive = False, @RegisteredDate = 10/13/2015 6:29:16 PM; 
+2015-10-13 18:29:16,264 [20] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0114649
+2015-10-13 18:29:43,196 [39] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:30:56,373 [20] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) ank_work_box@mail.ru.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156
+2015-10-13 18:31:05,965 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:31:05,972 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'a', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:31:05,994 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0094872
+2015-10-13 18:51:39,261 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:51:39,275 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:51:39,298 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0132730
+2015-10-13 18:51:44,082 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:51:44,094 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:51:44,125 [12] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0141728
+2015-10-13 18:51:48,104 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-10-13 18:51:48,113 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 6, @IsStrict = False, @TotalCount = NULL; 
+2015-10-13 18:51:48,136 [15] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0107382
+2015-10-13 18:52:02,856 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:52:02,863 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:52:02,882 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0084915
+2015-10-13 18:52:03,715 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:52:03,723 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'alexey.kardash@ontarget-group.com', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:52:03,743 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0090884
+2015-10-13 18:53:17,547 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:53:17,556 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = , @FirstName = , @LastName = , @Email = 'alexey.kardash@ontarget-group.com', @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:53:17,577 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0098219
+2015-10-13 18:53:27,157 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:53:27,166 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'test', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:53:27,189 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0105744
+2015-10-13 18:53:27,208 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-10-13 18:53:27,217 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'alexey.kardash@ontarget-group.com', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-10-13 18:53:27,239 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0101079
+2015-10-13 18:53:27,263 [11] INFO  Server - Stored procedure dbo.Users_Insert is called
+2015-10-13 18:53:27,273 [11] DEBUG Server - UserRepository::ExecuteScalar started
+EXEC dbo.Users_Insert @LastName = 'Test', @FirstName = 'Aleks', @BirthDate = 10/1/2015 12:00:00 AM, @Email = 'alexey.kardash@ontarget-group.com', @Password = '191285', @UserName = 'test', @ActivationSalt = '0958e3c7-eb93-49cc-ad09-5c17bfbb071b', @IsActive = False, @RegisteredDate = 10/13/2015 6:53:27 PM; 
+2015-10-13 18:53:27,293 [11] INFO  Server - Stored procedure dbo.Users_Insert finished successfully. Execution time: 00:00:00.0097891
+2015-10-13 18:55:07,381 [14] ERROR Server - Unable to send email with subject SC2BM Registration confirmation to recipient(s) alexey.kardash@ontarget-group.com.
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at SC2BM.BusinessFacade.Routine.SmtpService.Send(String fromAddress, String toAddress, String subject, String body, Boolean isBodyHtml, String ccAddress, String bccAddress, String attachmentPath, Byte[] attachmentContent, Dictionary`2 attachments) in c:\Users\akardash.ONTARGET\Desktop\Starcraft 2\SC2BM Project\SC2BM.WebSite\SC2BM.BusinessServices\Routine\SmtpService.cs:line 156

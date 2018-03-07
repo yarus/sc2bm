@@ -1,0 +1,162 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="registerController as vm">
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="section bg-transparent margin-top-20 margin-bottom-20 no-border">
+                <div class="page-header no-margin-top">
+                    <h4 class="no-margin-top">Registration form</h4>
+                    <p>Already have an account? <a href="login.html">Click here</a> to sign in.</p>
+                </div>
+                <form name="vm.registerForm" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.userName.$dirty && vm.registerForm.userName.$invalid,
+                         'has-success' : vm.registerForm.userName.$dirty && vm.registerForm.userName.$valid}">
+                                <label class="control-label" for="userName">User Name</label>
+                                <input data-ng-model="vm.user.UserName"
+                                       data-ng-change="vm.userNameChanged(vm.user.UserName)"
+                                       data-ng-model-options="{ updateOn: 'blur' }"
+                                       data-ng-pattern="/^[a-zA-Z0-9]*$/"
+                                       data-ng-minlength="4"
+                                       data-ng-trim="false"
+                                       class="form-control" tabindex="1"
+                                       id="userName" name="userName" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.userName.$dirty && vm.registerForm.userName.$invalid,
+                              'glyphicon-ok' : vm.registerForm.userName.$dirty && vm.registerForm.userName.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.userName.$error.unique">Username already exists</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.userName.$error.required">Username is required</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.userName.$error.pattern">Username should contain only letter and digits</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.userName.$error.minlength">Username min length is 4</span>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.password.$dirty && vm.registerForm.password.$invalid,
+                         'has-success' : vm.registerForm.password.$dirty && vm.registerForm.password.$valid}">
+                                <label class="control-label" for="password">Password</label>
+                                <input data-ng-model="vm.user.Password"
+                                       data-ng-change="vm.passwordChanged()"
+                                       data-ng-model-options="{ updateOn: 'blur' }"
+                                       data-ng-minlength="4"
+                                       class="form-control" tabindex="3"
+                                       id="password" name="password" type="password" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.password.$dirty && vm.registerForm.password.$invalid,
+                              'glyphicon-ok' : vm.registerForm.password.$dirty && vm.registerForm.password.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.password.$dirty && vm.registerForm.password.$error.required">Password is required</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.password.$error.minlength">Password min length is 4</span>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.firstName.$dirty && vm.registerForm.firstName.$invalid,
+                         'has-success' : vm.registerForm.firstName.$dirty && vm.registerForm.firstName.$valid}">
+                                <label class="control-label" for="firstName">First Name</label>
+                                <input data-ng-model="vm.user.FirstName"
+                                       class="form-control" tabindex="5"
+                                       id="firstName" name="firstName" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.firstName.$dirty && vm.registerForm.firstName.$invalid,
+                              'glyphicon-ok' : vm.registerForm.firstName.$dirty && vm.registerForm.firstName.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.firstName.$dirty && vm.registerForm.firstName.$error.required">First name is required</span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$invalid,
+                         'has-success' : vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$valid}">
+                                <label class="control-label" for="emailAddress">Email Address</label>
+                                <input data-ng-model="vm.user.Email"
+                                       data-ng-change="vm.emailChanged(vm.user.Email)"
+                                       data-ng-model-options="{ updateOn: 'blur' }"
+                                       data-ng-minlength="8"
+                                       class="form-control" tabindex="2"
+                                       id="emailAddress" name="emailAddress" type="email" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$invalid,
+                              'glyphicon-ok' : vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$error.required">Email is required</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$error.email">Email is not in valid format</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.emailAddress.$dirty && vm.registerForm.emailAddress.$error.unique">Email already exists</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.userName.$dirty && vm.registerForm.emailAddress.$error.minlength">Email min length is 8</span>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$invalid,
+                         'has-success' : vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$valid}">
+                                <label class="control-label" for="password">Repeat Password</label>
+                                <input data-ng-model="vm.user.RepeatPassword"
+                                       data-ng-change="vm.repeatPasswordChanged(vm.user.RepeatPassword)"
+                                       data-ng-model-options="{ updateOn: 'blur' }"
+                                       class="form-control" tabindex="4"
+                                       id="repeatPassword" name="repeatPassword" type="password" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$invalid,
+                              'glyphicon-ok' : vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$error.required">Password is required</span>
+                                <span class="help-block" data-ng-show="vm.registerForm.repeatPassword.$dirty && vm.registerForm.repeatPassword.$error.sameAsPassword">Passwords should be same</span>
+                            </div>
+
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.lastName.$dirty && vm.registerForm.lastName.$invalid,
+                         'has-success' : vm.registerForm.lastName.$dirty && vm.registerForm.lastName.$valid}">
+                                <label class="control-label" for="lastName">Last Name</label>
+                                <input data-ng-model="vm.user.LastName"
+                                       class="form-control" tabindex="6"
+                                       id="lastName" name="lastName" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.lastName.$dirty && vm.registerForm.lastName.$invalid,
+                              'glyphicon-ok' : vm.registerForm.lastName.$dirty && vm.registerForm.lastName.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.lastName.$dirty && vm.registerForm.lastName.$error.required">Last name is required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="form-group has-feedback"
+                                 data-ng-class="{
+                         'has-error' : vm.registerForm.birthDate.$dirty && vm.registerForm.birthDate.$invalid,
+                         'has-success' : vm.registerForm.birthDate.$dirty && vm.registerForm.birthDate.$valid}">
+                                <label class="control-label" for="birthDate">Birth Date</label>
+                                <input data-ng-model="vm.user.BirthDate"
+                                       data-ui-date="vm.dateOptions"
+                                       class="form-control" tabindex="7"
+                                       id="birthDate" name="birthDate" type="text" required="required" />
+                                <span class="glyphicon form-control-feedback"
+                                      data-ng-class="{
+                              'glyphicon-warning-sign' : vm.registerForm.birthDate.$dirty && vm.registerForm.birthDate.$invalid,
+                              'glyphicon-ok' : vm.registerForm.birthDate.$dirty && vm.registerForm.birthDate.$valid}"
+                                      aria-hidden="true"></span>
+                                <span class="help-block" data-ng-show="vm.registerForm.birthDate.$dirty && vm.registerForm.birthDate.$error.required">Birth Date is required</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="margin-top-20">
+                        <button type="button" tabindex="8" class="btn btn-success pull-right" data-ng-click="vm.register(vm.user)" data-ng-disabled="vm.registerForm.$invalid">Register</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>

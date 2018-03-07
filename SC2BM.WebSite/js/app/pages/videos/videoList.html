@@ -1,0 +1,70 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="videoListController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg">
+
+        <div class="col-lg-12 margin-bottom-30 margin-top-20">
+            <section class="no-border no-padding bg-transparent">
+                <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-border no-margin">
+                        <h2 class="headline"><i class="ion-ios-film-outline margin-right-10"></i> Videos</h2>
+
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <a data-ng-href="/links/Global/1/vod/add" class="btn btn-default" data-ng-show="vm.rights.enableAddVideo"><i class="fa fa-plus"></i> Add new video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="no-padding-top">
+                <p class="font-size-14 line-height-20 margin-top-15 padding-left-20 padding-right-20">
+                    On this page you can found all added video links on www.sc2bm.com! <br />
+                    These vods could be linked to build orders or just added by users without any links.
+                </p>
+            </section>
+
+            <div class="row margin-bottom-25 no-margin-xs padding-20">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding-10 no-padding-xs height-270" data-ng-repeat="vodLink in vm.vods">
+                    <section class="no-padding-top no-padding-bottom no-border">
+                        <div class="details margin-top-15">
+                            <i class="ion-android-contact margin-right-5"></i>
+                            <a href="#">{{vodLink.OwnerUserName}}</a>
+                            <i class="ion-android-calendar margin-left-10"></i> {{vodLink.AddedDate | date: 'medium'}}
+
+                            <button data-ng-show="vodLink.deleteEnabled" title="Delete Link" class="close margin-left-10" type="button" data-ng-click="vm.deleteLink(vodLink)">
+                                <span aria-hidden="true">×</span><span class="sr-only">Delete</span>
+                            </button>
+
+                            <a class="close margin-left-10" title="Edit Link" data-ng-show="vodLink.deleteEnabled" data-ng-href="/links/{{vodLink.ID}}">
+                                <i class="fa fa-pencil"></i>
+                                <span class="sr-only">Edit</span>
+                            </a>
+                        </div>
+
+                        <div class="thumb">
+                            <a data-ng-show="vodLink.EntityType != null" data-ng-href="{{vodLink.EntityLink}}" target="_blank"class="margin-top-10"><span title="{{vodLink.EntityLinkText}}" class="label-info font-size-12">{{vodLink.EntityType}}</span></a>
+                            <a data-ng-href="{{vodLink.MainLink}}" target="_blank" title="Open Video">
+                                <img data-ng-src="{{vodLink.thumbUrl}}" class="img-responsive full-width" alt="" style="max-height: 180px">
+                            </a>
+                        </div>
+
+                        <div style="max-height: 40px">
+                            <h4 class="main-title margin-top-15 font-size-14">
+                                <a data-ng-href="{{vodLink.MainLink}}" target="_blank" title="Open Video">{{vodLink.DisplayText | limitTo: 70}}{{vodLink.DisplayText.length > 70 ? "..." : ""}}</a>
+                            </h4>
+                        </div>
+                    </section>
+                </div>
+
+                <ul class="pager margin-top-40">
+                    <li>
+                        <a href="#" data-ng-click="vm.loadMore()" data-ng-show="vm.linksRequest.totalItems > vm.vods.length" id="load-more">
+                            Show More <i class="ion-more margin-left-5"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

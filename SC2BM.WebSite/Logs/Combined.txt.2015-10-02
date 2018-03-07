@@ -1,0 +1,1004 @@
+2015-10-02 12:54:49,010 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:49,022 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:49,027 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0063423
+2015-10-02 12:54:55,753 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:55,756 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:55,760 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0023625
+2015-10-02 12:54:57,536 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:57,541 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:57,546 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0033990
+2015-10-02 12:54:58,534 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:58,539 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:58,545 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0035401
+2015-10-02 12:54:59,048 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:59,054 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:59,060 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0041742
+2015-10-02 12:54:59,278 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:54:59,285 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:54:59,293 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0047820
+2015-10-02 12:55:04,505 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:04,512 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:04,521 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0053217
+2015-10-02 12:55:04,974 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:04,983 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:04,992 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0060236
+2015-10-02 12:55:28,085 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:28,097 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:28,111 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0086788
+2015-10-02 12:55:29,333 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:29,348 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:29,363 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0099327
+2015-10-02 12:55:30,457 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:30,469 [107] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:30,481 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0078724
+2015-10-02 12:55:31,121 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:31,132 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:31,145 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0082350
+2015-10-02 12:55:32,189 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:32,201 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:32,213 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0079393
+2015-10-02 12:55:32,761 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:32,773 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:32,786 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0082553
+2015-10-02 12:55:34,457 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:34,469 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:34,482 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0082501
+2015-10-02 12:55:34,929 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:34,941 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:34,954 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0081501
+2015-10-02 12:55:52,656 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:52,668 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:52,681 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0080267
+2015-10-02 12:55:57,097 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:55:57,109 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:55:57,123 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0084842
+2015-10-02 12:56:01,353 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 12:56:01,366 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 12:56:01,381 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0091558
+2015-10-02 13:04:36,482 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:04:36,500 [107] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:04:36,523 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0136631
+2015-10-02 13:04:37,542 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:04:37,554 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:04:37,567 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0081707
+2015-10-02 13:07:01,580 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:07:01,595 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:07:01,611 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0102615
+2015-10-02 13:07:24,467 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:07:24,480 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:07:24,502 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0116308
+2015-10-02 13:07:49,409 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:07:49,421 [107] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:07:49,440 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0100803
+2015-10-02 13:08:48,009 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:08:48,023 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:08:48,047 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127072
+2015-10-02 13:12:18,061 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:12:18,074 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:12:18,094 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0110673
+2015-10-02 13:12:38,112 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:12:38,124 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:12:38,142 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0099065
+2015-10-02 13:13:00,487 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:13:00,504 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:13:00,525 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124942
+2015-10-02 13:16:38,435 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:16:38,452 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:16:38,472 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122764
+2015-10-02 13:18:23,191 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:18:23,211 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:18:23,229 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125852
+2015-10-02 13:19:29,811 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:19:29,830 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:19:29,857 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0153023
+2015-10-02 13:19:46,581 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:19:46,601 [107] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:19:46,641 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0197091
+2015-10-02 13:20:39,418 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:20:39,439 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:20:39,456 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0125940
+2015-10-02 13:21:18,779 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:21:18,799 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:21:18,814 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0114519
+2015-10-02 13:21:27,304 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:21:27,318 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:21:27,335 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0100854
+2015-10-02 13:21:54,551 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:21:54,563 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:21:54,577 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087525
+2015-10-02 13:22:41,865 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:22:41,880 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:22:41,893 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0090928
+2015-10-02 13:22:49,744 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:22:49,757 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:22:49,770 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0085467
+2015-10-02 13:22:52,967 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:22:52,979 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:22:52,993 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087026
+2015-10-02 13:23:08,202 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:23:08,215 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:23:08,229 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087234
+2015-10-02 13:23:09,551 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:23:09,567 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:23:09,592 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135716
+2015-10-02 13:28:30,162 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:28:30,175 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:28:30,189 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0090501
+2015-10-02 13:29:09,838 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:29:09,852 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:29:09,865 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089433
+2015-10-02 13:29:24,372 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:29:24,385 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:29:24,398 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0085169
+2015-10-02 13:29:56,941 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:29:56,953 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:29:56,966 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0084380
+2015-10-02 13:30:00,136 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:30:00,149 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:30:00,163 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087299
+2015-10-02 13:32:01,890 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:01,904 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:01,918 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0091271
+2015-10-02 13:32:14,348 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:14,360 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:14,374 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0086140
+2015-10-02 13:32:15,068 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:15,081 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:15,094 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0086772
+2015-10-02 13:32:15,959 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:15,971 [107] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:15,984 [107] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0085474
+2015-10-02 13:32:16,882 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:16,895 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:16,909 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0088202
+2015-10-02 13:32:32,634 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:32,647 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:32,661 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0091698
+2015-10-02 13:32:36,482 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:36,496 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:36,510 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089994
+2015-10-02 13:32:40,083 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:40,095 [76] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:40,110 [76] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089880
+2015-10-02 13:32:40,851 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:40,864 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:40,877 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087486
+2015-10-02 13:32:41,243 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:41,255 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:41,269 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087538
+2015-10-02 13:32:44,271 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:32:44,283 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:32:44,296 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0084390
+2015-10-02 13:36:10,772 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:36:10,787 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:36:10,804 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0105883
+2015-10-02 13:36:17,163 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:36:17,177 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:36:17,192 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0095341
+2015-10-02 13:42:08,198 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:42:08,212 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:42:08,228 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0098633
+2015-10-02 13:42:09,511 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:42:09,524 [83] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:42:09,538 [83] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0090090
+2015-10-02 13:42:10,254 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:42:10,267 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:42:10,280 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087936
+2015-10-02 13:42:10,439 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:42:10,452 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:42:10,466 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089076
+2015-10-02 13:42:10,601 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:42:10,614 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:42:10,630 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0097464
+2015-10-02 13:43:45,470 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:43:45,491 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:43:45,505 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124937
+2015-10-02 13:43:46,194 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:43:46,207 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:43:46,221 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089227
+2015-10-02 13:43:47,369 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:43:47,382 [85] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:43:47,395 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087674
+2015-10-02 13:44:07,449 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:44:07,466 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:44:07,480 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0101777
+2015-10-02 13:44:08,449 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:44:08,462 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:44:08,477 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0093641
+2015-10-02 13:44:10,263 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:44:10,283 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:44:10,297 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0111648
+2015-10-02 13:44:12,610 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:44:12,624 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:44:12,641 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0099738
+2015-10-02 13:44:16,547 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:44:16,561 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:44:16,576 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0094378
+2015-10-02 13:49:01,660 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:49:01,674 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:49:01,692 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0108794
+2015-10-02 13:49:02,415 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:49:02,428 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:49:02,441 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0085797
+2015-10-02 13:50:07,181 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:50:07,208 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:50:07,229 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160800
+2015-10-02 13:50:09,487 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:50:09,500 [85] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:50:09,513 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087419
+2015-10-02 13:50:10,961 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:50:10,979 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:50:10,994 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0106820
+2015-10-02 13:50:21,316 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:50:21,329 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:50:21,343 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0090445
+2015-10-02 13:50:22,326 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:50:22,340 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:50:22,353 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0086897
+2015-10-02 13:51:08,124 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:51:08,143 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:51:08,161 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123736
+2015-10-02 13:51:10,766 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:51:10,783 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:51:10,796 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0100775
+2015-10-02 13:52:36,934 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:52:36,956 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:52:36,976 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138505
+2015-10-02 13:52:38,665 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:52:38,684 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:52:38,700 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0115082
+2015-10-02 13:53:29,403 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:53:29,458 [59] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:53:29,479 [59] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0251437
+2015-10-02 13:53:30,790 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:53:30,804 [85] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:53:30,818 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0091269
+2015-10-02 13:53:40,615 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:53:40,634 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:53:40,664 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0161157
+2015-10-02 13:54:05,702 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:54:05,715 [62] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:54:05,730 [62] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0092279
+2015-10-02 13:55:53,581 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:55:53,595 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:55:53,611 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0098854
+2015-10-02 13:55:54,770 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:55:54,783 [56] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:55:54,797 [56] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087450
+2015-10-02 13:55:57,782 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:55:57,832 [115] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:55:57,850 [115] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0226625
+2015-10-02 13:55:58,954 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:55:58,971 [85] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:55:58,985 [85] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0101600
+2015-10-02 13:56:04,346 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:04,371 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:04,390 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148441
+2015-10-02 13:56:08,341 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:08,358 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:08,372 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0102299
+2015-10-02 13:56:09,532 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:09,545 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:09,559 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0087985
+2015-10-02 13:56:10,026 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:10,039 [35] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:10,053 [35] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0089397
+2015-10-02 13:56:42,912 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:42,932 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:42,958 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0157206
+2015-10-02 13:56:43,950 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 13:56:43,964 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 13:56:43,989 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129633
+2015-10-02 14:00:40,294 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:40,312 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:40,342 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0158073
+2015-10-02 14:00:41,607 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:41,620 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:41,644 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123689
+2015-10-02 14:00:48,531 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:48,545 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:48,573 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138969
+2015-10-02 14:00:49,886 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:49,898 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:49,922 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122059
+2015-10-02 14:00:57,171 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:57,190 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:57,216 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148520
+2015-10-02 14:00:58,403 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:00:58,416 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:00:58,440 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0121515
+2015-10-02 14:01:31,815 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:01:31,830 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:01:31,856 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0134660
+2015-10-02 14:01:34,276 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:01:34,289 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:01:34,312 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0120663
+2015-10-02 14:01:36,394 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:01:36,410 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:01:36,441 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0152816
+2015-10-02 14:01:37,583 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:01:37,598 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:01:37,621 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127169
+2015-10-02 14:03:28,703 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:03:28,716 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:03:28,739 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0120584
+2015-10-02 14:03:30,085 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:03:30,099 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:03:30,125 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0133794
+2015-10-02 14:04:42,653 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:04:42,681 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:04:42,712 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0194801
+2015-10-02 14:04:43,773 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:04:43,786 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:04:43,810 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122150
+2015-10-02 14:40:35,292 [67] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:40:35,305 [67] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:40:35,335 [67] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144853
+2015-10-02 14:40:37,422 [75] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:40:37,437 [75] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:40:37,462 [75] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131409
+2015-10-02 14:41:11,948 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:41:11,967 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:41:11,992 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0143549
+2015-10-02 14:41:13,348 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:41:13,362 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:41:13,392 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144690
+2015-10-02 14:42:28,617 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:42:28,633 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:42:28,664 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0156285
+2015-10-02 14:42:29,823 [77] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:42:29,837 [77] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:42:29,862 [77] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127483
+2015-10-02 14:45:32,946 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:45:32,974 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:45:33,003 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0201814
+2015-10-02 14:45:37,480 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:45:37,493 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:45:37,517 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123864
+2015-10-02 14:46:43,302 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:46:43,326 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:46:43,375 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0242744
+2015-10-02 14:46:45,993 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:46:46,007 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:46:46,032 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127976
+2015-10-02 14:48:22,496 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:48:22,510 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:48:22,533 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123596
+2015-10-02 14:48:24,074 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:48:24,089 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:48:24,115 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0136682
+2015-10-02 14:56:51,700 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:56:51,719 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:56:51,756 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0186748
+2015-10-02 14:56:53,354 [58] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:56:53,368 [58] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:56:53,391 [58] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0122934
+2015-10-02 14:57:49,534 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:57:49,549 [55] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:57:49,573 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129270
+2015-10-02 14:57:50,884 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:57:50,897 [54] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:57:50,921 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123933
+2015-10-02 14:58:09,031 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:09,045 [49] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:09,071 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132489
+2015-10-02 14:58:10,166 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:10,180 [63] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:10,210 [63] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0147473
+2015-10-02 14:58:36,914 [52] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:36,930 [52] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:36,967 [52] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0174278
+2015-10-02 14:58:37,845 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:37,860 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:37,885 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131780
+2015-10-02 14:58:48,535 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:48,551 [49] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:48,579 [49] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144693
+2015-10-02 14:58:49,733 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:58:49,749 [54] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:58:49,772 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129162
+2015-10-02 14:59:24,885 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:59:24,901 [55] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:59:24,924 [55] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128572
+2015-10-02 14:59:26,297 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 14:59:26,313 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 14:59:26,340 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140860
+2015-10-02 15:02:18,219 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:18,238 [46] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:18,277 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0192234
+2015-10-02 15:02:19,933 [42] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:19,948 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:19,972 [42] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129807
+2015-10-02 15:02:43,885 [57] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:43,899 [57] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:43,934 [57] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0163162
+2015-10-02 15:02:44,942 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:44,955 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:44,982 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0133486
+2015-10-02 15:02:52,269 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:52,283 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:52,319 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0168014
+2015-10-02 15:02:53,010 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:02:53,023 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:02:53,047 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124279
+2015-10-02 15:03:17,330 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:03:17,351 [36] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:03:17,387 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0189305
+2015-10-02 15:03:18,337 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:03:18,351 [36] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:03:18,383 [36] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0151897
+2015-10-02 15:03:31,496 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:03:31,522 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:03:31,549 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0175924
+2015-10-02 15:03:32,641 [42] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:03:32,655 [42] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:03:32,685 [42] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0146498
+2015-10-02 15:04:34,375 [47] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:04:34,389 [47] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:04:34,428 [47] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0176727
+2015-10-02 15:04:36,091 [58] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:04:36,105 [58] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:04:36,131 [58] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132371
+2015-10-02 15:11:53,970 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:11:54,005 [66] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:11:54,033 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0208221
+2015-10-02 15:11:55,726 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:11:55,740 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:11:55,766 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131398
+2015-10-02 15:12:10,470 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:10,499 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:10,529 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0196755
+2015-10-02 15:12:11,550 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:11,564 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:11,588 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128002
+2015-10-02 15:12:33,006 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:33,024 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:33,067 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0202148
+2015-10-02 15:12:34,249 [69] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:34,263 [69] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:34,286 [69] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124015
+2015-10-02 15:12:45,259 [71] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:45,275 [71] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:45,302 [71] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144376
+2015-10-02 15:12:46,368 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:12:46,383 [66] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:12:46,407 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127977
+2015-10-02 15:13:14,167 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:13:14,182 [66] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:13:14,230 [66] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0210555
+2015-10-02 15:14:21,864 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:14:21,878 [70] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:14:21,906 [70] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138373
+2015-10-02 15:14:57,778 [72] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:14:57,794 [72] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:14:57,834 [72] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0186535
+2015-10-02 15:15:00,367 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:15:00,380 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:15:00,404 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123831
+2015-10-02 15:17:34,374 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:17:34,390 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:17:34,431 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0188043
+2015-10-02 15:17:35,803 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:17:35,818 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:17:35,844 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132858
+2015-10-02 15:24:15,228 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:24:15,250 [40] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:24:15,280 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0173523
+2015-10-02 15:24:20,144 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:24:20,158 [40] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:24:20,181 [40] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0123077
+2015-10-02 15:24:55,230 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:24:55,248 [46] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:24:55,296 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0219893
+2015-10-02 15:24:56,776 [39] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:24:56,790 [39] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:24:56,815 [39] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129930
+2015-10-02 15:25:21,418 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:25:21,439 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:25:21,468 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0165722
+2015-10-02 15:25:22,322 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:25:22,340 [54] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:25:22,367 [54] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148324
+2015-10-02 15:28:24,670 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:28:24,690 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:28:24,716 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160791
+2015-10-02 15:29:01,793 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:29:01,807 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:29:01,833 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132283
+2015-10-02 15:30:01,737 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:30:01,757 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:30:01,786 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0163051
+2015-10-02 15:30:02,980 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:30:02,994 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:30:03,019 [10] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0127643
+2015-10-02 15:30:51,699 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:30:51,715 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:30:51,747 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0159591
+2015-10-02 15:30:52,909 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:30:52,923 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:30:52,947 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0126533
+2015-10-02 15:31:12,289 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:12,308 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:12,332 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142961
+2015-10-02 15:31:15,200 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:15,214 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:15,239 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128364
+2015-10-02 15:31:28,554 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:28,568 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:28,599 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0149071
+2015-10-02 15:31:29,731 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:29,746 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:29,773 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138772
+2015-10-02 15:31:43,404 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:43,423 [6] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:43,455 [6] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0170116
+2015-10-02 15:31:44,289 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:31:44,303 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:31:44,337 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0157703
+2015-10-02 15:32:05,034 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:32:05,052 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:32:05,093 [7] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0193323
+2015-10-02 15:32:06,616 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:32:06,638 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:32:06,668 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0172696
+2015-10-02 15:34:40,101 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:34:40,116 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:34:40,141 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0132862
+2015-10-02 15:34:41,195 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:34:41,210 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:34:41,235 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131985
+2015-10-02 15:42:25,325 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:42:25,346 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:42:25,371 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160151
+2015-10-02 15:42:27,719 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:42:27,737 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:42:27,771 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0172808
+2015-10-02 15:43:34,327 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:43:34,344 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:43:34,374 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0153200
+2015-10-02 15:43:35,083 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:43:35,098 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:43:35,125 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0137576
+2015-10-02 15:44:03,329 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:03,342 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:03,371 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0138875
+2015-10-02 15:44:04,580 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:04,594 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:04,621 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135785
+2015-10-02 15:44:18,304 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:18,322 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:18,355 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0169634
+2015-10-02 15:44:19,489 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:19,504 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:19,529 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0130851
+2015-10-02 15:44:20,841 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:20,856 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:20,881 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0133469
+2015-10-02 15:44:21,645 [24] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:21,661 [24] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:21,685 [24] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0133067
+2015-10-02 15:44:22,247 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:22,261 [22] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:22,285 [22] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124283
+2015-10-02 15:44:25,701 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:25,716 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:25,743 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140433
+2015-10-02 15:44:28,382 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:28,397 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:28,424 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140659
+2015-10-02 15:44:45,651 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:45,673 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:45,710 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0196199
+2015-10-02 15:44:47,128 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:44:47,144 [23] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:44:47,174 [23] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0150907
+2015-10-02 15:46:43,793 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:46:43,817 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:46:43,847 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0176754
+2015-10-02 15:46:45,809 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:46:45,823 [33] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:46:45,851 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0139954
+2015-10-02 15:47:02,254 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:47:02,272 [20] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:47:02,302 [20] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0161599
+2015-10-02 15:47:03,855 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:47:03,869 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:47:03,893 [18] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128033
+2015-10-02 15:48:25,101 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:48:25,124 [19] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:48:25,156 [19] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0183243
+2015-10-02 15:48:26,791 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:48:26,806 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:48:26,836 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148039
+2015-10-02 15:49:32,803 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:49:32,826 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:49:32,856 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0175833
+2015-10-02 15:49:34,375 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:49:34,391 [15] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:49:34,427 [15] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0174516
+2015-10-02 15:50:37,585 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:50:37,603 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:50:37,631 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0152964
+2015-10-02 15:50:39,261 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 15:50:39,274 [34] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 15:50:39,305 [34] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0146908
+2015-10-02 16:05:02,522 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:05:02,545 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:05:02,584 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0203078
+2015-10-02 16:05:03,900 [41] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:05:03,914 [41] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:05:03,947 [41] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0154722
+2015-10-02 16:05:26,408 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:05:26,427 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:05:26,454 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0153517
+2015-10-02 16:05:27,639 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:05:27,653 [33] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:05:27,690 [33] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0168374
+2015-10-02 16:22:35,504 [120] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:22:35,523 [120] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:22:35,558 [120] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0179803
+2015-10-02 16:22:35,731 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:22:35,745 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:22:35,769 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0124447
+2015-10-02 16:22:37,190 [119] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:22:37,211 [119] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:22:37,236 [119] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0151780
+2015-10-02 16:22:40,777 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:22:40,791 [118] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:22:40,816 [118] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0129616
+2015-10-02 16:36:56,754 [91] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 16:36:56,771 [91] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 16:36:56,806 [91] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0171531
+2015-10-02 17:08:23,000 [64] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:08:23,014 [64] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:08:23,043 [64] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0141583
+2015-10-02 17:08:25,833 [64] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:08:25,848 [64] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:08:25,881 [64] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0160135
+2015-10-02 17:20:47,893 [74] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:20:47,916 [74] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:20:47,941 [74] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0159851
+2015-10-02 17:24:27,793 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:24:27,807 [110] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:24:27,838 [110] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0146726
+2015-10-02 17:24:43,583 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:24:43,598 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:24:43,626 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0143490
+2015-10-02 17:24:46,536 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:24:46,551 [65] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:24:46,576 [65] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0130549
+2015-10-02 17:24:47,427 [102] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 17:24:47,440 [102] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 17:24:47,467 [102] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135265
+2015-10-02 18:01:33,341 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:01:33,363 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:01:33,389 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0167486
+2015-10-02 18:02:36,539 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:02:36,553 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:02:36,577 [14] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0126005
+2015-10-02 18:02:54,637 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:02:54,661 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:02:54,691 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0178486
+2015-10-02 18:02:58,502 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:02:58,516 [17] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:02:58,549 [17] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0155201
+2015-10-02 18:03:40,669 [24] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:03:40,690 [24] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:03:40,721 [24] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0174134
+2015-10-02 18:05:49,151 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:05:49,165 [32] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:05:49,217 [32] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0219157
+2015-10-02 18:05:52,434 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:05:52,447 [31] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:05:52,477 [31] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0142070
+2015-10-02 18:12:49,698 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:12:49,717 [16] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:12:49,748 [16] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0164981
+2015-10-02 18:12:53,308 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:12:53,323 [25] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:12:53,358 [25] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0165638
+2015-10-02 18:14:34,171 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:14:34,187 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:14:34,212 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0135500
+2015-10-02 18:14:36,965 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:14:36,980 [21] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:14:37,019 [21] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0180420
+2015-10-02 18:14:48,667 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:14:48,682 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:14:48,706 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0128723
+2015-10-02 18:14:50,563 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:14:50,577 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:14:50,606 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140075
+2015-10-02 18:15:00,292 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:15:00,307 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:15:00,337 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0148945
+2015-10-02 18:15:02,381 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:15:02,397 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:15:02,424 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0141981
+2015-10-02 18:15:28,124 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:15:28,138 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:15:28,169 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0147621
+2015-10-02 18:15:30,262 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:15:30,276 [28] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:15:30,306 [28] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0145025
+2015-10-02 18:16:28,204 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:16:28,225 [29] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:16:28,250 [29] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0153568
+2015-10-02 18:16:29,788 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:16:29,801 [27] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:16:29,830 [27] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0140639
+2015-10-02 18:18:48,177 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:18:48,198 [12] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:18:48,221 [12] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0153447
+2015-10-02 18:20:06,272 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:20:06,288 [8] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:20:06,312 [8] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0131173
+2015-10-02 18:25:09,949 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:25:09,971 [46] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:25:09,999 [46] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0167804
+2015-10-02 18:26:02,772 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:26:02,788 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:26:02,820 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0157337
+2015-10-02 18:26:54,488 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:26:54,503 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:26:54,539 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0170868
+2015-10-02 18:27:03,863 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:27:03,888 [37] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:27:03,926 [37] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0208236
+2015-10-02 18:27:19,524 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:27:19,538 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:27:19,561 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0121940
+2015-10-02 18:27:20,427 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID is called
+2015-10-02 18:27:20,444 [44] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetByID @BuildOrderID = 1; 
+2015-10-02 18:27:20,470 [44] INFO  Server - Stored procedure dbo.BuildOrders_GetByID finished successfully. Execution time: 00:00:00.0144763

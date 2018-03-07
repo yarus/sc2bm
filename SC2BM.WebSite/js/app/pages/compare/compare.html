@@ -1,0 +1,251 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="compareController as vm">
+
+    <div class="row no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 margin-top-20 margin-bottom-20">
+            <section class="no-border no-padding bg-transparent margin-bottom-20">
+                <div class="padding-left-20 padding-right-20 no-padding-xs no-padding-sm">
+                    <div class="title no-border no-margin">
+                        <h2 class="headline">
+                            <i class="fa fa-columns"></i> Compare Build Orders
+                        </h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-white no-border no-padding-top" data-ng-show="vm.showSelectors">
+                <div class="row padding-left-20">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label" for="version">Version</label>
+                            <select name="leftVersion" id="version" class="form-control"
+                                    data-ng-options="option for option in vm.versions"
+                                    data-ng-change="vm.versionChanged(vm.version)"
+                                    data-ng-model="vm.version"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row padding-left-35 padding-right-35 margin-top-10 margin-bottom-20">
+                    <h4 class="border-bottom-1 border-black">
+                        Left Build Order
+                    </h4>
+                </div>
+
+                <div class="row padding-left-20 padding-right-20" data-ng-show="vm.showLeftBuildSelector">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label" for="leftFaction">Faction</label>
+                            <select name="leftFaction" id="leftFaction" class="form-control"
+                                    data-ng-options="option for option in vm.factions"
+                                    data-ng-change="vm.leftFactionChanged(vm.leftRace)"
+                                    data-ng-model="vm.leftRace"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label" for="leftVsFaction">Vs Faction</label>
+                            <select name="leftVsFaction" id="leftVsFaction" class="form-control"
+                                    data-ng-options="option for option in vm.factions"
+                                    data-ng-change="vm.leftVsFactionChanged(vm.leftVsRace)"
+                                    data-ng-model="vm.leftVsRace"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 form-group has-feedback">
+                        <label class="control-label" for="leftName">Left Build</label>
+                        <select name="leftName" id="leftName" class="form-control"
+                                data-ng-options="option.Name for option in vm.leftBuildList"
+                                data-ng-change="vm.leftBuildSelected(vm.leftName)"
+                                data-ng-model="vm.leftName"></select>
+                    </div>
+                </div>
+
+                <div class="row padding-left-35 padding-right-35 margin-top-10 margin-bottom-20">
+                    <h4 class="border-bottom-1 border-black">
+                        Right Build Order
+                    </h4>
+                </div>
+
+                <div class="row padding-left-20 padding-right-20" data-ng-show="vm.showRightBuildSelector">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label" for="rightFaction">Faction</label>
+                            <select name="rightFaction" id="rightFaction" class="form-control"
+                                    data-ng-options="option for option in vm.factions"
+                                    data-ng-change="vm.rightFactionChanged(vm.rightRace)"
+                                    data-ng-model="vm.rightRace"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label" for="rightVsFaction">Vs Faction</label>
+                            <select name="rightVsFaction" id="rightVsFaction" class="form-control"
+                                    data-ng-options="option for option in vm.factions"
+                                    data-ng-change="vm.rightVsFactionChanged(vm.rightVsRace)"
+                                    data-ng-model="vm.rightVsRace"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="rightName">Right Build</label>
+                            <select name="rightName" id="rightName" class="form-control"
+                                    data-ng-options="option.Name for option in vm.rightBuildList"
+                                    data-ng-change="vm.rightBuildSelected(vm.rightName)"
+                                    data-ng-model="vm.rightName"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row padding-left-35 margin-top-20">
+                    <button type="button" class="btn btn-success" data-ng-disabled="vm.leftName == null || vm.rightName == null" data-ng-click="vm.showComparison()">Compare build Orders</button>
+                </div>
+            </section>
+
+            <section class="no-border no-padding bg-transparent" data-ng-show="vm.showCompareTable">
+                <div class="margin-left-15">
+                    <button type="button" class="btn btn-success" data-ng-click="vm.closeComparison()">Start New Comparison</button>
+                </div>
+
+                <div class="col-lg-7 col-md-10 col-sm-10 col-xs-12 no-padding-xs no-margin-xs margin-top-10">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                Comparison Results
+                            </h4>
+                        </div>
+
+                        <div class="panel-body no-margin no-padding">
+                            <div class="checkbox no-padding margin-10">
+                                <input type="checkbox" id="cbShowWorkers" data-ng-model="vm.showWorkers" data-ng-change="vm.showWorkersChanged()">
+                                <label for="cbShowWorkers">Show Workers</label>
+                            </div>
+
+                            <div class="panel-body no-margin no-padding">
+                                <table class="table table-striped no-margin no-padding">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="2"><a data-ng-href="/builds/{{vm.builds[0].ID}}" title="Go to Build Order">{{vm.builds[0].Name}}</a></th>
+                                        <th></th>
+                                        <th colspan="2"><a data-ng-href="/builds/{{vm.builds[1].ID}}" title="Go to Build Order">{{vm.builds[1].Name}}</a></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th style="width: 50%">&nbsp;</th>
+                                        <th></th>
+                                        <th style="width: 10px" class="bg-grey-800 color-white border-black">Start Time</th>
+                                        <th></th>
+                                        <th style="width: 50%">&nbsp;</th>
+                                    </tr>
+
+                                    <tr data-ng-repeat="compareItem in vm.compareModel">
+                                        <td>
+                                            <span data-ng-show="compareItem.leftItems == null || compareItem.leftItems.length == 0">&nbsp;</span>
+
+                                            <div data-ng-repeat="leftItem in compareItem.leftItems">
+                                                {{leftItem.Limit + "/" + leftItem.MaxLimit}}
+                                                <img alt="{{leftItem.DisplayName}}" data-ng-src="/images/buildItems/{{leftItem.LogoPath}}" style="height: 40px; width: 40px; display: inline-block;">
+                                                {{leftItem.DisplayName}}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span data-ng-show="compareItem.leftItems == null || compareItem.leftItems.length == 0">&nbsp;</span>
+
+                                            <div data-ng-show="compareItem.leftItems != null && compareItem.leftItems.length > 0" data-ng-mouseenter="vm.showStats(compareItem, compareItem.leftItems[compareItem.leftItems.length - 1], 0)">
+                                                <button class="btn btn-info btn-outline btn-circle btn-xs" title="Statistics"
+                                                        uib-tooltip-template="vm.dynamicPopover.templateUrl" tooltip-placement="top" tooltip-class="customClass">
+                                                    <i class="fa fa-info"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="bg-grey-800 color-white">
+                                            {{compareItem.startTime}}
+                                        </td>
+                                        <td>
+                                            <span data-ng-show="compareItem.rightItems == null || compareItem.rightItems.length == 0">&nbsp;</span>
+
+                                            <div data-ng-show="compareItem.rightItems != null && compareItem.rightItems.length > 0" data-ng-mouseenter="vm.showStats(compareItem, compareItem.rightItems[compareItem.rightItems.length - 1], 1)">
+                                                <button class="btn btn-info btn-outline btn-circle btn-xs" title="Statistics"
+                                                        uib-tooltip-template="vm.dynamicPopover.templateUrl" tooltip-placement="top" tooltip-class="customClass">
+                                                    <i class="fa fa-info"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span data-ng-show="compareItem.rightItems == null || compareItem.rightItems.length == 0">&nbsp;</span>
+
+                                            <div data-ng-repeat="rightItem in compareItem.rightItems">
+                                                {{rightItem.Limit + "/" + rightItem.MaxLimit}}
+                                                <img alt="{{rightItem.DisplayName}}" data-ng-src="/images/buildItems/{{rightItem.LogoPath}}" style="height: 40px; width: 40px; display: inline-block;">
+                                                {{rightItem.DisplayName}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Specify styling for tooltip contents */
+    .customClass .tooltip-inner {
+        max-width: 400px !important;
+        border-radius: 4px;
+        width: 400px;
+        min-width: 400px;
+        color: white;
+        background-color: #3498db;
+        text-align: left;
+    }
+
+    .tooltipImage {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+    }
+    /* Hide arrow */
+</style>
+
+<script type="text/ng-template" id="templatePopover.html">
+    <div class="row padding-10">
+        <h4 class="text-center text-white border-bottom-1 border-white">Statistics on {{vm.statsModel.startTime}}</h4>
+        <div class="col-md-12 padding-top-10">
+            <div class="row">
+                <span>
+                    <img alt="Minerals" data-ng-src="/images/buildItems/bm_minerals.png" class="tooltipImage">{{vm.statsModel.minerals}}
+                </span>
+                <span>
+                    <img alt="Gas" data-ng-src="/images/buildItems/bm_gas.png" class="tooltipImage">{{vm.statsModel.gas}}
+                </span>
+                <span>
+                    <img alt="Workers" data-ng-src="/images/buildItems/{{vm.statsModel.workerLogoPath}}" class="tooltipImage">{{vm.statsModel.workers}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="unit in vm.statsModel.units">
+                    <img alt="{{unit.name}}" data-ng-src="/images/buildItems/{{unit.logoPath}}" class="tooltipImage">{{unit.count}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="building in vm.statsModel.buildings">
+                    <img alt="{{building.name}}" data-ng-src="/images/buildItems/{{building.logoPath}}" class="tooltipImage">{{building.count}}
+                </span>
+            </div>
+            <div class="row">
+                <span data-ng-repeat="upgrade in vm.statsModel.upgrades">
+                    <img alt="{{upgrade.name}}" data-ng-src="/images/buildItems/{{upgrade.logoPath}}" class="tooltipImage">{{upgrade.count}}
+                </span>
+            </div>
+        </div>
+    </div>
+</script>

@@ -1,0 +1,13 @@
+﻿<li>
+	<div class="caret-container">
+		<span class="caret-inner" data-ng-class="{expanded: item.Expanded}" 
+			  data-ng-if="item.Items.length" data-ng-click="toggle(item)"></span>
+	</div>
+	<div class="name">
+		<input type="checkbox" data-ng-model="item.Checked" data-ng-click="selectCheckbox(item, $event)" />
+		<span data-ng-bind="item.Name" data-ng-click="select(item, $event)"></span>
+	</div>
+	<ul class="sublist" data-ng-if="item.Items.length" data-ng-class="{expanded: item.Expanded}">
+		<multi-select-node data-ng-repeat="d in item.Items" item="d"></multi-select-node>
+	</ul>
+</li>

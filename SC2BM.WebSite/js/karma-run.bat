@@ -1,0 +1,1 @@
+start cmd.exe /k karma start karma.conf.js

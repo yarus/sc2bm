@@ -1,0 +1,656 @@
+2015-12-14 11:05:54,174 [249] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 11:05:54,180 [249] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1196, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 11:05:54,193 [249] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0064047
+2015-12-14 11:07:03,298 [246] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 11:07:03,309 [246] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = 'Build', @EntityID = 1196, @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 11:07:03,309 [243] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 11:07:03,342 [243] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1196, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 11:07:04,218 [246] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.3049757
+2015-12-14 11:07:04,235 [247] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 11:07:04,242 [247] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1196, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 11:07:04,236 [243] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.3070943
+2015-12-14 11:07:04,274 [247] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0129436
+2015-12-14 11:07:05,036 [254] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 11:07:05,045 [254] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1196, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 11:07:05,046 [249] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 11:07:05,063 [254] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0088067
+2015-12-14 11:07:05,071 [249] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1196, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 11:07:05,095 [249] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0164494
+2015-12-14 16:23:25,172 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:25,186 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:25,203 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0110788
+2015-12-14 16:23:41,400 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,407 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,422 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,413 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,413 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,427 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,433 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,446 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,439 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0106598
+2015-12-14 16:23:41,490 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0300346
+2015-12-14 16:23:41,508 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0314867
+2015-12-14 16:23:41,480 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,493 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,560 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0440331
+2015-12-14 16:23:41,561 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0425433
+2015-12-14 16:23:41,592 [13] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:41,613 [13] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,638 [9] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:41,640 [13] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0157737
+2015-12-14 16:23:41,652 [11] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:41,664 [12] INFO  Server - Stored procedure dbo.News_Search is called
+2015-12-14 16:23:41,651 [9] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,694 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:23:41,694 [11] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = , @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,707 [12] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,736 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,726 [9] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0292772
+2015-12-14 16:23:41,771 [11] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0393253
+2015-12-14 16:23:41,772 [12] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0356646
+2015-12-14 16:23:41,796 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0337282
+2015-12-14 16:23:41,863 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,872 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,872 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,890 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:41,892 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0095019
+2015-12-14 16:23:41,904 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,913 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:41,939 [9] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:41,940 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0227459
+2015-12-14 16:23:41,954 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0211757
+2015-12-14 16:23:41,962 [9] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1015, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:41,982 [12] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:42,020 [11] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:42,021 [9] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0271502
+2015-12-14 16:23:42,029 [12] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1013, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:42,041 [11] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1014, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:42,070 [12] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0292073
+2015-12-14 16:23:42,088 [11] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0226236
+2015-12-14 16:23:49,958 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:49,967 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:49,991 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0108245
+2015-12-14 16:23:51,067 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:51,067 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:51,067 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:51,067 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:51,078 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:51,074 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:51,103 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:51,091 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:51,152 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:51,169 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0338123
+2015-12-14 16:23:51,186 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0392979
+2015-12-14 16:23:51,145 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0259893
+2015-12-14 16:23:51,126 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:51,206 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0436326
+2015-12-14 16:23:51,226 [12] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:51,253 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0615384
+2015-12-14 16:23:51,273 [12] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = , @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:51,273 [9] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:51,310 [9] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:51,309 [8] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:51,311 [12] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0282693
+2015-12-14 16:23:51,337 [8] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:51,338 [9] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0213698
+2015-12-14 16:23:51,370 [8] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0199433
+2015-12-14 16:23:51,465 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:23:51,465 [11] INFO  Server - Stored procedure dbo.News_Search is called
+2015-12-14 16:23:51,476 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:51,487 [11] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:51,513 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0158017
+2015-12-14 16:23:51,525 [11] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0197902
+2015-12-14 16:23:52,155 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:52,160 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:52,192 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:52,184 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:52,184 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:52,214 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:52,228 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0227646
+2015-12-14 16:23:52,265 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0268416
+2015-12-14 16:23:52,264 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0361360
+2015-12-14 16:23:52,283 [11] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:52,299 [13] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:52,329 [11] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1014, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:52,329 [10] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:52,341 [13] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1013, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:52,364 [10] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1015, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:52,365 [11] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0273447
+2015-12-14 16:23:52,385 [13] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0285390
+2015-12-14 16:23:52,409 [10] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0265145
+2015-12-14 16:23:53,871 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,888 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,897 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:53,888 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:53,897 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,888 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,897 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,920 [6] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:53,921 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0108980
+2015-12-14 16:23:53,932 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0201869
+2015-12-14 16:23:53,970 [6] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:53,940 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:53,958 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:53,988 [10] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:54,023 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0416911
+2015-12-14 16:23:54,007 [6] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0288887
+2015-12-14 16:23:54,042 [10] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'href', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,006 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetRates is called
+2015-12-14 16:23:53,949 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:54,037 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0462893
+2015-12-14 16:23:54,083 [6] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:54,098 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0696148
+2015-12-14 16:23:54,084 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetRates 
+2015-12-14 16:23:54,120 [8] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:54,065 [11] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:23:54,084 [10] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0317859
+2015-12-14 16:23:54,119 [6] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,150 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:23:54,169 [11] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'replay', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,151 [13] INFO  Server - Stored procedure dbo.BuildOrders_GetRates finished successfully. Execution time: 00:00:00.0479855
+2015-12-14 16:23:54,160 [8] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,226 [11] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0532955
+2015-12-14 16:23:54,223 [6] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0462846
+2015-12-14 16:23:54,198 [9] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,254 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:23:54,256 [8] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0450484
+2015-12-14 16:23:54,296 [9] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0481195
+2015-12-14 16:23:54,295 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,351 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:54,361 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:54,357 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0338064
+2015-12-14 16:23:54,358 [6] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:54,375 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0080419
+2015-12-14 16:23:54,391 [6] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:54,401 [9] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:54,401 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:23:54,432 [11] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:23:54,433 [6] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0248161
+2015-12-14 16:23:54,441 [9] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:54,449 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:23:54,457 [11] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,483 [6] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:54,484 [9] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0274692
+2015-12-14 16:23:54,493 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0304933
+2015-12-14 16:23:54,519 [6] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,511 [11] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0262146
+2015-12-14 16:23:54,564 [10] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:23:54,541 [9] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:23:54,566 [6] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0273568
+2015-12-14 16:23:54,576 [10] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,585 [9] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:23:54,612 [10] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0159619
+2015-12-14 16:23:54,630 [9] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0294970
+2015-12-14 16:29:03,145 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:03,160 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:03,176 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0111080
+2015-12-14 16:29:16,092 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,105 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,106 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,114 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,142 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,128 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,155 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0208692
+2015-12-14 16:29:16,189 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0246849
+2015-12-14 16:29:16,214 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0357023
+2015-12-14 16:29:16,214 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,228 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,241 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,263 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,298 [12] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:16,299 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0280802
+2015-12-14 16:29:16,309 [14] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:16,335 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0353505
+2015-12-14 16:29:16,263 [7] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:16,368 [14] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,346 [12] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,391 [7] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = , @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,414 [14] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0345431
+2015-12-14 16:29:16,466 [12] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0557327
+2015-12-14 16:29:16,435 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:16,495 [13] INFO  Server - Stored procedure dbo.News_Search is called
+2015-12-14 16:29:16,503 [7] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0794668
+2015-12-14 16:29:16,521 [5] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,533 [13] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,586 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0500965
+2015-12-14 16:29:16,595 [13] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0332529
+2015-12-14 16:29:16,710 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,727 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,727 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,727 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:16,740 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,756 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0150869
+2015-12-14 16:29:16,760 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:16,777 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0165435
+2015-12-14 16:29:16,801 [7] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:16,803 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0250500
+2015-12-14 16:29:16,829 [7] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1015, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,829 [11] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:16,878 [11] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1013, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,868 [13] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:16,870 [7] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0227405
+2015-12-14 16:29:16,897 [13] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1014, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:16,898 [11] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0225940
+2015-12-14 16:29:16,936 [13] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0224161
+2015-12-14 16:29:17,881 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:17,890 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:17,881 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:17,907 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:17,940 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:17,931 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:17,931 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:17,931 [8] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:17,963 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:17,956 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0164643
+2015-12-14 16:29:17,933 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0173020
+2015-12-14 16:29:17,986 [8] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:17,946 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:18,002 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0235784
+2015-12-14 16:29:17,987 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0350669
+2015-12-14 16:29:18,016 [14] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:18,048 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:18,039 [8] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0360224
+2015-12-14 16:29:18,038 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetRates is called
+2015-12-14 16:29:18,071 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:18,081 [7] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:18,081 [14] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,095 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0492061
+2015-12-14 16:29:18,113 [8] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:18,113 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetRates 
+2015-12-14 16:29:18,134 [7] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'href', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,193 [8] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'replay', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,152 [14] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0449790
+2015-12-14 16:29:18,125 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,215 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetRates finished successfully. Execution time: 00:00:00.0584057
+2015-12-14 16:29:18,193 [10] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:18,268 [8] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0511699
+2015-12-14 16:29:18,235 [7] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0509915
+2015-12-14 16:29:18,289 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0721966
+2015-12-14 16:29:18,301 [10] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,302 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:18,369 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,370 [10] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0584368
+2015-12-14 16:29:18,394 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0306052
+2015-12-14 16:29:18,453 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:18,466 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:18,471 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:18,479 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:18,493 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0130670
+2015-12-14 16:29:18,491 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:18,502 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:18,511 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:18,536 [14] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:18,536 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:18,551 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0266171
+2015-12-14 16:29:18,569 [14] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,566 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0286024
+2015-12-14 16:29:18,583 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0302683
+2015-12-14 16:29:18,606 [14] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0230398
+2015-12-14 16:29:18,634 [12] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:18,619 [7] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:18,653 [5] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:18,662 [12] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,671 [7] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,680 [5] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:18,700 [12] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0217448
+2015-12-14 16:29:18,718 [7] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0325997
+2015-12-14 16:29:18,736 [5] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0277043
+2015-12-14 16:29:24,110 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:24,123 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:24,140 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0099219
+2015-12-14 16:29:31,082 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,108 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,108 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,133 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,109 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,133 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,108 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,143 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,108 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,159 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,151 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,178 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,196 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0289289
+2015-12-14 16:29:31,205 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0408914
+2015-12-14 16:29:31,175 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0222225
+2015-12-14 16:29:31,218 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0360721
+2015-12-14 16:29:31,244 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0366770
+2015-12-14 16:29:31,245 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0452306
+2015-12-14 16:29:31,262 [13] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:31,277 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetRates is called
+2015-12-14 16:29:31,290 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:31,306 [12] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:31,321 [5] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:31,342 [10] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:31,341 [13] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'replay', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,354 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_GetRates 
+2015-12-14 16:29:31,379 [5] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'href', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,387 [10] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,362 [14] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,421 [11] INFO  Server - Stored procedure dbo.BuildOrders_GetRates finished successfully. Execution time: 00:00:00.0475455
+2015-12-14 16:29:31,431 [5] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0366308
+2015-12-14 16:29:31,420 [13] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0524357
+2015-12-14 16:29:31,370 [12] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,460 [10] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0390669
+2015-12-14 16:29:31,489 [14] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0658438
+2015-12-14 16:29:31,489 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:31,523 [12] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0717515
+2015-12-14 16:29:31,538 [11] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = '3.0.0', @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,567 [11] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0258352
+2015-12-14 16:29:31,619 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,619 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,630 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,661 [11] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,662 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:31,661 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,677 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0192809
+2015-12-14 16:29:31,695 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,686 [11] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:31,734 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0380967
+2015-12-14 16:29:31,759 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0321804
+2015-12-14 16:29:31,758 [7] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:31,818 [7] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,774 [11] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0373237
+2015-12-14 16:29:31,788 [12] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:31,818 [10] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:31,837 [7] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0263995
+2015-12-14 16:29:31,862 [12] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,862 [11] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:31,872 [10] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,900 [11] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:31,902 [12] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0378550
+2015-12-14 16:29:31,946 [10] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0424509
+2015-12-14 16:29:31,949 [11] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0285552
+2015-12-14 16:29:34,332 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,351 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,352 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,351 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,356 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,366 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,376 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,403 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,392 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0198346
+2015-12-14 16:29:34,419 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0224732
+2015-12-14 16:29:34,430 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0260815
+2015-12-14 16:29:34,442 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0283888
+2015-12-14 16:29:34,474 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:34,459 [14] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:34,487 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,500 [12] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:34,500 [13] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1201, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 16:29:34,511 [14] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:34,521 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,531 [12] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:34,574 [14] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0384007
+2015-12-14 16:29:34,593 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0352692
+2015-12-14 16:29:34,573 [13] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0329405
+2015-12-14 16:29:34,615 [12] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0381054
+2015-12-14 16:29:34,643 [5] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:34,665 [5] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = 25, @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:34,685 [5] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0140894
+2015-12-14 16:29:34,791 [7] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,805 [7] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,798 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:34,824 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:34,821 [7] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0097651
+2015-12-14 16:29:34,841 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0140251
+2015-12-14 16:29:34,869 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:34,879 [7] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1201, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 16:29:34,879 [14] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:34,903 [14] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:34,904 [7] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0115210
+2015-12-14 16:29:34,923 [14] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0145662
+2015-12-14 16:29:37,338 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:37,346 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:37,360 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0075174
+2015-12-14 16:29:54,009 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,025 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,030 [13] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,030 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,031 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,045 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0118846
+2015-12-14 16:29:54,049 [13] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,061 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,072 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,099 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:54,113 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0276013
+2015-12-14 16:29:54,112 [13] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0271751
+2015-12-14 16:29:54,126 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0315271
+2015-12-14 16:29:54,130 [5] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1201, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 16:29:54,155 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,168 [13] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:29:54,209 [15] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:54,211 [5] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0370456
+2015-12-14 16:29:54,218 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,235 [15] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:54,227 [13] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:54,262 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0352331
+2015-12-14 16:29:54,350 [10] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,297 [12] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:29:54,322 [15] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0373652
+2015-12-14 16:29:54,352 [13] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0609403
+2015-12-14 16:29:54,386 [10] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,386 [14] INFO  Server - Stored procedure dbo.Rates_Search is called
+2015-12-14 16:29:54,397 [12] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:29:54,430 [10] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0266053
+2015-12-14 16:29:54,437 [14] DEBUG Server - RateRepository::ExecuteReader started
+EXEC dbo.Rates_Search @RateID = , @EntityType = 'Build', @EntityID = 1201, @OwnerUserID = 25, @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:29:54,451 [12] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0511870
+2015-12-14 16:29:54,479 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:29:54,480 [14] INFO  Server - Stored procedure dbo.Rates_Search finished successfully. Execution time: 00:00:00.0311271
+2015-12-14 16:29:54,499 [10] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = 1201, @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @IsDeleted = , @TotalCount = NULL; 
+2015-12-14 16:29:54,499 [12] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:29:54,536 [12] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'Builds', @EntityID = 1201, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:29:54,529 [10] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0164267
+2015-12-14 16:29:54,561 [12] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0203522
+2015-12-14 16:30:52,057 [17] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,057 [18] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,057 [14] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,057 [16] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,066 [15] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,072 [17] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,081 [18] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,098 [16] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,121 [17] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0210981
+2015-12-14 16:30:52,107 [15] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,134 [18] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0254121
+2015-12-14 16:30:52,089 [14] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,148 [16] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0299974
+2015-12-14 16:30:52,192 [18] INFO  Server - Stored procedure dbo.BuildOrders_Search is called
+2015-12-14 16:30:52,167 [17] INFO  Server - Stored procedure dbo.News_Search is called
+2015-12-14 16:30:52,168 [15] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0338361
+2015-12-14 16:30:52,217 [14] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0527909
+2015-12-14 16:30:52,245 [16] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:30:52,254 [17] DEBUG Server - NewsRepository::ExecuteReader started
+EXEC dbo.News_Search @NewsID = , @Title = , @Text = , @FromDate = , @ToDate = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,245 [18] DEBUG Server - BuildOrderRepository::ExecuteReader started
+EXEC dbo.BuildOrders_Search @BuildOrderID = , @Name = , @SC2VersionID = , @Description = , @Race = , @VsRace = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 3, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,288 [16] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = , @EntityID = , @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 5, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,278 [15] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:30:52,288 [14] INFO  Server - Stored procedure dbo.Links_Search is called
+2015-12-14 16:30:52,315 [17] INFO  Server - Stored procedure dbo.News_Search finished successfully. Execution time: 00:00:00.0491224
+2015-12-14 16:30:52,344 [18] INFO  Server - Stored procedure dbo.BuildOrders_Search finished successfully. Execution time: 00:00:00.0503879
+2015-12-14 16:30:52,365 [14] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = , @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,346 [16] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0333319
+2015-12-14 16:30:52,391 [5] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,355 [15] DEBUG Server - LinkRepository::ExecuteReader started
+EXEC dbo.Links_Search @LinkID = , @EntityType = , @EntityID = , @OwnerUserID = , @Type = 'vod', @OrderBy = 'AddedDate', @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,417 [17] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,439 [5] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,439 [14] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0500288
+2015-12-14 16:30:52,477 [17] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,468 [15] INFO  Server - Stored procedure dbo.Links_Search finished successfully. Execution time: 00:00:00.0629547
+2015-12-14 16:30:52,492 [5] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0335945
+2015-12-14 16:30:52,447 [18] INFO  Server - Stored procedure dbo.Users_Search is called
+2015-12-14 16:30:52,514 [17] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0320355
+2015-12-14 16:30:52,539 [5] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:30:52,539 [18] DEBUG Server - UserRepository::ExecuteReader started
+EXEC dbo.Users_Search @UserName = 'yaRus', @FirstName = , @LastName = , @Email = , @OrderBy = , @OrderDirection = D, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = True, @TotalCount = NULL; 
+2015-12-14 16:30:52,563 [5] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1015, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,563 [17] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:30:52,591 [17] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1014, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,578 [18] INFO  Server - Stored procedure dbo.Users_Search finished successfully. Execution time: 00:00:00.0435009
+2015-12-14 16:30:52,592 [5] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0173520
+2015-12-14 16:30:52,622 [17] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0192997
+2015-12-14 16:30:52,622 [18] INFO  Server - Stored procedure dbo.Comments_Search is called
+2015-12-14 16:30:52,641 [18] DEBUG Server - CommentRepository::ExecuteReader started
+EXEC dbo.Comments_Search @CommentID = , @EntityType = 'News', @EntityID = 1013, @OwnerUserID = , @OrderBy = 'AddedDate', @OrderDirection = A, @PageNumber = 1, @RowsPerPage = 99999, @IsStrict = False, @IsDeleted = False, @TotalCount = NULL; 
+2015-12-14 16:30:52,665 [18] INFO  Server - Stored procedure dbo.Comments_Search finished successfully. Execution time: 00:00:00.0143297

@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5717F39F-85F1-4362-8E1C-564C27A163E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC2BM.WebSite</RootNamespace>
+    <AssemblyName>SC2BM.WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.2\lib\portable-windows8+net40+sl5+windowsphone8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Mvc.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SC2.PublicData, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.PublicData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization.Less, Version=1.3.0.0, Culture=neutral, PublicKeyToken=9b7581e0240fe480, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Web.Optimization.Less.1.3.4\lib\net40\System.Web.Optimization.Less.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="Unity.WebApi, Version=5.1.0.0, Culture=neutral, PublicKeyToken=43da31bc42a85347, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.WebAPI.5.1\lib\net45\Unity.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Configuration\BundleConfig.cs" />
+    <Compile Include="Classes\CustomBasicAuthorizeAttribute.cs" />
+    <Compile Include="Classes\Helpers\BuildOrderEncoder.cs" />
+    <Compile Include="Classes\Helpers\HtmlSanitize.cs" />
+    <Compile Include="Classes\Helpers\Log.cs" />
+    <Compile Include="Classes\HttpCustomBasicUnauthorizedResult.cs" />
+    <Compile Include="Classes\JsonResponse.cs" />
+    <Compile Include="Classes\ServerState.cs" />
+    <Compile Include="Classes\Unity\UnityConfig.cs" />
+    <Compile Include="Classes\Unity\UnityWebActivator.cs" />
+    <Compile Include="Controllers\AuthorizationController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\BlogPostController.cs" />
+    <Compile Include="Controllers\BuildOrderController.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LinkController.cs" />
+    <Compile Include="Controllers\MobileApiController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\RateController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Configuration\FilterConfig.cs" />
+    <Compile Include="Classes\Configuration\RouteConfig.cs" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\main_community.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\helpers.css" />
+    <Content Include="css\ionicons.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\main_community.min.css">
+      <DependentUpon>main_community.css</DependentUpon>
+    </Content>
+    <Content Include="css\main_community_theme_blue.css">
+      <DependentUpon>main_community_theme_blue.less</DependentUpon>
+    </Content>
+    <Content Include="css\main_community_theme_blue.min.css">
+      <DependentUpon>main_community_theme_blue.css</DependentUpon>
+    </Content>
+    <Content Include="css\main_landing.css" />
+    <Content Include="css\main_landing.min.css">
+      <DependentUpon>main_landing.css</DependentUpon>
+    </Content>
+    <Content Include="css\textAngular.css" />
+    <Content Include="fonts\BebasNeue.svg" />
+    <Content Include="fonts\feathericons3869.svg" />
+    <Content Include="fonts\flexslider-icon.svg" />
+    <Content Include="fonts\fontawesome-webfonte0a5.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\ionicons28b5.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\468.png" />
+    <Content Include="images\android\android-black.png" />
+    <Content Include="images\android\android-slide-1.png" />
+    <Content Include="images\android\android-slide-2.png" />
+    <Content Include="images\android\android-slide-3.png" />
+    <Content Include="images\android\android-slide-4.png" />
+    <Content Include="images\arrows\down-arrow-left.png" />
+    <Content Include="images\arrows\down-arrow-right.png" />
+    <Content Include="images\arrows\up-arrow-left.png" />
+    <Content Include="images\arrows\up-arrow-right.png" />
+    <Content Include="images\avatar.jpg" />
+    <Content Include="images\bg\agsquare.png" />
+    <Content Include="images\bg\brickwall.png" />
+    <Content Include="images\bg\crossword.png" />
+    <Content Include="images\bg\dark_circles.png" />
+    <Content Include="images\bg\dark_geometric.png" />
+    <Content Include="images\bg\furley.jpg" />
+    <Content Include="images\bg\gray_jean.png" />
+    <Content Include="images\bg\mirrored_squares.png" />
+    <Content Include="images\bg\notebook.png" />
+    <Content Include="images\bg\padded.png" />
+    <Content Include="images\bg\retina_wood.png" />
+    <Content Include="images\bg\shattered.png" />
+    <Content Include="images\bg\tileable_wood_texture.png" />
+    <Content Include="images\bg\tiny_grid.png" />
+    <Content Include="images\bg\triangles.png" />
+    <Content Include="images\buildItems\bi_adaptivetalons.png" />
+    <Content Include="images\buildItems\bi_adept.png" />
+    <Content Include="images\buildItems\bi_adrenalglands.png" />
+    <Content Include="images\buildItems\bi_advancedballistics.png" />
+    <Content Include="images\buildItems\bi_airarmorlevel1.png" />
+    <Content Include="images\buildItems\bi_airarmorlevel2.png" />
+    <Content Include="images\buildItems\bi_airarmorlevel3.png" />
+    <Content Include="images\buildItems\bi_airweaponslevel1.png" />
+    <Content Include="images\buildItems\bi_airweaponslevel2.png" />
+    <Content Include="images\buildItems\bi_airweaponslevel3.png" />
+    <Content Include="images\buildItems\bi_anionpulsecrystals.png" />
+    <Content Include="images\buildItems\bi_archon.png" />
+    <Content Include="images\buildItems\bi_armory.png" />
+    <Content Include="images\buildItems\bi_assimilator.png" />
+    <Content Include="images\buildItems\bi_baneling.png" />
+    <Content Include="images\buildItems\bi_banelingnest.png" />
+    <Content Include="images\buildItems\bi_banshee.png" />
+    <Content Include="images\buildItems\bi_barracks.png" />
+    <Content Include="images\buildItems\bi_battlecruiser.png" />
+    <Content Include="images\buildItems\bi_behemothreactor.png" />
+    <Content Include="images\buildItems\bi_blink.png" />
+    <Content Include="images\buildItems\bi_broodlord.png" />
+    <Content Include="images\buildItems\bi_buildingarmor.png" />
+    <Content Include="images\buildItems\bi_bunker.png" />
+    <Content Include="images\buildItems\bi_burrow.png" />
+    <Content Include="images\buildItems\bi_caduceusreactor.png" />
+    <Content Include="images\buildItems\bi_callmule.png" />
+    <Content Include="images\buildItems\bi_cancelextractor.png" />
+    <Content Include="images\buildItems\bi_carrier.png" />
+    <Content Include="images\buildItems\bi_centrifugalhooks.png" />
+    <Content Include="images\buildItems\bi_charge.png" />
+    <Content Include="images\buildItems\bi_chitinousplating.png" />
+    <Content Include="images\buildItems\bi_chronoboost.png" />
+    <Content Include="images\buildItems\bi_cloakingfield.png" />
+    <Content Include="images\buildItems\bi_colossus.png" />
+    <Content Include="images\buildItems\bi_combatshield.png" />
+    <Content Include="images\buildItems\bi_commandcenter.png" />
+    <Content Include="images\buildItems\bi_concussiveshells.png" />
+    <Content Include="images\buildItems\bi_corruptor.png" />
+    <Content Include="images\buildItems\bi_corvidreactor.png" />
+    <Content Include="images\buildItems\bi_cyberneticscore.png" />
+    <Content Include="images\buildItems\bi_cyclone.png" />
+    <Content Include="images\buildItems\bi_cycloneonreactor.png" />
+    <Content Include="images\buildItems\bi_darkshrine.png" />
+    <Content Include="images\buildItems\bi_darktemplar.png" />
+    <Content Include="images\buildItems\bi_defendermode.png" />
+    <Content Include="images\buildItems\bi_disruptor.png" />
+    <Content Include="images\buildItems\bi_drillingclaws.png" />
+    <Content Include="images\buildItems\bi_drone.png" />
+    <Content Include="images\buildItems\bi_drone_bw.png" />
+    <Content Include="images\buildItems\bi_durablematerials.png" />
+    <Content Include="images\buildItems\bi_enduring_locusts.png" />
+    <Content Include="images\buildItems\bi_engineeringbay.png" />
+    <Content Include="images\buildItems\bi_enhancedmunitions.png" />
+    <Content Include="images\buildItems\bi_evolutionchamber.png" />
+    <Content Include="images\buildItems\bi_explosiveshrapnelshells.png" />
+    <Content Include="images\buildItems\bi_extendedthermallance.png" />
+    <Content Include="images\buildItems\bi_extractor.png" />
+    <Content Include="images\buildItems\bi_factory.png" />
+    <Content Include="images\buildItems\bi_fleetbeacon.png" />
+    <Content Include="images\buildItems\bi_flyerattacks1.png" />
+    <Content Include="images\buildItems\bi_flyerattacks2.png" />
+    <Content Include="images\buildItems\bi_flyerattacks3.png" />
+    <Content Include="images\buildItems\bi_flyercarapace1.png" />
+    <Content Include="images\buildItems\bi_flyercarapace2.png" />
+    <Content Include="images\buildItems\bi_flyercarapace3.png" />
+    <Content Include="images\buildItems\bi_flyinglocusts.png" />
+    <Content Include="images\buildItems\bi_forge.png" />
+    <Content Include="images\buildItems\bi_fusioncore.png" />
+    <Content Include="images\buildItems\bi_gasdrone.png" />
+    <Content Include="images\buildItems\bi_gasprobe.png" />
+    <Content Include="images\buildItems\bi_gasscv.png" />
+    <Content Include="images\buildItems\bi_gateway.png" />
+    <Content Include="images\buildItems\bi_ghost.png" />
+    <Content Include="images\buildItems\bi_ghostacademy.png" />
+    <Content Include="images\buildItems\bi_glialreconstitution.png" />
+    <Content Include="images\buildItems\bi_graviticbooster.png" />
+    <Content Include="images\buildItems\bi_graviticdrive.png" />
+    <Content Include="images\buildItems\bi_gravitoncatapult.png" />
+    <Content Include="images\buildItems\bi_greaterspire.png" />
+    <Content Include="images\buildItems\bi_groovedspines.png" />
+    <Content Include="images\buildItems\bi_groundarmorlevel1.png" />
+    <Content Include="images\buildItems\bi_groundarmorlevel2.png" />
+    <Content Include="images\buildItems\bi_groundarmorlevel3.png" />
+    <Content Include="images\buildItems\bi_groundcarapace1.png" />
+    <Content Include="images\buildItems\bi_groundcarapace2.png" />
+    <Content Include="images\buildItems\bi_groundcarapace3.png" />
+    <Content Include="images\buildItems\bi_groundweaponslevel1.png" />
+    <Content Include="images\buildItems\bi_groundweaponslevel2.png" />
+    <Content Include="images\buildItems\bi_groundweaponslevel3.png" />
+    <Content Include="images\buildItems\bi_hallucination.png" />
+    <Content Include="images\buildItems\bi_hatchery.png" />
+    <Content Include="images\buildItems\bi_helion.png" />
+    <Content Include="images\buildItems\bi_hellbat.png" />
+    <Content Include="images\buildItems\bi_hellbatonreactor.png" />
+    <Content Include="images\buildItems\bi_helliononreactor.png" />
+    <Content Include="images\buildItems\bi_highcapacityfueltanks.png" />
+    <Content Include="images\buildItems\bi_hightemplar.png" />
+    <Content Include="images\buildItems\bi_hisecautotracking.png" />
+    <Content Include="images\buildItems\bi_hive.png" />
+    <Content Include="images\buildItems\bi_hydralisk.png" />
+    <Content Include="images\buildItems\bi_hydraliskden.png" />
+    <Content Include="images\buildItems\bi_hyperflightrotors.png" />
+    <Content Include="images\buildItems\bi_immortal.png" />
+    <Content Include="images\buildItems\bi_infantryarmor1.png" />
+    <Content Include="images\buildItems\bi_infantryarmor2.png" />
+    <Content Include="images\buildItems\bi_infantryarmor3.png" />
+    <Content Include="images\buildItems\bi_infantryweapons1.png" />
+    <Content Include="images\buildItems\bi_infantryweapons2.png" />
+    <Content Include="images\buildItems\bi_infantryweapons3.png" />
+    <Content Include="images\buildItems\bi_infernal_preigniter.png" />
+    <Content Include="images\buildItems\bi_infestationpit.png" />
+    <Content Include="images\buildItems\bi_infestor.png" />
+    <Content Include="images\buildItems\bi_lair.png" />
+    <Content Include="images\buildItems\bi_landbarracks_lab.png" />
+    <Content Include="images\buildItems\bi_landbarracks_reactor.png" />
+    <Content Include="images\buildItems\bi_landfactory_lab.png" />
+    <Content Include="images\buildItems\bi_landfactory_reactor.png" />
+    <Content Include="images\buildItems\bi_landstarport_lab.png" />
+    <Content Include="images\buildItems\bi_landstarport_reactor.png" />
+    <Content Include="images\buildItems\bi_liberator.png" />
+    <Content Include="images\buildItems\bi_liberatoronreactor.png" />
+    <Content Include="images\buildItems\bi_liftbarracks_lab.png" />
+    <Content Include="images\buildItems\bi_liftbarracks_reactor.png" />
+    <Content Include="images\buildItems\bi_liftfactory_lab.png" />
+    <Content Include="images\buildItems\bi_liftfactory_reactor.png" />
+    <Content Include="images\buildItems\bi_liftstarport_lab.png" />
+    <Content Include="images\buildItems\bi_liftstarport_reactor.png" />
+    <Content Include="images\buildItems\bi_lurker.png" />
+    <Content Include="images\buildItems\bi_lurkerden.png" />
+    <Content Include="images\buildItems\bi_macrohatchery.png" />
+    <Content Include="images\buildItems\bi_magfieldaccelerator.png" />
+    <Content Include="images\buildItems\bi_marauder.png" />
+    <Content Include="images\buildItems\bi_marine.png" />
+    <Content Include="images\buildItems\bi_marineonreactor.png" />
+    <Content Include="images\buildItems\bi_mascular_augments.png" />
+    <Content Include="images\buildItems\bi_massrecall.png" />
+    <Content Include="images\buildItems\bi_medivaconreactor.png" />
+    <Content Include="images\buildItems\bi_medivak.png" />
+    <Content Include="images\buildItems\bi_medivak_x2.png" />
+    <Content Include="images\buildItems\bi_meleeattacks1.png" />
+    <Content Include="images\buildItems\bi_meleeattacks2.png" />
+    <Content Include="images\buildItems\bi_meleeattacks3.png" />
+    <Content Include="images\buildItems\bi_metabolicboost.png" />
+    <Content Include="images\buildItems\bi_mineraldrone.png" />
+    <Content Include="images\buildItems\bi_mineralprobe.png" />
+    <Content Include="images\buildItems\bi_mineralscv.png" />
+    <Content Include="images\buildItems\bi_missileattacks1.png" />
+    <Content Include="images\buildItems\bi_missileattacks2.png" />
+    <Content Include="images\buildItems\bi_missileattacks3.png" />
+    <Content Include="images\buildItems\bi_missleturret.png" />
+    <Content Include="images\buildItems\bi_mmstrikecannons.png" />
+    <Content Include="images\buildItems\bi_moebiusreactor.png" />
+    <Content Include="images\buildItems\bi_morphventralsacs.png" />
+    <Content Include="images\buildItems\bi_mothership.png" />
+    <Content Include="images\buildItems\bi_mothership_core.png" />
+    <Content Include="images\buildItems\bi_muscularaugments.png" />
+    <Content Include="images\buildItems\bi_mutalisk.png" />
+    <Content Include="images\buildItems\bi_neuralparasite.png" />
+    <Content Include="images\buildItems\bi_nexus.png" />
+    <Content Include="images\buildItems\bi_nitropacks.png" />
+    <Content Include="images\buildItems\bi_nuke.png" />
+    <Content Include="images\buildItems\bi_nydusnetwork.png" />
+    <Content Include="images\buildItems\bi_nydusworm.png" />
+    <Content Include="images\buildItems\bi_observer.png" />
+    <Content Include="images\buildItems\bi_oracle.png" />
+    <Content Include="images\buildItems\bi_orbitalcommand.png" />
+    <Content Include="images\buildItems\bi_overlord.png" />
+    <Content Include="images\buildItems\bi_overseer.png" />
+    <Content Include="images\buildItems\bi_pathogenglands.png" />
+    <Content Include="images\buildItems\bi_personalcloaking.png" />
+    <Content Include="images\buildItems\bi_phoenix.png" />
+    <Content Include="images\buildItems\bi_photoncannon.png" />
+    <Content Include="images\buildItems\bi_planetaryfortress.png" />
+    <Content Include="images\buildItems\bi_pneumatizedcarapace.png" />
+    <Content Include="images\buildItems\bi_probe.png" />
+    <Content Include="images\buildItems\bi_probe_bw.png" />
+    <Content Include="images\buildItems\bi_psionicstorm.png" />
+    <Content Include="images\buildItems\bi_pylon.png" />
+    <Content Include="images\buildItems\bi_queen.png" />
+    <Content Include="images\buildItems\bi_rapidfirelaunchers.png" />
+    <Content Include="images\buildItems\bi_ravager.png" />
+    <Content Include="images\buildItems\bi_raven.png" />
+    <Content Include="images\buildItems\bi_reactor.png" />
+    <Content Include="images\buildItems\bi_reaper.png" />
+    <Content Include="images\buildItems\bi_reaperonreactor.png" />
+    <Content Include="images\buildItems\bi_recalibratedexplosives.png" />
+    <Content Include="images\buildItems\bi_refinery.png" />
+    <Content Include="images\buildItems\bi_resonatingglaves.png" />
+    <Content Include="images\buildItems\bi_roach.png" />
+    <Content Include="images\buildItems\bi_roachwarren.png" />
+    <Content Include="images\buildItems\bi_roboticsbay.png" />
+    <Content Include="images\buildItems\bi_roboticsfacility.png" />
+    <Content Include="images\buildItems\bi_salvagebunker.png" />
+    <Content Include="images\buildItems\bi_scannersweep.png" />
+    <Content Include="images\buildItems\bi_scout_in_protoss.png" />
+    <Content Include="images\buildItems\bi_scout_in_terran.png" />
+    <Content Include="images\buildItems\bi_scout_in_zerg.png" />
+    <Content Include="images\buildItems\bi_scout_out_protoss.png" />
+    <Content Include="images\buildItems\bi_scout_out_terran.png" />
+    <Content Include="images\buildItems\bi_scout_out_zerg.png" />
+    <Content Include="images\buildItems\bi_scv.png" />
+    <Content Include="images\buildItems\bi_scv_bw.png" />
+    <Content Include="images\buildItems\bi_seekermissile.png" />
+    <Content Include="images\buildItems\bi_sensortower.png" />
+    <Content Include="images\buildItems\bi_sentry.png" />
+    <Content Include="images\buildItems\bi_shadowstride.png" />
+    <Content Include="images\buildItems\bi_shieldbattery.png" />
+    <Content Include="images\buildItems\bi_shieldslevel1.png" />
+    <Content Include="images\buildItems\bi_shieldslevel2.png" />
+    <Content Include="images\buildItems\bi_shieldslevel3.png" />
+    <Content Include="images\buildItems\bi_shipplating1.png" />
+    <Content Include="images\buildItems\bi_shipplating2.png" />
+    <Content Include="images\buildItems\bi_shipplating3.png" />
+    <Content Include="images\buildItems\bi_shipweapons1.png" />
+    <Content Include="images\buildItems\bi_shipweapons2.png" />
+    <Content Include="images\buildItems\bi_shipweapons3.png" />
+    <Content Include="images\buildItems\bi_siegetech.png" />
+    <Content Include="images\buildItems\bi_smartservos.png" />
+    <Content Include="images\buildItems\bi_spawncreeptumor.png" />
+    <Content Include="images\buildItems\bi_spawningpool.png" />
+    <Content Include="images\buildItems\bi_spawnlarva.png" />
+    <Content Include="images\buildItems\bi_spinecrawler.png" />
+    <Content Include="images\buildItems\bi_spire.png" />
+    <Content Include="images\buildItems\bi_sporecrawler.png" />
+    <Content Include="images\buildItems\bi_stalker.png" />
+    <Content Include="images\buildItems\bi_stargate.png" />
+    <Content Include="images\buildItems\bi_starport.png" />
+    <Content Include="images\buildItems\bi_startidle.png" />
+    <Content Include="images\buildItems\bi_stimpack.png" />
+    <Content Include="images\buildItems\bi_stopidle10.png" />
+    <Content Include="images\buildItems\bi_stopidle3.png" />
+    <Content Include="images\buildItems\bi_stopidle5.png" />
+    <Content Include="images\buildItems\bi_supplaydepo.png" />
+    <Content Include="images\buildItems\bi_supplydrop.png" />
+    <Content Include="images\buildItems\bi_swarm_host.png" />
+    <Content Include="images\buildItems\bi_tank.png" />
+    <Content Include="images\buildItems\bi_techlab.png" />
+    <Content Include="images\buildItems\bi_tempest.png" />
+    <Content Include="images\buildItems\bi_templararchives.png" />
+    <Content Include="images\buildItems\bi_thor.png" />
+    <Content Include="images\buildItems\bi_transformation_servos.png" />
+    <Content Include="images\buildItems\bi_tunnelingclaws.png" />
+    <Content Include="images\buildItems\bi_twilightcouncil.png" />
+    <Content Include="images\buildItems\bi_ultralisk.png" />
+    <Content Include="images\buildItems\bi_ultraliskcavern.png" />
+    <Content Include="images\buildItems\bi_vehicleplating1.png" />
+    <Content Include="images\buildItems\bi_vehicleplating2.png" />
+    <Content Include="images\buildItems\bi_vehicleplating3.png" />
+    <Content Include="images\buildItems\bi_vehicleweapons1.png" />
+    <Content Include="images\buildItems\bi_vehicleweapons2.png" />
+    <Content Include="images\buildItems\bi_vehicleweapons3.png" />
+    <Content Include="images\buildItems\bi_ventralsacs.png" />
+    <Content Include="images\buildItems\bi_viking.png" />
+    <Content Include="images\buildItems\bi_vikingonreactor.png" />
+    <Content Include="images\buildItems\bi_viper.png" />
+    <Content Include="images\buildItems\bi_voidray.png" />
+    <Content Include="images\buildItems\bi_warpadept.png" />
+    <Content Include="images\buildItems\bi_warpdarktemplar.png" />
+    <Content Include="images\buildItems\bi_warpgate.png" />
+    <Content Include="images\buildItems\bi_warpgateupgrade.png" />
+    <Content Include="images\buildItems\bi_warphightemplar.png" />
+    <Content Include="images\buildItems\bi_warpprism.png" />
+    <Content Include="images\buildItems\bi_warpsentry.png" />
+    <Content Include="images\buildItems\bi_warpstalker.png" />
+    <Content Include="images\buildItems\bi_warpzealot.png" />
+    <Content Include="images\buildItems\bi_weaponrefit.png" />
+    <Content Include="images\buildItems\bi_widowmine.png" />
+    <Content Include="images\buildItems\bi_widowmineonreactor.png" />
+    <Content Include="images\buildItems\bi_zealot.png" />
+    <Content Include="images\buildItems\bi_zergling.png" />
+    <Content Include="images\buildItems\bm_energy.png" />
+    <Content Include="images\buildItems\bm_gas.png" />
+    <Content Include="images\buildItems\bm_larva.png" />
+    <Content Include="images\buildItems\bm_minerals.png" />
+    <Content Include="images\buildItems\bm_supply_protoss.png" />
+    <Content Include="images\buildItems\bm_supply_terran.png" />
+    <Content Include="images\buildItems\bm_supply_zerg.png" />
+    <Content Include="images\buildItems\bm_timer.png" />
+    <Content Include="images\buildItems\empty_cell.png" />
+    <Content Include="images\bullet.png" />
+    <Content Include="images\buttons\btn-app-store.png" />
+    <Content Include="images\buttons\btn-google-play-free.png" />
+    <Content Include="images\buttons\btn-google-play-full.png" />
+    <Content Include="images\buttons\btn-google-play.png" />
+    <Content Include="images\factions\ic_protoss_gradiented.png" />
+    <Content Include="images\factions\ic_terran_gradiented.png" />
+    <Content Include="images\factions\ic_zerg_gradiented.png" />
+    <Content Include="images\factions\PvP.png" />
+    <Content Include="images\factions\PvT.png" />
+    <Content Include="images\factions\PvZ.png" />
+    <Content Include="images\factions\TvP.png" />
+    <Content Include="images\factions\TvT.png" />
+    <Content Include="images\factions\TvZ.png" />
+    <Content Include="images\factions\ZvP.png" />
+    <Content Include="images\factions\ZvT.png" />
+    <Content Include="images\factions\ZvZ.png" />
+    <Content Include="images\features\BuildLibrary.png" />
+    <Content Include="images\features\BuildMaker.png" />
+    <Content Include="images\features\BuildPlayer.png" />
+    <Content Include="images\features\BuildView.png" />
+    <Content Include="images\glow.png" />
+    <Content Include="images\logo\logo.png" />
+    <Content Include="images\news\default\config.png" />
+    <Content Include="images\news\default\info.png" />
+    <Content Include="images\news\default\sc2patch.png" />
+    <Content Include="images\news\default\update.png" />
+    <Content Include="images\news\default\vod.png" />
+    <Content Include="images\patterns\pattern-1.png" />
+    <Content Include="images\qrcodes\free.png" />
+    <Content Include="images\qrcodes\full.png" />
+    <Content Include="images\team\member-1.png" />
+    <Content Include="js\app\pages\blogs\blogEditor.html" />
+    <Content Include="js\app\pages\blogs\blogEditorController.js" />
+    <Content Include="js\app\pages\blogs\blogView.html" />
+    <Content Include="js\app\pages\blogs\blogViewController.js" />
+    <Content Include="js\app\pages\blogs\blogList.html" />
+    <Content Include="js\app\pages\blogs\blogListController.js" />
+    <Content Include="js\app\pages\blogs\blogPostView.html" />
+    <Content Include="js\app\pages\blogs\blogPostViewController.js" />
+    <Content Include="js\app\pages\blogs\blogPostEditor.html" />
+    <Content Include="js\app\pages\blogs\blogPostEditorController.js" />
+    <Content Include="js\app\pages\builds\builds.html" />
+    <Content Include="js\app\pages\builds\buildsController.js" />
+    <Content Include="js\app\pages\builds\buildView.html" />
+    <Content Include="js\app\pages\builds\buildViewController.js" />
+    <Content Include="js\app\pages\builds\editBuild.html" />
+    <Content Include="js\app\pages\builds\editBuildController.js" />
+    <Content Include="js\app\pages\compare\compare.html" />
+    <Content Include="js\app\pages\compare\compareController.js" />
+    <Content Include="js\app\pages\home\home.html" />
+    <Content Include="js\app\pages\home\homeController.js" />
+    <Content Include="js\app\pages\kb\kb.html" />
+    <Content Include="js\app\pages\kb\kbController.js" />
+    <Content Include="js\app\pages\links\editLink.html" />
+    <Content Include="js\app\pages\links\editLinkController.js" />
+    <Content Include="js\app\pages\news\newsView.html" />
+    <Content Include="js\app\pages\news\newsViewController.js" />
+    <Content Include="js\app\pages\news\newsEditor.html" />
+    <Content Include="js\app\pages\news\newsEditorController.js" />
+    <Content Include="js\app\pages\register\registerController.js" />
+    <Content Include="js\app\pages\register\register.html" />
+    <Content Include="js\app\pages\register\confirmRegistration.html" />
+    <Content Include="js\app\pages\register\confirmRegistrationController.js" />
+    <Content Include="js\app\pages\static\appManual.html" />
+    <Content Include="js\app\pages\static\appManualController.js" />
+    <Content Include="js\app\pages\videos\videoList.html" />
+    <Content Include="js\app\pages\videos\videoListController.js" />
+    <Content Include="js\app\shared\constants\states.js" />
+    <Content Include="js\app\shared\directives\associatedWith\directive.js" />
+    <Content Include="js\app\shared\directives\associatedWith\template.html" />
+    <Content Include="js\app\shared\directives\autocomplete\autocomplete.css" />
+    <Content Include="js\app\shared\directives\autocomplete\autocomplete.directive.js" />
+    <Content Include="js\app\shared\directives\autocomplete\autocomplete.min.css" />
+    <Content Include="js\app\shared\directives\autocomplete\highlight.filter.js" />
+    <Content Include="js\app\shared\directives\autocomplete\suggestion.directive.js" />
+    <Content Include="js\app\shared\directives\backButton.js" />
+    <Content Include="js\app\shared\directives\blockUI\directive.js" />
+    <Content Include="js\app\shared\directives\clamp.js" />
+    <Content Include="js\app\shared\directives\comments\controller.js" />
+    <Content Include="js\app\shared\directives\comments\directive.js" />
+    <Content Include="js\app\shared\directives\comments\template.html" />
+    <Content Include="js\app\shared\directives\datePicker\directive.js" />
+    <Content Include="js\app\shared\directives\datePicker\style.css" />
+    <Content Include="js\app\shared\directives\datePicker\style.min.css" />
+    <Content Include="js\app\shared\directives\emailLink.js" />
+    <Content Include="js\app\shared\directives\mailtoLink.js" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.css" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.html" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.js" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.min.css" />
+    <Content Include="js\app\shared\directives\multiSelect\node\multi-select-node.html" />
+    <Content Include="js\app\shared\directives\multiSelect\node\multi-select-node.js" />
+    <Content Include="js\app\shared\directives\multiSelect\recursionHelpher.js" />
+    <Content Include="js\app\shared\directives\noteLink.js" />
+    <Content Include="js\app\shared\directives\pagination\constant.js" />
+    <Content Include="js\app\shared\directives\pagination\controller.js" />
+    <Content Include="js\app\shared\directives\pagination\directive.js" />
+    <Content Include="js\app\shared\directives\pagination\template.html" />
+    <Content Include="js\app\shared\directives\phoneLink.js" />
+    <Content Include="js\app\shared\directives\validation\digitsOnly.js" />
+    <Content Include="js\app\shared\directives\validation\phoneNumber.js" />
+    <Content Include="js\app\shared\filters\cta.js" />
+    <Content Include="js\app\shared\filters\cut.js" />
+    <Content Include="js\app\shared\filters\htmlCleanup.js" />
+    <Content Include="js\app\shared\filters\htmlToPlainText.js" />
+    <Content Include="js\app\shared\filters\htmlToTextWithLines.js" />
+    <Content Include="js\app\shared\filters\lastMonths.js" />
+    <Content Include="js\app\shared\filters\notEmpty.js" />
+    <Content Include="js\app\shared\filters\offset.js" />
+    <Content Include="js\app\shared\filters\subject.js" />
+    <Content Include="js\app\shared\services\abbrService.js" />
+    <Content Include="js\app\shared\services\backend\auth\service.js" />
+    <Content Include="js\app\shared\services\backend\auth\urls.js" />
+    <Content Include="js\app\shared\services\backend\blogPost\service.js" />
+    <Content Include="js\app\shared\services\backend\blogPost\urls.js" />
+    <Content Include="js\app\shared\services\backend\blog\service.js" />
+    <Content Include="js\app\shared\services\backend\blog\urls.js" />
+    <Content Include="js\app\shared\services\backend\buildOrder\service.js" />
+    <Content Include="js\app\shared\services\backend\buildOrder\service.spec.js" />
+    <Content Include="js\app\shared\services\backend\buildOrder\urls.js" />
+    <Content Include="js\app\shared\services\backend\comment\service.js" />
+    <Content Include="js\app\shared\services\backend\comment\urls.js" />
+    <Content Include="js\app\shared\services\backend\link\service.js" />
+    <Content Include="js\app\shared\services\backend\link\urls.js" />
+    <Content Include="js\app\shared\services\backend\news\service.js" />
+    <Content Include="js\app\shared\services\backend\news\urls.js" />
+    <Content Include="js\app\shared\services\backend\rate\service.js" />
+    <Content Include="js\app\shared\services\backend\rate\urls.js" />
+    <Content Include="js\app\shared\services\backend\user\service.js" />
+    <Content Include="js\app\shared\services\backend\user\service.spec.js" />
+    <Content Include="js\app\shared\services\backend\user\urls.js" />
+    <Content Include="js\app\shared\constants\buildItemsImages.js" />
+    <Content Include="js\app\shared\services\deviceService.js" />
+    <Content Include="js\app\shared\services\deviceService.spec.js" />
+    <Content Include="js\app\shared\services\helperService.js" />
+    <Content Include="js\app\shared\services\highchartConfigService.js" />
+    <Content Include="js\app\shared\services\repository\commentRepository.js" />
+    <Content Include="js\app\shared\services\repository\linksRepository.js" />
+    <Content Include="js\app\shared\services\repository\newsRepository.js" />
+    <Content Include="js\app\shared\services\repository\ratesRepository.js" />
+    <Content Include="js\app\shared\services\resource.js" />
+    <Content Include="js\app\shared\services\security.js" />
+    <Content Include="js\app\shared\services\session.js" />
+    <Content Include="js\app\shared\services\templateResolver.js" />
+    <Content Include="js\app\shared\services\templateResolver.spec.js" />
+    <Content Include="js\app\shared\services\topics.js" />
+    <Content Include="js\app\shared\services\twitchService.js" />
+    <Content Include="js\app\shared\services\windowResizeService.js" />
+    <Content Include="js\app\shell\app.js" />
+    <Content Include="js\app\shell\blockUI.js" />
+    <Content Include="js\app\shell\httpInterceptor.js" />
+    <Content Include="js\app\shell\routing.js" />
+    <Content Include="js\app\shell\shellController.js" />
+    <Content Include="js\e2e\test.spec.js" />
+    <Content Include="js\karma.conf.js" />
+    <Content Include="js\lib\angular-cookies.js" />
+    <Content Include="js\lib\angular-filter.js" />
+    <Content Include="js\lib\angular-mocks.js" />
+    <Content Include="js\lib\angular-resource.js" />
+    <Content Include="js\lib\angular-route.js" />
+    <Content Include="js\lib\angular-sanitize.js" />
+    <Content Include="js\lib\angular-sortable.js" />
+    <Content Include="js\lib\angular.js" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="js\lib\bootstrap-colorpicker-module.min.js" />
+    <Content Include="js\lib\bootstrap.min.js" />
+    <Content Include="js\lib\clamp.js" />
+    <Content Include="js\lib\isMobile.min.js" />
+    <Content Include="js\lib\jasmine-utils.js" />
+    <Content Include="js\lib\jasmine.js" />
+    <Content Include="js\karma-run.bat" />
+    <Content Include="js\app\shared\directives\autocomplete\autocomplete.css.map" />
+    <Content Include="js\app\shared\directives\autocomplete\autocomplete.less" />
+    <Content Include="js\app\shared\directives\datePicker\style.css.map" />
+    <Content Include="js\app\shared\directives\datePicker\style.less" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.css.map" />
+    <Content Include="js\app\shared\directives\multiSelect\multi-select.less" />
+    <Content Include="fonts\BebasNeue.ttf" />
+    <Content Include="fonts\BebasNeue.woff" />
+    <Content Include="fonts\BebasNeued41d.eot" />
+    <Content Include="fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="fonts\fontawesome-webfonte0a5.eot" />
+    <Content Include="fonts\fontawesome-webfonte0a5.ttf" />
+    <Content Include="fonts\fontawesome-webfonte0a5.woff" />
+    <Content Include="fonts\fontawesome-webfonte0a5.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="fonts\feathericons3869.eot" />
+    <Content Include="fonts\feathericons3869.ttf" />
+    <Content Include="fonts\feathericons3869.woff" />
+    <Content Include="fonts\feathericonsd41d.eot" />
+    <Content Include="fonts\ionicons28b5.eot" />
+    <Content Include="fonts\ionicons28b5.ttf" />
+    <Content Include="fonts\ionicons28b5.woff" />
+    <Content Include="fonts\flexslider-icon.eot" />
+    <Content Include="fonts\flexslider-icon.ttf" />
+    <Content Include="fonts\flexslider-icon.woff" />
+    <Content Include="fonts\flexslider-icond41d.eot" />
+    <Content Include="js\lib\jquery-1.11.3.min.js" />
+    <Content Include="js\lib\jquery-ui.js" />
+    <Content Include="js\lib\jquery.easing.1.3.js" />
+    <Content Include="js\lib\jquery.easypiechart.min.js" />
+    <Content Include="js\lib\jquery.fitvids.js" />
+    <Content Include="js\lib\jquery.flexslider-min.js" />
+    <Content Include="js\lib\jquery.htmlClean.min.js" />
+    <Content Include="js\lib\jquery.inview.min.js" />
+    <Content Include="js\lib\jquery.isotope.min.js" />
+    <Content Include="js\lib\jquery.matchHeight-min.js" />
+    <Content Include="js\lib\jquery.placeholder.js" />
+    <Content Include="js\lib\jquery.scrollTo.min.js" />
+    <Content Include="js\lib\jquery.ui.touch-punch.js" />
+    <Content Include="js\lib\modernizr.custom.js" />
+    <Content Include="js\lib\ng-file-upload-shim.js" />
+    <Content Include="js\lib\ng-file-upload.js" />
+    <Content Include="js\lib\phoneFormat.js" />
+    <Content Include="js\lib\prettify.js" />
+    <Content Include="js\lib\textAngular-rangy.min.js" />
+    <Content Include="js\lib\textAngular-sanitize.js" />
+    <Content Include="js\lib\textAngular.js" />
+    <Content Include="js\lib\textAngularSetup.js" />
+    <Content Include="js\lib\ui-bootstrap-tpls-0.14.3.min.js" />
+    <Content Include="js\lib\underscore.js" />
+    <Content Include="js\lib\underscore.string.js" />
+    <Content Include="js\protractor.conf.js" />
+    <Content Include="Versions\2.0.5.txt" />
+    <Content Include="Versions\2.2.0.txt" />
+    <Content Include="Versions\3.0.0.txt" />
+    <Content Include="Versions\3.8.0.txt" />
+    <Content Include="Versions\4.1.2.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\_NoAngular.cshtml" />
+    <Content Include="css\main_landing.less" />
+    <Content Include="css\main_landing.css.map">
+      <DependentUpon>main_landing.css</DependentUpon>
+    </Content>
+    <Content Include="css\main_community.less" />
+    <Content Include="css\main_community.css.map">
+      <DependentUpon>main_community.css</DependentUpon>
+    </Content>
+    <Content Include="css\main_community_theme_blue.less" />
+    <Content Include="css\main_community_theme_blue.css.map">
+      <DependentUpon>main_community_theme_blue.css</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\SC2BM.pubxml" />
+    <Content Include="Views\Home\AppTour.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\upload\tmp\" />
+    <Folder Include="Logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SC2BM.BusinessServices\SC2BM.BusinessFacade.csproj">
+      <Project>{7CF7DDF6-76AA-4F1B-88A0-69FAEA06FF6F}</Project>
+      <Name>SC2BM.BusinessFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.Contracts\SC2BM.ServiceModel.csproj">
+      <Project>{5948C63F-322C-4363-9CF5-4DAA049738FA}</Project>
+      <Name>SC2BM.ServiceModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.Core\SC2BM.Core.csproj">
+      <Project>{D9F46801-C34C-4A51-908F-60BEF00CCFA5}</Project>
+      <Name>SC2BM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.DomainModel\SC2BM.DomainModel.csproj">
+      <Project>{620761BF-0629-4C7C-8FB7-191C532D95A5}</Project>
+      <Name>SC2BM.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC2BM.Logging\SC2BM.Logging.csproj">
+      <Project>{1A0873AA-5837-4120-BE5A-279D972139CE}</Project>
+      <Name>SC2BM.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51869</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51869/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

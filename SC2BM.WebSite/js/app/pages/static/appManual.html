@@ -1,0 +1,93 @@
+﻿<div id="wrapper" class="no-padding" data-ng-controller="appManualController as vm">
+
+    <div class="padding-left-15 padding-right-15 padding-top-20">
+        <div class="title clearfix border-bottom-1 border-grey-200 padding-bottom-15 margin-bottom-20 no-margin-bottom-xs no-margin-bottom-sm no-margin-bottom-sm-lg no-margin-bottom-md">
+            <h1 class="headline pull-left">SC2 Build Maker - User Guide</h1>
+        </div>
+    </div>
+
+    <div class="row margin-top-20 no-margin-xs no-margin-sm no-margin-md-lg">
+        <div class="col-lg-12 padding-left-30 padding-right-30 padding-xs-15 padding-sm-15 padding-sm-lg-15 padding-md-lg-15">
+            <section class="no-padding-top padding-bottom-30 no-border">
+
+                <section class="section section-white no-border ng-scope">
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 no-border-bottom padding-bottom-15">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="thumb">
+                                <img class="img-responsive full-width" alt="" src="/images/news/default/info.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-left-5 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                        </div>
+                    </div>
+                    <div class="row box no-shadow bg-grey-100 padding-top-15 padding-bottom-15 no-border-top">
+                        <div class="padding-left-15 padding-xs-15 padding-sm-15 padding-sm-lg-15">
+                            <p class="font-size-14 line-height-20 margin-top-15">
+                                SC2 Build Maker android application allow you to create, modify and manage build orders for Starcraft 2.
+                                This user guide will explain which features are available in the app and how to use them effectivly.
+                            </p>
+                            <h4>Build Library</h4>
+                            <p>
+                                This screen list all available build orders and allow you to search required build order using different filters.
+                                There are two main filters available in this screen - Your Faction Filter and Opponent Faction Filter.
+                                You can change "Your Faction Filter" by clicking on faction filter icon in Action Bar on the top of the screen.
+                                You can change "Opponent Faction Filter" by sliding screen or clicking on Tab controls below Action Bar.
+                                When you open app first time there won't be any filters selected so by using tabs you can look thru all build orders agains specific faction.
+                                It is also possible to mark any build order as Favorite. Favorite build orders will be shown of Favorite Tab which has Star icon.
+                                Search functionality became available after you click on Search icon. Text input will become available and it's value will be used to filter build orders in the list.
+                                You can click on build order to open Build Details screen. You can also use quick buttons to mark build as Favorite, open build in Build Editor or open build in Build Player.
+                                There are two ways of listing build orders available - Tile View and List View. In Tile View all build orders would be listed as tiles on the screen.
+                                In List View all build orders would be listed as list items.
+                                You can show/hide default build orders using "Hide Default" / "Show Default" icon in Action Bar. This filter is useful when you would like to see only your custom build orders.
+                            </p>
+                            <h4>Build Details</h4>
+                            <p>
+                                On this screen you can read details about build order. Most valuable information about the build usually provided in Description.
+                                Use Action Bar icons for additional actions with build order. If you opened custom build order, you'll be able to edit build details by clicking on edit info icon.
+                                You can open build order in Build Editor by clicking on edit build icon. You can open Build Player with this build by clicking on Play icon.
+                                You can send file with build contents using Share button. You can delete build order from Library using Delete icon.
+                            </p>
+                            <h4>Edit Build Details</h4>
+                            <p>
+                                This screen allows you to set Build Name, chose opponent faction and set Details for build order.
+                                You can overwrite existing build order or copy existing build order with new name using icons in Action Bar.
+                            </p>
+                            <h4>Build Player</h4>
+                            <p>
+                                Build Player is a tool which will play build order for you and tell you what you should do next while you playing Starcraft 2.
+                                You can start play build order by clicking on big Play button on the bottom of the screen. If you click on this button again playing will be paused.
+                                Stop button will stop play build order and set timepoint back into the beggining of the build.
+                                You can tell Build Player to show/hide worker build items by clicking on corresponding icon in Action Bar.
+                                By default Build Player will start to play build order from 12 second from the beggining of the build.
+                                This is handy because you need to hire first worker right after the game, add your CommandCenter/Nexus/Hatchery into Control Group and maybe do some warming clicks.
+                                Try to click near 12 second of the game on Play button so Build Player would be synced up with your current game.
+                            </p>
+                            <h4>Build Editor</h4>
+                            <p>
+                                Our Build Editor is unique tool which allow you to create build orders using very accurate Starcraft 2 economy model simulation.
+                                We know that in the beggining of the game each player has 50 minerals in bank and 12 workers available (6 for WOL and HOTS).
+                                Our Economy engine will calculate amount of resources your workers would gather each second. Each time you would like to add
+                                new build item into the build, engine will calculate closest point in timeline when required resources will be available.
+                                So your build orders would be already optimized for you.
+                                Action Bar provide back and save buttons for you.
+                                Below Action Bar you can see statistics panel. Here you can check on which second of the game you are right now, how much minerals/gas you have
+                                and how many workers are harvesting minerals/gas for you, what is current and available supply limits are and how many energy casts you have available.
+                                For zerg players there is also Larva count indicator available.
+                                Below Statistics panel you can see build items already added into the build order. For each item you can see current/available supply limits,
+                                build item icon, name, start time and end time. Start/End time indicators will be bold-white if build item is currently in progress.
+                                In the bottom-right corner of build items list you can see red Undo button which allows you to delete last item from the build order.
+                                On the bottom of the screen you can see 4 buttons which allow you to add Units/Structures/Upgrades and some special actions into the build.
+                                When you click on any of this buttons Add build item screen will showed up where you can click on any available build item and this item will be added into the
+                                closest posible point in timeline. If some of build items in Add item screen are disabled you can click on this item and you'll see which requirement has to be
+                                satisfied to be able to add this item into the build.
+                                When you done with editing build order click on "Save" button to save your build in Build Library.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+</div>
