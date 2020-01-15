@@ -53,17 +53,14 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="SC2.DataAccess">
-      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.DataAccess.dll</HintPath>
-    </Reference>
     <Reference Include="SC2.DataManagers">
-      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.DataManagers.dll</HintPath>
+      <HintPath>..\..\SC2BuildMakerWin\SC2.DataManagers\bin\Debug\SC2.DataManagers.dll</HintPath>
     </Reference>
     <Reference Include="SC2.Entities">
-      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.Entities.dll</HintPath>
+      <HintPath>..\..\SC2BuildMakerWin\SC2.Entities\bin\Debug\SC2.Entities.dll</HintPath>
     </Reference>
     <Reference Include="SC2.PublicData">
-      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.PublicData.dll</HintPath>
+      <HintPath>..\..\SC2BuildMakerWin\SC2.PublicData\bin\Debug\SC2.PublicData.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

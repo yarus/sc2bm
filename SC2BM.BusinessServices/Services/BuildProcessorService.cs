@@ -222,7 +222,7 @@ namespace SC2BM.BusinessFacade.Services
         {
             var configurator = new DataManagersJsonStorageConfigurator(versionsFolder + "//");
 
-            var version = configurator.GetSC2VersionsManager().GetVersion(versionID, String.Empty);
+            var version = configurator.GetSC2VersionsManager().GetVersion(versionID);
 
             var raceSettings = version.RaceSettingsDictionary.GetRaceSettings(race);
 

@@ -250,8 +250,8 @@
             vm.rightName = null;
 
             if (newVersion == 'Legacy of the Void') {
-                vm.leftRequest.filter.SC2VersionID = '4.1.2';
-                vm.rightRequest.filter.SC2VersionID = '4.1.2';
+                vm.leftRequest.filter.SC2VersionID = '4.11.3';
+                vm.rightRequest.filter.SC2VersionID = '4.11.3';
             } else if (newVersion == 'Heart of the Swarm') {
                 vm.leftRequest.filter.SC2VersionID = '2.2.0';
                 vm.rightRequest.filter.SC2VersionID = '2.2.0';

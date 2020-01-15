@@ -35,7 +35,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SC2.PublicData">
-      <HintPath>..\..\..\..\..\..\..\Work\Personal\SC2BuildMaker\SC2.Win.UI\bin\Debug\SC2.PublicData.dll</HintPath>
+      <HintPath>..\..\SC2BuildMakerWin\SC2.PublicData\bin\Debug\SC2.PublicData.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
