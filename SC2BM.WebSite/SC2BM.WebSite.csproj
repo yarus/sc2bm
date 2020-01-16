@@ -309,6 +309,7 @@
     <Content Include="images\buildItems\bi_enduring_locusts.png" />
     <Content Include="images\buildItems\bi_engineeringbay.png" />
     <Content Include="images\buildItems\bi_enhancedmunitions.png" />
+    <Content Include="images\buildItems\bi_enhancedshockwaves.png" />
     <Content Include="images\buildItems\bi_evolutionchamber.png" />
     <Content Include="images\buildItems\bi_explosiveshrapnelshells.png" />
     <Content Include="images\buildItems\bi_extendedthermallance.png" />
@@ -413,6 +414,7 @@
     <Content Include="images\buildItems\bi_mothership_core.png" />
     <Content Include="images\buildItems\bi_muscularaugments.png" />
     <Content Include="images\buildItems\bi_mutalisk.png" />
+    <Content Include="images\buildItems\bi_neosteelarmor.png" />
     <Content Include="images\buildItems\bi_neuralparasite.png" />
     <Content Include="images\buildItems\bi_nexus.png" />
     <Content Include="images\buildItems\bi_nitropacks.png" />
@@ -436,6 +438,7 @@
     <Content Include="images\buildItems\bi_pylon.png" />
     <Content Include="images\buildItems\bi_queen.png" />
     <Content Include="images\buildItems\bi_rapidfirelaunchers.png" />
+    <Content Include="images\buildItems\bi_rapidreignitionsystem.png" />
     <Content Include="images\buildItems\bi_ravager.png" />
     <Content Include="images\buildItems\bi_raven.png" />
     <Content Include="images\buildItems\bi_reactor.png" />
@@ -841,16 +844,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51869</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51869/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

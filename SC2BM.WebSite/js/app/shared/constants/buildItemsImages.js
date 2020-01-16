@@ -127,6 +127,9 @@
         { name: "RapidFireLaunchers", src: "bi_rapidfirelaunchers" },
         { name: "SmartServos", src: "bi_smartservos" },
         { name: "EnhancedMunitions", src: "bi_enhancedmunitions" },
+        { name: "EnhancedShockwaves", src: "bi_enhancedshockwaves" },
+        { name: "NeosteelArmor", src: "bi_neosteelarmor" },
+        { name: "RapidReignitionSystem", src: "bi_rapidreignitionsystem" },
 
         //Protoss buildings
         { name: "Nexus", src: "bi_nexus" },
