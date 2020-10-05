@@ -216,6 +216,7 @@
         { name: "AirWeaponsLevel3", src: "bi_airweaponslevel3" },
         { name: "AnionPulseCrystals", src: "bi_anionpulsecrystals" },
         { name: "ShadowStride", src: "bi_shadowstride" },
+        { name: "TectonicDestabilizers", src: "bi_tectonicdestabilizers" },
 
         //Zerg buildings
         { name: "Spire", src: "bi_spire" },

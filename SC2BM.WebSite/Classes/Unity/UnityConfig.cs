@@ -2,6 +2,7 @@
 using System.Web.Http;
 using Microsoft.Practices.Unity;
 using SC2BM.BusinessFacade.Unity;
+using Unity;
 using Unity.WebApi;
 
 namespace SC2BM.WebSite.Classes.Unity
@@ -10,7 +11,7 @@ namespace SC2BM.WebSite.Classes.Unity
     {
         #region Unity Container
 
-        private static Lazy<IUnityContainer> container = new Lazy<IUnityContainer>(() =>
+        private static Lazy<Microsoft.Practices.Unity.IUnityContainer> container = new Lazy<Microsoft.Practices.Unity.IUnityContainer>(() =>
         {
             var container = new UnityContainer();
 
@@ -23,7 +24,7 @@ namespace SC2BM.WebSite.Classes.Unity
         /// <summary>
         /// Gets the configured Unity container.
         /// </summary>
-        public static IUnityContainer GetConfiguredContainer()
+        public static Microsoft.Practices.Unity.IUnityContainer GetConfiguredContainer()
         {
             return container.Value;
         }
@@ -50,7 +51,7 @@ namespace SC2BM.WebSite.Classes.Unity
 
         #endregion
 
-        private static void RegisterTypes(IUnityContainer container)
+        private static void RegisterTypes(Microsoft.Practices.Unity.IUnityContainer container)
         {
             UnityServiceBootstrapper.RegisterTypes(container);
 

@@ -68,7 +68,7 @@
         }
 
         function _loadKbData() {
-            var versionId = "4.11.3";
+            var versionId = "5.0.3";
 
             if (vm.version == "HOTS") {
                 versionId = "2.2.0";

@@ -136,7 +136,7 @@
 
         function _setVersionBasedOnName() {
             if (vm.version == 'Legacy of the Void') {
-                vm.SC2VersionID = '4.11.3';
+                vm.SC2VersionID = '5.0.3';
             } else if (vm.version == 'Heart of the Swarm') {
                 vm.SC2VersionID = '2.2.0';
             } else if (vm.version == 'Wings of Liberty') {
