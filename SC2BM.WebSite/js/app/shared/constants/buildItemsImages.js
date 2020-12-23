@@ -188,6 +188,8 @@
         { name: "StopIdleIn3Seconds", src: "bi_stopidle3" },
         { name: "StopIdleIn5Seconds", src: "bi_stopidle5" },
         { name: "StopIdleIn10Seconds", src: "bi_stopidle10" },
+        { name: "StopIdleIn1Second", src: "bi_stopidle1" },
+        { name: "MassRecall", src: "bi_massrecall" },
         //Protoss upgrades
         { name: "AirArmorLevel1", src: "bi_airarmorlevel1" },
         { name: "AirArmorLevel2", src: "bi_airarmorlevel2" },
@@ -217,6 +219,7 @@
         { name: "AnionPulseCrystals", src: "bi_anionpulsecrystals" },
         { name: "ShadowStride", src: "bi_shadowstride" },
         { name: "TectonicDestabilizers", src: "bi_tectonicdestabilizers" },
+        { name: "FluxVanes", src: "bi_fluxvanes" },
 
         //Zerg buildings
         { name: "Spire", src: "bi_spire" },
@@ -296,6 +299,8 @@
         { name: "EnduringLocusts", src: "bi_enduring_locusts" },
         { name: "FlyingLocusts", src: "bi_flyinglocusts" },
         { name: "MutateVentralSacs", src: "bi_morphventralsacs" },
-        { name: "AdaptiveTalons", src: "bi_adaptivetalons" }
+        { name: "AdaptiveTalons", src: "bi_adaptivetalons" },
+        { name: "SeismicSpines", src: "bi_seismic_spines" },
+        { name: "AnabolicSynthesis", src: "bi_anabolic_synthesis" }
     ]);
 })();

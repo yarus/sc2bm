@@ -22,7 +22,12 @@ namespace SC2BM.WebSite.Classes.Helpers
 
         public BuildOrderEncoder(string faction)
         {
-            _dic.Add("DefaultItem", "ff");
+            _dic.Add("DefaultItem", "mq");
+            _dic.Add("StartIdle", "mw");
+            _dic.Add("StopIdleIn3Seconds", "me");
+            _dic.Add("StopIdleIn5Seconds", "mr");
+            _dic.Add("StopIdleIn10Seconds", "mt");
+            _dic.Add("StopIdleIn1Second", "my");
 
             if (faction.ToLower() == "terran")
             {
@@ -160,6 +165,15 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("HighCapacityFuelTanks", "fk");
                 _dic.Add("MagFieldAccelerator", "fl");
                 _dic.Add("ExplosiveShrapnelShells", "fz");
+
+                _dic.Add("SmartServos", "fx");
+                _dic.Add("EnhancedMunitions", "fc");
+
+                _dic.Add("RecalibratedExplosives", "fv");
+                _dic.Add("AdvancedBallistics", "fb");
+                _dic.Add("EnhancedShockwaves", "fn");
+                _dic.Add("NeosteelArmor", "fm");
+                _dic.Add("RapidReignitionSystem", "gq");
             }
             else if (faction.ToLower() == "protoss")
             {
@@ -178,6 +192,7 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("Assimilator", "af");
                 _dic.Add("Gateway", "ag");
                 _dic.Add("FleetBeacon", "ah");
+                _dic.Add("ShieldBattery", "aj");
                 //Protoss units
                 _dic.Add("ArchonFromTwoHT", "s");
                 _dic.Add("Zealot", "w");
@@ -215,10 +230,7 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("GoOutProbe", "ax");
                 _dic.Add("ReturnProbe", "ac");
                 _dic.Add("GasProbe", "av");
-                _dic.Add("StartIdle", "ab");
-                _dic.Add("StopIdleIn3Seconds", "an");
-                _dic.Add("StopIdleIn5Seconds", "am");
-                _dic.Add("StopIdleIn10Seconds", "sq");
+                _dic.Add("MassRecall", "ab");
                 //Protoss upgrades
                 _dic.Add("AirArmorLevel1", "sw");
                 _dic.Add("AirArmorLevel2", "se");
@@ -246,6 +258,9 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("AirWeaponsLevel1", "sn");
                 _dic.Add("AirWeaponsLevel3", "sm");
                 _dic.Add("AnionPulseCrystals", "dq");
+                _dic.Add("ShadowStride", "dw");
+                _dic.Add("TectonicDestabilizers", "de");
+                _dic.Add("FluxVanes", "dr");
             }
             else if (faction.ToLower() == "zerg")
             {
@@ -326,7 +341,10 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("MuscularAugments", "sl");
                 _dic.Add("EnduringLocusts", "sz");
                 _dic.Add("FlyingLocusts", "sx");
-                _dic.Add("MutateVentralSacs", "sc");                
+                _dic.Add("MutateVentralSacs", "sc");
+                _dic.Add("AdaptiveTalons", "sv");
+                _dic.Add("SeismicSpines", "sb");
+                _dic.Add("AnabolicSynthesis", "sn");
             }
         }
     }
