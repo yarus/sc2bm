@@ -28,7 +28,9 @@
 
 		//region Methods
 		function activate() {
-		    vm.user = session.getUser();
+            vm.user = session.getUser();
+
+            vm.isAdmin = session.isCurrentUserAdmin();
 
 		    vm.toolbar = [
                 ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'pre', 'quote'],
@@ -56,6 +58,8 @@
             vm.buildOrder = build;
             vm.buildItems = vm.buildOrder.BuildItems.join();
             vm.createdDate = $filter('date')(vm.buildOrder.AddedDate, 'fullDate');
+
+            vm.isOwner = (vm.user != null && vm.buildOrder.OwnerUserID == vm.user.ID) || session.isCurrentUserAdmin();
 
             var raceLetter = vm.buildOrder.Race[0];
 

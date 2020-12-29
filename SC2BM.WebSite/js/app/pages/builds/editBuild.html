@@ -171,9 +171,9 @@
                          'has-error' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$invalid,
                          'has-success' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$valid}">
                             <label class="control-label" for="text">Build Items</label>
-                            <textarea data-ng-model="vm.buildItems"
+                            <textarea data-ng-model="vm.buildItems" ng-readonly="!vm.isAdmin"
                                       class="form-control" rows="10" placeholder="Text"
-                                      id="buildItems" name="buildItems" required="required"></textarea>
+                                      id="buildItems" name="buildItems"></textarea>
                             <span class="glyphicon form-control-feedback"
                                   data-ng-class="{
                               'glyphicon-warning-sign' : vm.editForm.buildItems.$dirty && vm.editForm.buildItems.$invalid,

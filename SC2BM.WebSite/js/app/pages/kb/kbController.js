@@ -3,9 +3,9 @@
 
     angular.module('Sc2bmApp').controller('kbController', kbController);
 
-    kbController.$inject = ['$routeParams', 'buildOrderService', 'buildItemsImages'];
+    kbController.$inject = ['$routeParams', '$location', 'buildOrderService', 'buildItemsImages'];
 
-    function kbController($routeParams, buildOrderService, buildItemsImages) {
+    function kbController($routeParams, $location, buildOrderService, buildItemsImages) {
         //region ViewModel declaration
         /*jshint validthis:true */
         var vm = this;
@@ -42,13 +42,21 @@
         function setFaction(faction) {
             vm.faction = faction;
 
-            _loadKbData();
+            var url = "/kb/" + vm.version + "/" + faction;
+
+            $location.path(url);
+
+            // _loadKbData();
         }
 
         function setItemType(itemType) {
             vm.itemType = itemType;
 
-            _setVisibleItems();
+            var url = "/kb/" + vm.version + "/" + vm.faction + "/" + vm.itemType;
+
+            $location.path(url);
+
+            // _setVisibleItems();
         }
 
         function _setVisibleItems() {
@@ -64,7 +72,11 @@
         function setVersion(version) {
             vm.version = version;
 
-            _loadKbData();
+            var url = "/kb/" + vm.version;
+
+            $location.path(url);
+
+            //_loadKbData();
         }
 
         function _loadKbData() {
