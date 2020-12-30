@@ -108,6 +108,7 @@
             var buildName = build.Name;
             var buildID = build.ID;
             build.VsRace = _getFactionByLetter(vm.matchup[2]);
+            build.BuildItems = vm.buildItems;
 
             if (vm.isUpload) {
                 buildOrderService.addBuildOrder(build)

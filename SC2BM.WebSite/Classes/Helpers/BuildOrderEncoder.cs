@@ -222,8 +222,7 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("Disruptor", "m");
                 _dic.Add("Adept", "aq");
                 _dic.Add("WarpInAdept", "aw");
-                //Protoss specials
-                _dic.Add("Chronoboost", "aj");
+                //Protoss specials                
                 _dic.Add("MineralProbe", "ak");
                 _dic.Add("SwitchToWarpgate", "al");
                 _dic.Add("SwitchToGateway", "az");
@@ -231,6 +230,7 @@ namespace SC2BM.WebSite.Classes.Helpers
                 _dic.Add("ReturnProbe", "ac");
                 _dic.Add("GasProbe", "av");
                 _dic.Add("MassRecall", "ab");
+                _dic.Add("Chronoboost", "an");
                 //Protoss upgrades
                 _dic.Add("AirArmorLevel1", "sw");
                 _dic.Add("AirArmorLevel2", "se");
